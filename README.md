@@ -12,7 +12,7 @@
 
 
 
-# Old Rebalancing proposals: (some may have already been implemented)
+## Old Rebalancing proposals: (some may have already been implemented)
 * Modify flame projectile blasts (including kulakov firenade) to only hurt enemies (for consistency with dlc)
 * Kulakov flame duration, radius and reload speed increase (as too many players complain about it)
 * RPD sound remake and rebalancing

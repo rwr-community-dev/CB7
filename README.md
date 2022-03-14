@@ -3,8 +3,6 @@
 * A180_smg //in4ss/Oche34/MarcusKrug
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug
 * Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
-* M60 Rambo skins //RubberyChicken (all weapons with skins can be extended to new skins upon desire)
-* Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
 * Glock18 //LordNoodle
 * Surefire MGX //LordNoodle
 

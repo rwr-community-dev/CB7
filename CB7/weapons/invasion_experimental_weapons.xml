@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is copied from media/packages/invasion/weapons because invasion package contents are not pathable here -->
+<weapons>
+   <weapon file="gps_laptop.weapon">
+    <commonness value="0.0" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.6" value="1" />
+   </weapon>
+   <weapon file="repair_crane_0.weapon" />
+   <weapon file="repair_crane_1.weapon" />
+   <weapon file="repair_crane_resource.weapon" >
+    <commonness value="0.0" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.5" value="1" />
+   </weapon>
+   <weapon file="repair_crane_tank.weapon" />
+   <weapon file="zjx19_mg.weapon" />
+   <!-- pls do not add anything here in this cb test package -->
+</weapons>

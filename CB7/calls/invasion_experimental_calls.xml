@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calls>
+  <call file="a10_gun_run.call" />
+  <call file="gunship_run.call" />
+  <!-- pls do not add anything here in this cb test package -->
+</calls>

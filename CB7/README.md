@@ -1,16 +1,45 @@
-﻿# CB7
-## Previous Submissions
+﻿# HB1
+## Submissions
+* ✔️Vice president and Field Marshall skin//KFredfox
+* Vampire costume & Frenzy werewolf //Square/KFredfox
+* Pumpkin box loot and Pumpkin candies //Square/KFredfox
+* FD338 //Autumnsnail/Oche34/MarcusKrug <!--   <img id=“hud_fd338” src="/textures/hud_fd338.png" style="transform:rotate(90deg);"> -->
 * A180_smg //in4ss/Oche34/MarcusKrug
+* Welding Torch //Unit G17/Square/KFredfox/MarcusKrug
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug
+* G3 - Scope //Oche34/KFredfox/MarcusKrug
+* dp28 //P90 Rush B/KFredfox/MarcusKrug
+* m14k (EpiPen) //Square/Oche34/KFredfox/MarcusKrug
+* qbz-95 //Oche34/KFredfox/MarcusKrug
+* Defibrillator //KFredfox
 * Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
+* Golden Dragunov SVD //Oche34/KFredfox
+* M60 Rambo skins //RubberyChicken (all weapons with skins can be extended to new skins upon desire)
+* Dual Desert Eagles (contains Duke Nukem skin) //RubberyChicken
+* Chicken outfit //RubberyChicken
+* War Banner //RubberyChicken/KFredfox/Sir_history 
+* I love RWR banner //RubberyChicken/KFredfox/Square/JackMayol (in progress)
+* Pink Panda banner //RubberyChicken/KFredfox/Square/JackMayol (in progress)
+* Jack O'Banner //RubberyChicken/Square/KFredfox
+* Smiley Banner //RubberyChicken/Square/KFredfox
+* Squire Skin //RubberyChicken/Sir_history (Zweihander + cavalry saber/banner)
+* Archer Skin //RubberyChicken/Sir_history (Compound bow + cavalry saber/banner)
+* ✔️Dogs! //Kiruex/JackMayol
+  - no selfstun
+  - adjust the dog vest
+  - unwound dog animation very bad
+  - adjust the spawn score for inva
 * Glock18 //LordNoodle
 * Surefire MGX //LordNoodle
+* Mk14 EBR w/ suppressed option //MoistGoat
+* 
+# Removed from consideration
+* Aegis (broken design, not salvagable)
+* Pink P90 / Dragonspit / Dragondust (Power Ranger themed items vetoed by Jack)
+* Three Nation Army Banner //RubberyChicken (declared not goofy enough by Jack)
 
-## New Submissions
-
-
-
-## Old Rebalancing proposals: (some may have already been implemented)
+# Rebalancing proposals:
+* Improve rwm reload speed: anim speed 0.3->0.33 (the original was 0.4, so we are only boosting by a third)
 * Modify flame projectile blasts (including kulakov firenade) to only hurt enemies (for consistency with dlc)
 * Kulakov flame duration, radius and reload speed increase (as too many players complain about it)
 * RPD sound remake and rebalancing

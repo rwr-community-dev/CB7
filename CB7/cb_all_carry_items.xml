@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+  <!-- we can just import invasion_all_carry_items.xml because it is populated in vanilla -->
+  <carry_item file="items/invasion_all_carry_items.xml" />
+
+  <!-- add cb carry items below, not in ./items/all_carry_items.xml -->
+  <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
+
+	<carry_item file="cb7.carry_item" />    
+</carry_items>

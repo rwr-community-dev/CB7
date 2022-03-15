@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='m2_carlgustav.weapon' />
+	<weapon key='glock17.weapon' />
+	<weapon key='steyr_tmp.weapon' />  
+</resources>

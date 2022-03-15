@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is copied from media/packages/vanilla for the purposes of avoiding circular dependencies -->
+<projectiles>
+  <projectile file="stun_grenade.projectile" />
+  <projectile file="hand_grenade.projectile" />
+
+  <!-- rather awkward place for this definition, but for now, that's the way it is -->
+  <!-- projectile itself defines its slot, 0 being actual throwables that can also equipped, thrown, bought and found -->
+  <!-- mortar shell is in slot 2 -->
+  <projectile file="mortar_shell.projectile" />
+
+  <projectile file="impact_grenade.projectile" />
+  <projectile file="c4.projectile" />
+
+  <projectile file="artillery_shell.projectile" />
+
+  <!-- <projectile file="at_mine.projectile" /> -->
+  <projectile file="flare.projectile" />
+  <projectile file="claymore_blast.projectile" />
+  <projectile file="claymore.projectile" />
+
+  <projectile file="naval_mine.projectile" />
+  <projectile file="flare_checkpoint.projectile" />
+  <projectile file="debri_stun.projectile" />
+  <projectile file="debri_stun_medium.projectile" />
+  <projectile file="debri_stun_big.projectile" />
+  <projectile file="debri_destroy_big.projectile" />
+  <projectile file="debri_destroy_small.projectile" />
+
+  <projectile file="tracer_missile.projectile" />
+  <projectile file="wiesel_flare.projectile" />
+
+  <projectile file="banana_car_flare.projectile" />
+  <projectile file="aav7_flare.projectile" />
+  <projectile file="banana_peel.projectile" />
+  <projectile file="javelin_ap_sub.projectile" />
+  <projectile file="dooms_hammer.projectile" />
+  <projectile file="guntruck_flare.projectile" />
+  <projectile file="vulcan_acav_flare.projectile" />
+  <projectile file="30mm.projectile" />
+  <projectile file="30mm_blast.projectile" />
+  <projectile file="a10_warthog_shadow.projectile" />
+  <projectile file="dragons_breath.projectile" />
+  <projectile file="hornet.projectile" />
+  <projectile file="shuriken.projectile" />
+  <projectile file="icecream.projectile" />
+
+  <projectile file="emp_blast.projectile" />
+
+  <projectile file="zjx19_flare.projectile" />
+
+  <projectile file="tracer_dart_blast.projectile" />
+  <projectile file="acid_explosion_stun.projectile" />
+  <projectile file="blood_explosion_stun.projectile" />
+  <projectile file="kunai.projectile" />
+  <projectile file="balloon.projectile" />
+  <projectile file="stim.projectile"/>
+  <projectile file="stim_open.projectile"/>
+  <projectile file="noxe.projectile" />
+  <projectile file="squad_equipment_kit.projectile" />
+  <projectile file="cluster_bomb.projectile" />
+  <projectile file="cluster_bomb_sub.projectile" />
+  <projectile file="cluster_bomb_sub_blast.projectile" />
+  <projectile file="chicken.projectile" />
+  <projectile file="m528_flare.projectile" />
+  <projectile file="noxe_flare.projectile" />
+  <projectile file="flamer_tank_flare.projectile" />
+  <projectile file="sev90_flare.projectile" />
+  <projectile file="m528_apj_sub.projectile" />
+  <projectile file="gunship_25mm.projectile" />
+  <projectile file="gunship_25mm_blast.projectile" />
+  <projectile file="gunship_40mm.projectile" />
+  <projectile file="gunship_40mm_blast.projectile" />
+  <projectile file="gunship_105mm.projectile" />
+  <projectile file="gunship_105mm_blast.projectile" />
+
+  <!-- CB#6 -->
+  <!-- note: only throwables not referenced elsewhere required here - see the lack of xm25.projectile because wep imports it -->
+  <!-- <projectile file="selfstun.projectile" /> -->
+  <!-- <projectile file="ugv_blast.projectile" -->
+  <!-- <projectile file="ugv.projectile" /> -->
+
+  <projectile file="firenade_sub.projectile" />
+  <!-- pls do not add anything here in this cb test package -->
+</projectiles>

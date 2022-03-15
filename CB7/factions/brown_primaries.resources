@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='ak47.weapon' />
+	<weapon key='pkm.weapon' />
+	<weapon key='dragunov_svd.weapon' />
+      
+	<weapon key='qcw-05.weapon' />
+	<weapon key='qbs-09.weapon' />
+
+	<weapon key='sg552.weapon' />
+</resources>

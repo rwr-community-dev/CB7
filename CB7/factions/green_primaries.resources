@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <weapon key='m16a4.weapon' />
+  <weapon key='m240.weapon' />
+  <weapon key='m24_a2.weapon' />
+
+  <weapon key='mp5sd.weapon' />
+  <weapon key='mossberg.weapon' />
+
+  <weapon key='l85a2.weapon' />
+</resources>

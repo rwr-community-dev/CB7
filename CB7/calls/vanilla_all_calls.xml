@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is copied from media/packages/vanilla for the purposes of avoiding circular dependencies -->
+<calls>
+  <call file="mortar1.call" />
+  <!--  <call file="mortar2.call" /> -->    <!-- has been replaced in 1.77 with cluster bomb call -->
+  <call file="cluster_bomb.call" />
+  <call file="paratroopers1.call" />
+  <call file="paratroopers2.call" />
+  <call file="artillery1.call" />
+  <call file="artillery2.call" />
+  <call file="cover_drop.call" />
+  <call file="rubber_boat.call" />
+  <call file="humvee.call" />
+  <call file="tank.call" />
+  <call file="buggy.call" />
+  <call file="supply_quad.call" />
+
+  <!--  <call file="tracer_dart.call" /> -->   <!-- weapon is not a call anymore (1.77) -->
+
+  <call file="gps.call" />
+  <call file="paratroopers_medic.call" />
+
+  <call file="experimental_calls.xml" />
+  <!-- pls do not add anything here in this cb test package -->
+</calls>

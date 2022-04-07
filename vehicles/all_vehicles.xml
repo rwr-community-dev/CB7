@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+  <!-- import from cb_all_vehicles.xml -->
+  <!-- this is a hack so that quickmatch mode testing (used by the quickstart.py script) works -->
+  <!-- qm mode loads resources from all_*.xml as per the vanilla mapconfigs -->
+  <vehicle file="cb_all_vehicles.xml" />
+  <!-- do not add cb stuff to this file! -->
+</vehicles>

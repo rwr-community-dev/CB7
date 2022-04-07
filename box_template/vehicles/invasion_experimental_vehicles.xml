@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+	<vehicle file="emp.vehicle" />
+	<vehicle file="repair.vehicle" />
+	<vehicle file="repair_crane.vehicle" />
+
+	<vehicle file="zjx19.vehicle" />
+	<vehicle file="zjx19_para.vehicle" />
+	<vehicle file="zjx19_spawn.vehicle" />
+  <!-- pls do not add anything here in this cb test package -->
+</vehicles>

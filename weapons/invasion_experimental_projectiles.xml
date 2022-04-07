@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is copied from media/packages/invasion/weapons because invasion package contents are not pathable here -->
+<projectiles>
+  <projectile file="repair_crane.projectile" />
+  <projectile file="repair_tank.projectile" />
+  <projectile file="emp_grenade.projectile" />
+  <projectile file="emp_blast.projectile" />
+
+  <projectile file="zjx19_flare.projectile" />
+  <projectile file="a10_warthog_shadow.projectile" />
+
+  <projectile file="gunship_hmg.projectile" />
+  <projectile file="gunship_cannon.projectile" />
+  <projectile file="gunship_hmg_blast.projectile" />
+  <projectile file="gunship_cannon_blast.projectile" />
+  <projectile file="artillery_rocket.projectile" />
+  <projectile file="squad_equipment_kit.projectile" />
+  <!-- pls do not add anything here in this cb test package -->
+</projectiles>

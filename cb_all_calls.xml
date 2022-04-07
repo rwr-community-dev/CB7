@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calls>
+  <!-- invasion just loads all_calls.xml here so we can't used vanilla/calls/invasion_all_calls.xml -->
+  <!-- the cause of the crash that occurs if invasion_all_calls.xml being specified is lot related -->
+  <call file="calls/vanilla_all_calls.xml" />
+  <call file="calls/invasion_experimental_calls.xml" />
+
+  <!-- add cb calls below, not in ./calls/all_calls.xml -->
+  <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
+  
+</calls>

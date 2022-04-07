@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <resources clear_weapons="1" clear_vehicles="1" clear_calls="1"> -->
+<resources file="factions/vanilla_common.resources" >
+  <!-- always load common first; it's the one that clears the initial weapon resources -->
+
+  <!-- add these experimental calls -->
+  <!-- todo: discover how these are added for invasion, vanilla common.resources doesn't allow these calls :/ -->
+  <call key='a10_gun_run.call' />
+  <call key='gunship_run.call' />
+
+</resources>

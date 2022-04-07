@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+  <vehicle file="vehicles/invasion_all_vehicles.xml" />
+  <vehicle file="vehicles/invasion_experimental_vehicles.xml" />
+
+  <!-- add cb vehicles below, not in ./vehicles/all_vehicles.xml -->
+  <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
+  
+</vehicles>

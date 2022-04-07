@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<carry_item file="base_valuable.carry_item" name="pumpkin box" key="cb7.carry_item">
-    <hud_icon filename="hud_cb7.png" />
-    <inventory encumbrance="0.5" price="1.0" />
-
-    <model mesh_filename="gift_box.mesh" texture_filename="cb7.png" />
-
-    <commonness value="0.5" in_stock="1" />
-</carry_item>

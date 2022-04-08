@@ -24,4 +24,4 @@ Depending on the type of thing you are adding, add your items to the respective 
 
 ## New Submissions
 
-M2011 (double barrel M1911) - CourtingDeath
+AF2011 (double barrel M1911) - CourtingDeath

@@ -7,4 +7,4 @@
 * Surefire MGX //LordNoodle
 
 ## New Submissions
-
+* M2011 (double-barrel M1911)

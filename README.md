@@ -3,7 +3,7 @@
 #How to run the mod:
 
 Download and unzip the package to RunningWithRifles/media/packages.
-Rename package to CB7 (or something without - in it)
+Rename package to CB7 (exactly as is, otherwise scripts break from not finding the right folders.)
 Open RWR, and run a new campaign with the cb7 mod.
 
 

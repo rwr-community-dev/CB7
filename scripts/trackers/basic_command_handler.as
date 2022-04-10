@@ -410,7 +410,6 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "jeep_xmas_flare.projectile", "projectile", 0);
         } else  if(checkCommand(message, "guntruck")) {
             spawnInstanceNearPlayer(senderId, "guntruck_flare.projectile", "projectile");
-
         } else if (checkCommand(message, "quad")) {
             spawnInstanceNearPlayer(senderId, "atv_armory.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "armory")) {
@@ -427,6 +426,8 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "sev90.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "repair_crane")) {
             spawnInstanceNearPlayer(senderId, "repair_crane.vehicle", "vehicle", 0);
+        } else if (checkCommand(message, "clowncar")) {
+            spawnInstanceNearPlayer(senderId, "clownvan.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "repair_tank")) {
             spawnInstanceNearPlayer(senderId, "zjx19_flare.projectile", "projectile", 0);
         } else  if(checkCommand(message, "mg42")) {

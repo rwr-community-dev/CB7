@@ -63,6 +63,10 @@ void main(dictionary@ inputData) {
     if (!metagame.getAdminManager().isAdmin(metagame.getUserSettings().m_username)) {
         metagame.getAdminManager().addAdmin(metagame.getUserSettings().m_username);
     }
+
+    // get metagame to setup admins and mods here (as not in server mode by default)
+    metagame.getAdminManager().loadFromFile();
+    metagame.getModeratorManager().loadFromFile();
     // HACK: [CB7] late add CB7 trackers
 
 

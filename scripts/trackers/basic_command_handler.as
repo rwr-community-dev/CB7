@@ -143,7 +143,7 @@ class BasicCommandHandler : Tracker {
                 string command =
                     "<command class='xp_reward'" +
                     "	character_id='" + id + "'" +
-                    "	reward='1.0'>" + // multiplier affected..
+                    "	reward='0.4'>" + // multiplier affected..
                     "</command>";
                 m_metagame.getComms().send(command);
             } else {
@@ -156,7 +156,7 @@ class BasicCommandHandler : Tracker {
                 string command =
                     "<command class='rp_reward'" +
                     "	character_id='" + id + "'" +
-                    "	reward='5000'>" + // multiplier affected..
+                    "	reward='500'>" + // multiplier affected..
                     "</command>";
                 m_metagame.getComms().send(command);
             }
@@ -218,36 +218,57 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
             spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
             spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
-            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);            
-        } else if (checkCommand(message, "grenadier")) {
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 0);
+        } else if (checkCommand(message, "esquad")) {
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+            spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
+        } else if (checkCommand(message, "gren")) {
             spawnInstanceNearPlayer(senderId, "grenadier", "soldier", 0);
+        } else if (checkCommand(message, "egren")) {
+            spawnInstanceNearPlayer(senderId, "grenadier", "soldier", 1);
         } else if (checkCommand(message, "foe")) {
             spawnInstanceNearPlayer(senderId, "default", "soldier", 1);
         } else if (checkCommand(message, "lw")) {
             spawnInstanceNearPlayer(senderId, "lonewolf", "soldier", 0);
+        } else if (checkCommand(message, "elw")) {
+            spawnInstanceNearPlayer(senderId, "lonewolf", "soldier", 1);
         } else if (checkCommand(message, "eod")) {
             spawnInstanceNearPlayer(senderId, "eod", "soldier", 0);
+        } else if (checkCommand(message, "eeod")) {
+            spawnInstanceNearPlayer(senderId, "eod", "soldier", 1);
+        } else if (checkCommand(message, "ran")) {
+            spawnInstanceNearPlayer(senderId, "ranger", "soldier", 0);
+        } else if (checkCommand(message, "eran")) {
+            spawnInstanceNearPlayer(senderId, "ranger", "soldier", 1);
+        } else if (checkCommand(message, "elite")) {
+            spawnInstanceNearPlayer(senderId, "miniboss", "soldier", 0);
+        } else if (checkCommand(message, "eelite")) {
+            spawnInstanceNearPlayer(senderId, "miniboss", "soldier", 1);
+        } else if (checkCommand(message, "eripper")) {
+            spawnInstanceNearPlayer(senderId, "elite ripper", "soldier", 1);
+        } else if (checkCommand(message, "grinch")) {
+            spawnInstanceNearPlayer(senderId, "grinch", "soldier", 0);
+        } else if (checkCommand(message, "egrinch")) {
+            spawnInstanceNearPlayer(senderId, "grinch", "soldier", 1);
         } else if (checkCommand(message, "sniper")) {
             spawnInstanceNearPlayer(senderId, "sniper", "soldier", 0);
         } else if (checkCommand(message, "dog")) {
             spawnInstanceNearPlayer(senderId, "dog", "soldier", 0);
+        } else if (checkCommand(message, "edog")) {
+            spawnInstanceNearPlayer(senderId, "dog", "soldier", 1);
         } else if (checkCommand(message, "gb1")) {
-            spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "gb2")) {
             spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_2.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "gb3")) {
-            spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_3.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "cb1")) {
             spawnInstanceNearPlayer(senderId, "gift_box_community_1.carry_item", "carry_item", 0);
@@ -260,42 +281,56 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "gift_box_community_2.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_2.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_2.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_community_2.carry_item", "carry_item", 0);                      
+            spawnInstanceNearPlayer(senderId, "gift_box_community_2.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "cb3")) {
             spawnInstanceNearPlayer(senderId, "gift_box_community_3.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_3.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_3.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_3.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_community_3.carry_item", "carry_item", 0);  
+            spawnInstanceNearPlayer(senderId, "gift_box_community_3.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "cb4")) {
             spawnInstanceNearPlayer(senderId, "gift_box_community_4.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_4.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_4.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_4.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_community_4.carry_item", "carry_item", 0);  
+            spawnInstanceNearPlayer(senderId, "gift_box_community_4.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "cb5")) {
             spawnInstanceNearPlayer(senderId, "gift_box_community_5.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_5.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_5.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_5.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_community_5.carry_item", "carry_item", 0);                                                     
+            spawnInstanceNearPlayer(senderId, "gift_box_community_5.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "cb6")) {
             spawnInstanceNearPlayer(senderId, "gift_box_community_6.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_6.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_6.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_6.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "gift_box_community_6.carry_item", "carry_item", 0);   			
+            spawnInstanceNearPlayer(senderId, "gift_box_community_6.carry_item", "carry_item", 0);
+        } else if (checkCommand(message, "cb7")) {
+            spawnInstanceNearPlayer(senderId, "gift_box_community_7.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_community_7.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_community_7.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_community_7.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "gift_box_community_7.carry_item", "carry_item", 0);
+        } else if (checkCommand(message, "hb1")) {
+            spawnInstanceNearPlayer(senderId, "halloween_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "halloween_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "halloween_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "halloween_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "halloween_box_1.carry_item", "carry_item", 0);
+        } else if (checkCommand(message, "xb1")) {
+            spawnInstanceNearPlayer(senderId, "xmas_box.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_box.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_box.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_box.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_box.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "lottery")) {
-            spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "177")) {
             spawnInstanceNearPlayer(senderId, "vest_exo.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "balloon.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "ninjato.weapon", "weapon", 0); 
-            spawnInstanceNearPlayer(senderId, "m320.weapon", "weapon", 0); 
+            spawnInstanceNearPlayer(senderId, "ninjato.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "m320.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "p416.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "suomi.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "chicken_carrier.weapon", "weapon", 0);
@@ -303,9 +338,9 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "g11.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "gepard_m6_lynx.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "vest3.carry_item", "carry_item", 0);
-            spawnInstanceNearPlayer(senderId, "vest_blackops.carry_item", "carry_item", 0);      
+            spawnInstanceNearPlayer(senderId, "vest_blackops.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "stim.projectile", "projectile");
-            spawnInstanceNearPlayer(senderId, "kunai.projectile", "projectile");                  
+            spawnInstanceNearPlayer(senderId, "kunai.projectile", "projectile");
             spawnInstanceNearPlayer(senderId, "squad_equipment_kit.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "l30p.weapon", "weapon", 0);
 /*            spawnInstanceNearPlayer(senderId, "zjx19_flare.projectile", "projectile", 0);
@@ -313,8 +348,8 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "sev90_flare.projectile", "projectile", 0);
             spawnInstanceNearPlayer(senderId, "m528_flare.projectile", "projectile", 0);
             spawnInstanceNearPlayer(senderId, "flamer_tank_flare.projectile", "projectile", 0);
-*/       } else if (checkCommand(message, "184")) {
-            spawnInstanceNearPlayer(senderId, "ninjato.weapon", "weapon", 0); 
+*/		} else if (checkCommand(message, "184")) {
+            spawnInstanceNearPlayer(senderId, "ninjato.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "model_29.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "sabre.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "doublebarrel.weapon", "weapon", 0);
@@ -333,23 +368,43 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "m16a4_w_m203.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "tti.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "gepard_m6_lynx.weapon", "weapon", 0);
-        // <!-- fox test -->
-        } else if (checkCommand(message, "pk")) {
-            spawnInstanceNearPlayer(senderId, "gift_box_4.carry_item", "carry_item", 0);
+        } else if (checkCommand(message, "188")) {
             spawnInstanceNearPlayer(senderId, "shock_paddle.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "g3_1x.weapon", "weapon", 0);
-            spawnInstanceNearPlayer(senderId, "gilboa_c.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "golden_dragunov_svd.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "dp28.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "m14k.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "qbz95.weapon", "weapon", 0);
-            spawnInstanceNearPlayer(senderId, "shovel.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "fd338.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "torch.weapon", "weapon", 0);
-        //  <!-- fox test -->
-
+            spawnInstanceNearPlayer(senderId, "banner_rwr.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "banner_ee.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "banner_president.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "banner_voting_0.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "banner_smile.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "banner_ee.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "werewolf.projectile", "projectile");
+            spawnInstanceNearPlayer(senderId, "vampire.projectile", "projectile");
+            spawnInstanceNearPlayer(senderId, "costume_bat.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "costume_chicken.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "costume_werewolf.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "costume_scream.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "halloween_box_1.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "scythe.weapon", "weapon", 0);
+        } else if (checkCommand(message, "190")) {
+            spawnInstanceNearPlayer(senderId, "banner_gingerbread.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "banner_santa.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "costume_santa.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_box.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_tree_resource.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_biscuit.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_candycane.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_bell.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "xmas_stocking.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "jeep_xmas_flare.projectile", "projectile", 0);
         } else  if(checkCommand(message, "guntruck")) {
             spawnInstanceNearPlayer(senderId, "guntruck_flare.projectile", "projectile");
-                                                   
+
         } else if (checkCommand(message, "quad")) {
             spawnInstanceNearPlayer(senderId, "atv_armory.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "armory")) {
@@ -392,6 +447,10 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "icecream.vehicle", "vehicle", 0);
         } else  if(checkCommand(message, "rj")) {
             spawnInstanceNearPlayer(senderId, "radio_jammer.vehicle", "vehicle", 1);
+        } else  if(checkCommand(message, "cat")) {
+            spawnInstanceNearPlayer(senderId, "darkcat.vehicle", "vehicle", 0);
+        } else  if(checkCommand(message, "ecat")) {
+            spawnInstanceNearPlayer(senderId, "darkcat.vehicle", "vehicle", 1);
         } else  if(checkCommand(message, "wound")) {
             for (int i = 2; i < 100; ++i) {
                 string command =

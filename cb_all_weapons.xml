@@ -12,5 +12,6 @@
   <weapon file="a180_smg.weapon" />
   <weapon file="glock18.weapon" />
   <weapon file="surefire_mgx.weapon" />
-  
+
+  <weapon file="gp90.weapon" />
 </weapons>

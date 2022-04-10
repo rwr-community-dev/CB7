@@ -5,7 +5,7 @@ import pathlib
 
 SCRIPT_DIR = pathlib.Path(__file__).parent
 RWR_STEAM_URI = "steam://rungameid/270150//"
-PKG_PATH = "media/packages/box_template"
+PKG_PATH = "media/packages/CB7"
 VANILLA_MAPS_PATH_PREFIX = "media/packages/vanilla/maps/"
 
 if __name__ == '__main__':

@@ -3,19 +3,12 @@
 Usage:
     start.py
 """
-import enum
-import queue
 import dataclasses
 import itertools
 import sys
-import time
 import pathlib
 import subprocess
 import xml.etree.ElementTree as XmlET
-
-from typing import Callable
-
-# import docopt
 
 # this magic allows for Ctrl+C to PyCharm run console to be handled nicely
 try:

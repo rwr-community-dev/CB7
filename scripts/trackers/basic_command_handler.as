@@ -312,6 +312,12 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "gift_box_community_7.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_7.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "gift_box_community_7.carry_item", "carry_item", 0);
+        } else if (checkCommand(message, "cb7_")) {
+            spawnInstanceNearPlayer(senderId, "gilboa_c.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "shovel.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "a180_smg.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "glock18.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "surefire_mgx.weapon", "weapon", 0);
         } else if (checkCommand(message, "hb1")) {
             spawnInstanceNearPlayer(senderId, "halloween_box_1.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "halloween_box_1.carry_item", "carry_item", 0);

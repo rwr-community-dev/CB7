@@ -4,11 +4,7 @@
 
 #include "gamemode_invasion.as"
 // HACK: [CB7] include trackers here for late addition to a derived GameModeInvasion metagame
-/* #include "rangefinder.as"
-#include "spawn_with_dir.as" */
-//torch and hollewasdad (hmmm i forgot how to spill it , the fastival people dress up as monsters) 's scripts
-#include "halloween.as"
-#include "repair_crane.as"
+
 
 // --------------------------------------------
 void main(dictionary@ inputData) {
@@ -67,11 +63,11 @@ void main(dictionary@ inputData) {
     if (!metagame.getAdminManager().isAdmin(metagame.getUserSettings().m_username)) {
         metagame.getAdminManager().addAdmin(metagame.getUserSettings().m_username);
     }
+
+    // get metagame to setup admins and mods here (as not in server mode by default)
+    metagame.getAdminManager().loadFromFile();
+    metagame.getModeratorManager().loadFromFile();
     // HACK: [CB7] late add CB7 trackers
-    /* metagame.addTracker(RangeFinder(metagame));
-    metagame.addTracker(SpawnWithDir(metagame)); */
-    metagame.addTracker(Halloween(metagame));
-    metagame.addTracker(RepairCrane(metagame));
 
 
     metagame.run();

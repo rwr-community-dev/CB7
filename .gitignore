@@ -1,0 +1,8 @@
+.idea/
+venv/
+__pycache__/
+
+*.log
+*.bak
+*.zip
+*.7z

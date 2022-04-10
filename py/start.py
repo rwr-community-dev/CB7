@@ -3,19 +3,12 @@
 Usage:
     start.py
 """
-import enum
-import queue
 import dataclasses
 import itertools
 import sys
-import time
 import pathlib
 import subprocess
 import xml.etree.ElementTree as XmlET
-
-from typing import Callable
-
-# import docopt
 
 # this magic allows for Ctrl+C to PyCharm run console to be handled nicely
 try:
@@ -115,7 +108,7 @@ if __name__ == '__main__':
         send_command(rwr_serv, f"start_script {pkg_cfg.campaign_entry_script} {path_to_package}")
         # wait again as the server now loads from overlays set in the script
         wait_for_server_load(rwr_serv)
-        print(f"Package script loaded - starting server?!")
+        print(f"Package script loaded - starting server...")
         # write the start server command to rwr server stdin
         send_command(rwr_serv, f"start_server {SERVER_PORT} {PKG_DIR.name} 1.0 0")
         # todo: read the start_server response?

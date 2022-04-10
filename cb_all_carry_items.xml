@@ -5,5 +5,5 @@
 
   <!-- add cb carry items below, not in ./items/all_carry_items.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
-  
+  <carry_item file="gift_box_community_7.carry_item" />
 </carry_items>

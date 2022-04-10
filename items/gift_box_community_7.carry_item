@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="community box 7" key="gift_box_community_7.carry_item">
+    <hud_icon filename="hud_community_box_7.png" />
+    <inventory encumbrance="0.5" price="1.0" />
+
+    <model mesh_filename="gift_box_com2.mesh" texture_filename="gift_box_community_7.png" />
+
+    <commonness value="0.25" in_stock="0" />
+</carry_item>

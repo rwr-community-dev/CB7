@@ -92,7 +92,7 @@ class Stage {
     int m_defenseWinTime;
     string m_defenseWinTimeMode;
     float m_playerAiCompensation;
-    float m_playerAiReduction;
+  float m_playerAiReduction;
 
     // metadata, mostly for instructions comment selection logic
     string m_primaryObjective;
@@ -105,11 +105,6 @@ class Stage {
     IntelManager@ m_intelManager;
 
     bool m_allowChangeCapacityOnTheFly;
-
-    // attempt hack to add selectable spawn positions at map join for vanilla campaign/invasion
-    bool m_showMapAtStartIfDead;
-    /* bool m_useCaptureTimer; */
-    Vector3 m_playerFirstSpawnPositionHint;
 
     // --------------------------------------------
     Stage(const UserSettings@ userSettings) {
@@ -141,11 +136,6 @@ class Stage {
         m_maxRandomCrates = 5;
 
         @m_intelManager = null;
-
-        // spawn point selection at map join hack
-        m_showMapAtStartIfDead = true;
-        /* m_useCaptureTimer = true; */
-        m_playerFirstSpawnPositionHint = Vector3(-1,-1,-1);
     }
 
     // --------------------------------------------
@@ -225,24 +215,26 @@ class Stage {
 
     // --------------------------------------------
     protected void appendResources(XmlElement@ mapConfig) const {
-        { XmlElement e("weapon");
-            e.setStringAttribute("file", "cb_all_weapons.xml"); mapConfig.appendChild(e); }
-        { XmlElement e("projectile");
-            e.setStringAttribute("file", "cb_all_throwables.xml"); mapConfig.appendChild(e); }
-        { XmlElement e("carry_item");
-            e.setStringAttribute("file", "cb_all_carry_items.xml"); mapConfig.appendChild(e); }
-        { XmlElement e("call");
-            e.setStringAttribute("file", "cb_all_calls.xml"); mapConfig.appendChild(e); }
-        { XmlElement e("vehicle");
-            e.setStringAttribute("file", "cb_all_vehicles.xml"); mapConfig.appendChild(e); }
-        { XmlElement e("achievement");
-            e.setStringAttribute("file", "achievements.xml"); mapConfig.appendChild(e); }
+        /*
+        for (uint i = 0; i < m_resourcesToLoad.size(); ++i) {
+            Resource@ resource = m_resourcesToLoad[i];
+
+            XmlElement e(resource.m_type);
+            e.setStringAttribute("file", resource.m_key);
+            mapConfig.appendChild(e);
+        }
+        */
+
+        { XmlElement e("weapon");		e.setStringAttribute("file", "cb_all_weapons.xml"); mapConfig.appendChild(e); }
+        { XmlElement e("projectile");	e.setStringAttribute("file", "cb_all_throwables.xml"); mapConfig.appendChild(e); }
+        { XmlElement e("carry_item");	e.setStringAttribute("file", "cb_all_carry_items.xml"); mapConfig.appendChild(e); }
+        { XmlElement e("call");			e.setStringAttribute("file", "cb_all_calls.xml"); mapConfig.appendChild(e); }
+        { XmlElement e("vehicle");		e.setStringAttribute("file", "cb_all_vehicles.xml"); mapConfig.appendChild(e); }
+        { XmlElement e("achievement");	e.setStringAttribute("file", "achievements.xml"); mapConfig.appendChild(e); }
 
         if (m_userSettings.m_testingToolsEnabled) {
-            { XmlElement e("carry_item");
-                e.setStringAttribute("file", "cheat_items.xml"); mapConfig.appendChild(e); }
-            { XmlElement e("projectile");
-                e.setStringAttribute("file", "cheat_throwables.xml"); mapConfig.appendChild(e); }
+            { XmlElement e("carry_item");	e.setStringAttribute("file", "cheat_items.xml"); mapConfig.appendChild(e); }
+            { XmlElement e("projectile");	e.setStringAttribute("file", "cheat_throwables.xml"); mapConfig.appendChild(e); }
         }
     }
 
@@ -274,7 +266,7 @@ class Stage {
     protected void appendCamera(XmlElement@ scene) const {
         XmlElement camera("camera");
         camera.setStringAttribute("direction", "-0.3 -1.7 1.0");
-        camera.setFloatAttribute("distance", 36.0);
+        camera.setFloatAttribute("distance", 38.0);
         camera.setFloatAttribute("far_clip", 95.0);
         camera.setFloatAttribute("shadow_far_clip", 80.0);
         scene.appendChild(camera);
@@ -355,9 +347,6 @@ class Stage {
         command.setFloatAttribute("player_damage_modifier", m_userSettings.m_playerDamageModifier);
         command.setBoolAttribute("fov", m_userSettings.m_fov);
 
-        // spawn point selection hack
-        command.setBoolAttribute("show_map_at_start_if_dead", m_showMapAtStartIfDead);
-
         if (m_defenseWinTime >= 0) {
             command.setFloatAttribute("defense_win_time", m_defenseWinTime);
             command.setStringAttribute("defense_win_time_mode", m_defenseWinTimeMode);
@@ -380,8 +369,6 @@ class Stage {
                 faction.setFloatAttribute("ai_accuracy", m_userSettings.m_fellowAiAccuracyFactor);
                 faction.setIntAttribute("disable_enemy_spawnpoints_soldier_count_offset", m_userSettings.m_fellowDisableEnemySpawnpointsSoldierCountOffset);
                 faction.setBoolAttribute("lose_last_base_without_spawnpoints", true);
-                // spawn point selection hack
-                faction.setStringAttribute("player_first_spawn_position_hint", m_playerFirstSpawnPositionHint.toString());
             } else {
                 // enemy
                 faction.setFloatAttribute("ai_accuracy", m_userSettings.m_enemyAiAccuracyFactor);

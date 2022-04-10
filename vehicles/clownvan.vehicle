@@ -27,64 +27,64 @@
   <!-- backdoor clowns -->
   <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.601 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.602-1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.603 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.604 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
 
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.605 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.606 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.607 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.608 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
-                  animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.609 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
 
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.610 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.611 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.612 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.613 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.614 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
 
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.615 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.616 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
-  <character_slot type="passenger" position="0.0 0.6 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+  <character_slot type="passenger" position="0.0 0.617 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+  <character_slot type="passenger" position="0.0 0.618 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+  <character_slot type="passenger" position="0.0 0.619 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+
+  <character_slot type="passenger" position="0.0 0.620 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+  <character_slot type="passenger" position="0.0 0.621 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+  <character_slot type="passenger" position="0.0 0.622 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+  <character_slot type="passenger" position="0.0 0.623 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+  <character_slot type="passenger" position="0.0 0.624 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+
+  <character_slot type="passenger" position="0.0 0.625 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+  <character_slot type="passenger" position="0.0 0.626 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
+                  animation_id="37" />
+  <character_slot type="passenger" position="0.0 0.627 -1.1" rotation="0" exit_rotation="3.14" hiding="1"
                   animation_id="37" />
 
 

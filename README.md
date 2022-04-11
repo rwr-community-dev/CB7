@@ -23,3 +23,7 @@ Depending on the type of thing you are adding, add your items to the respective 
 * Surefire MGX //LordNoodle
 
 ## New Submissions
+Clown Car //bang
+SKS (+ incendiary)// KFRedFox/RubberyChicken
+AF2011 //Courting Death
+Glock18c //MarcusKrug

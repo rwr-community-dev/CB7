@@ -27,3 +27,4 @@ Depending on the type of thing you are adding, add your items to the respective 
 * SKS (+ incendiary) //KFRedFox/RubberyChicken
 * AF2011 //Courting Death
 * Glock18c //MarcusKrug
+* Gold P90 //Bang

@@ -64,9 +64,6 @@ if __name__ == '__main__':
     drf, dgf, dbf = diff_r / 255, diff_g / 255, diff_b / 255
     for voxel, colour in zip(voxels, voxel_colours):
         # calculate shifted colours, clamp within 0.0-1.0, and convert to str
-        # voxel.attrib["r"] = str(min(max(0.0, colour["r"] + drf), 1.0))
-        # voxel.attrib["g"] = str(min(max(0.0, colour["g"] + dgf), 1.0))
-        # voxel.attrib["b"] = str(min(max(0.0, colour["b"] + dbf), 1.0))
         voxel.attrib["r"] = f"{min(max(0.0, colour['r'] + drf), 1.0):.4f}"
         voxel.attrib["g"] = f"{min(max(0.0, colour['g'] + dgf), 1.0):.4f}"
         voxel.attrib["b"] = f"{min(max(0.0, colour['b'] + dbf), 1.0):.4f}"

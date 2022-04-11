@@ -11,6 +11,9 @@
   <weapon file="shovel.weapon" />
   <weapon file="a180_smg.weapon" />
   <weapon file="glock18.weapon" />
+  <weapon file="glock18c.weapon" />
   <weapon file="surefire_mgx.weapon" />
-  
+  <weapon file="sks.weapon" />
+  <weapon file="sks_fire.weapon" />
+  <weapon file="af2011.weapon" />
 </weapons>

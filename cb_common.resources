@@ -14,5 +14,10 @@
   <weapon key='shovel.weapon' />
   <weapon key='a180_smg.weapon' />
   <weapon key='glock18.weapon' />
+  <weapon key="glock18c.weapon" />
   <weapon key="surefire_mgx.weapon" />
+  <weapon key="sks.weapon" />
+  <weapon key="sks_fire.weapon" />
+  <weapon key="af2011.weapon" />
+  
 </resources>

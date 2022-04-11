@@ -59,14 +59,15 @@ void main(dictionary@ inputData) {
     settings.print();
     GameModeInvasion metagame(settings);
     metagame.init();
+
+    // get metagame to setup admins here (as not in server mode by default)
+    metagame.getAdminManager().loadFromFile();
+
     // HACK: [CB7] add local player as admin for easy testing, hacks, etc
     if (!metagame.getAdminManager().isAdmin(metagame.getUserSettings().m_username)) {
         metagame.getAdminManager().addAdmin(metagame.getUserSettings().m_username);
     }
 
-    // get metagame to setup admins and mods here (as not in server mode by default)
-    metagame.getAdminManager().loadFromFile();
-    metagame.getModeratorManager().loadFromFile();
     // HACK: [CB7] late add CB7 trackers
 
 

@@ -16,7 +16,7 @@
            extent="1.0 0.0 1.0" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0 1 -0.2"
            collision_model_extent="1.0 1.0 1.0" visual_offset="0 0.6 0.0" gravity="-5" />
 
-  <turret offset="0 0.5 0" weapon_key="chute_large.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0"
+  <turret offset="0 1.2 0" weapon_key="chute_large.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0"
           max_rotation_step="0.0" rotation_range="0.0" />
   <visual class="chassis" mesh_filename="crate.mesh" texture_filename="dog_crate.png" offset="0.0 0.0 0.0"
           max_tilt="0.06" />

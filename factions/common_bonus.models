@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+
+	<!-- Musketeer -->
+	
+	<model filename="soldier_musketeer.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="musket.weapon"/>
+		<requirement class="weapon" slot="1" key="sabre.weapon"/>
+	</model>
+	<model filename="soldier_musketeer.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="musket_bayonet.weapon"/>
+		<requirement class="weapon" slot="1" key="sabre.weapon"/>
+	</model>
+
+
+	<!-- Red Samurai -->
+	
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_2"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_3"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_4"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_5"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_6"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_2"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_3"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_4"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_5"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+	<model filename="soldier_samurai_red.xml">
+		<requirement class="carry_item" slot="1" key="eod_6"/>
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+	</model>
+
+	<!-- Black Samurai -->
+	
+	<model filename="soldier_samurai.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
+		<requirement class="weapon" slot="1" key="golden_knife.weapon"/>
+	</model>
+	<model filename="soldier_samurai.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+		<requirement class="weapon" slot="1" key="golden_knife.weapon"/>
+	</model>
+	<model filename="soldier_samurai.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato.weapon"/>
+		<requirement class="weapon" slot="1" key="sabre.weapon"/>
+	</model>
+	<model filename="soldier_samurai.xml">
+		<requirement class="rank" range="0 10000" />
+		<requirement class="weapon" slot="0" key="ninjato_alt.weapon"/>
+		<requirement class="weapon" slot="1" key="sabre.weapon"/>
+	</model>
+	
+	<!-- Chicken Skins -->
+	<model filename="costume_chicken.xml">
+        <requirement class="carry_item" slot="1" key="costume_chicken.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+    </model>
+	
+	<model filename="costume_chicken.xml">
+        <requirement class="carry_item" slot="1" key="costume_chicken_1"/>
+        <requirement class="rank" range="0 10000"/>
+    </model>
+
+
+  <!-- Vampire -->
+  <model filename="costume_bat.xml">
+    <requirement class="carry_item" slot="1" key="costume_bat.carry_item"/>
+    <requirement class="rank" range="0 10000" />
+  </model>
+  <model filename="costume_bat_1.xml">
+    <requirement class="carry_item" slot="1" key="costume_bat_1"/>
+    <requirement class="rank" range="0 10000" />
+  </model>
+
+  <!-- Werewolf -->
+  <model filename="costume_were_1.xml">
+    <requirement class="carry_item" slot="1" key="costume_werewolf_2"/>
+    <requirement class="rank" range="0 10000" />
+  </model>
+
+  <!-- Reaper -->
+  <model filename="costume_scream.xml">
+        <requirement class="carry_item" slot="1" key="costume_scream.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+  </model>
+  <model filename="costume_scream.xml">
+        <requirement class="carry_item" slot="1" key="costume_scream_1"/>
+        <requirement class="rank" range="0 10000"/>
+  </model>
+  <model filename="costume_scream.xml">
+        <requirement class="carry_item" slot="1" key="costume_scream_2"/>
+        <requirement class="rank" range="0 10000"/>
+  </model>  
+
+ <!-- Panda -->
+ 
+   <model filename="costume_panda.xml">
+        <requirement class="carry_item" slot="1" key="costume_panda.carry_item"/>
+        <requirement class="rank" range="0 10000"/>
+  </model>
+  <model filename="costume_panda.xml">
+        <requirement class="carry_item" slot="1" key="costume_panda_1"/>
+        <requirement class="rank" range="0 10000"/>
+  </model>
+</models>

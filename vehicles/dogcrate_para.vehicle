@@ -27,4 +27,10 @@
             offset="0 0.0 0" position_spread="0 0" direction_spread="0 -1" />
   </event>
 
+  <event>
+    <trigger class="destroy" />
+      <result class="spawn" instance_class="visual_item" instance_key="crate_debris.visual_item" min_amount="5" max_amount="15"
+              offset="0 0.2 0" position_spread="1.0 0.0" direction_spread="0.05 0.1" />
+  </event>
+
 </vehicle>

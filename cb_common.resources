@@ -20,4 +20,6 @@
   <weapon key="sks.weapon" />
   <weapon key="sks_fire.weapon" />
   <weapon key="af2011.weapon" />
+  
+  <carry_item key="costume_panda.carry_item" />
 </resources>

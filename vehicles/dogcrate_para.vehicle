@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- falling dog crate vehicle -->
 <vehicle file="vehicle_base.vehicle" name="Dog Crate" key="dogcrate_para.vehicle" respawn_time="0"
-         map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0"
-         time_to_live="7.0">
-  <!--  <tag name="metal_heavy" />-->
+         map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="0.0"
+         time_to_live="14.0">
   <tag name="dogcrate_para" />
 
   <tire_set offset="0.1 0.0 0.1" radius="0.1" />
@@ -14,9 +13,9 @@
            can_steer_on_ground="0" />
   <physics max_health="0.0" blast_damage_threshold="0.17" TODO_blast_damage_threshold="1.02" mass="150.0"
            extent="1.0 0.0 1.0" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0 1 -0.2"
-           collision_model_extent="1.0 1.0 1.0" visual_offset="0 0.6 0.0" gravity="-5" />
+           collision_model_extent="1.0 1.0 1.0" visual_offset="0 0.6 0.0" gravity="-2.5" />
 
-  <turret offset="0 1.2 0" weapon_key="chute_large.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0"
+  <turret offset="0 1.2 0" weapon_key="chute_medium.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0"
           max_rotation_step="0.0" rotation_range="0.0" />
   <visual class="chassis" mesh_filename="crate.mesh" texture_filename="dog_crate.png" offset="0.0 0.0 0.0"
           max_tilt="0.06" />
@@ -25,6 +24,12 @@
     <trigger class="destroy" />
     <result class="spawn" faction_id="0" instance_class="soldier" instance_key="dog" min_amount="1" max_amount="1"
             offset="0 0.0 0" position_spread="0 0" direction_spread="0 -1" />
+  </event>
+
+  <event>
+    <trigger class="destroy" />
+      <result class="spawn" instance_class="visual_item" instance_key="crate_debris.visual_item" min_amount="5" max_amount="10"
+              offset="0 0.2 0" position_spread="1.0 0.0" direction_spread="0.05 0.1" />
   </event>
 
 </vehicle>

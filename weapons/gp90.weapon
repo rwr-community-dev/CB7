@@ -25,12 +25,12 @@
   <model filename="gp90.xml" />
 
   <hud_icon filename="hud_gp90.png" />
-  <commonness value="0.0005" can_respawn_with="0" in_stock="0" />
+  <commonness value="0.0000" can_respawn_with="0" in_stock="1" />
   <inventory encumbrance="10.0" price="1969.0" />
 
   <!-- should it shoot gold bullets? -->
   <projectile file="bullet.projectile">
-    <result class="hit" kill_probability="0.67"
+    <result class="hit" kill_probability="0.62"
             kill_decay_start_time="0.42"
             kill_decay_end_time="0.54" />
   </projectile>

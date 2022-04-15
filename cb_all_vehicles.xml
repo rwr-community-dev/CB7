@@ -8,6 +8,5 @@
   <!-- shovel sandbags -->
   <vehicle file="sandbag_cover.vehicle" />
   <vehicle file="clownvan.vehicle" />
-  <vehicle file="dogcrate_spawn.vehicle" />
   <vehicle file="dogcrate_para.vehicle" />
 </vehicles>

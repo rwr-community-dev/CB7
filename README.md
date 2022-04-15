@@ -16,8 +16,8 @@ Depending on the type of thing you are adding, add your items to the respective 
 
 
 ## Previous Submissions
-* A180_smg //in4ss/Oche34/MarcusKrug
-* Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug
+* MGV-176 //in4ss/Oche34/MarcusKrug (formerly submitted as A180 smg)
+* Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug (Still haven't gotten the files for the new version)
 * Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
 * Glock18 //LordNoodle
 * Surefire MGX //LordNoodle
@@ -28,3 +28,4 @@ Depending on the type of thing you are adding, add your items to the respective 
 * AF2011 //Courting Death
 * Glock18c //MarcusKrug
 * Gold P90 //Bang
+* Panda outfit //Panda

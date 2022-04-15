@@ -12,7 +12,7 @@
   <!-- adding cb6 rejects-->
   <weapon key='gilboa_c.weapon' />
   <weapon key='shovel.weapon' />
-  <weapon key='a180_smg.weapon' />
+  <weapon key='mgv176.weapon' />
   <weapon key='glock18.weapon' />
   <weapon key="glock18c.weapon" />
   <weapon key="surefire_mgx.weapon" />
@@ -20,4 +20,6 @@
   <weapon key="sks.weapon" />
   <weapon key="sks_fire.weapon" />
   <weapon key="af2011.weapon" />
+  
+  <carry_item key="costume_panda.carry_item" />
 </resources>

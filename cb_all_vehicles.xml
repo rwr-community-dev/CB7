@@ -9,4 +9,7 @@
   <vehicle file="sandbag_cover.vehicle" />
   <vehicle file="clownvan.vehicle" />
   <vehicle file="dogcrate_para.vehicle" />
+  <!--  patriot -->
+  <vehicle file="technical_spawn.vehicle" />
+  <vehicle file="technical_para.vehicle" />
 </vehicles>

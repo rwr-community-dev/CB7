@@ -22,4 +22,5 @@
   <weapon key="af2011.weapon" />
   
   <carry_item key="costume_panda.carry_item" />
+  <weapon key="banner_beachball.weapon" />
 </resources>

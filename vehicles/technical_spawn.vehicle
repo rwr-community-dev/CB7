@@ -18,7 +18,7 @@
   <rev_sound filename="truck_rev3.wav" low_pitch="0.8" high_pitch="1.1" low_rev="0.4" high_rev="1.0" volume="1.0" />
 
   <effect event_key="idle_chassis" ref="FlareSparkle" post_processing="0" offset="0 0.1 0.3" />
-  <effect event_key="idle_chassis" ref="FlareSmokeMulti" post_processing="0" offset="0 0.4 0.3" />
+  <effect event_key="idle_chassis" ref="FlareSmokeWhite" post_processing="0" offset="0 0.4 0.3" />
   <effect event_key="idle_chassis" ref="FlareFlashBig" post_processing="0" offset="0 0.1 0.3" />
   <effect event_key="destroy" key="other" />
 

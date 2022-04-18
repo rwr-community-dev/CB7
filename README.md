@@ -23,9 +23,12 @@ Depending on the type of thing you are adding, add your items to the respective 
 * Surefire MGX //LordNoodle
 
 ## New Submissions
-* Clown Car //bang
+* Clown Car //MR. BANG
 * SKS (+ incendiary) //KFRedFox/RubberyChicken
 * AF2011 //Courting Death
 * Glock18c //MarcusKrug
-* Gold P90 //Bang
+* Gold P90 //MR. BANG
 * Panda outfit //Panda
+* Platinum Bar //MR. BANG
+* Dog bone (flare) //MR. BANG
+* Patriot flare //MR. BANG

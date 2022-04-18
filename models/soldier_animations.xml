@@ -26050,7 +26050,7 @@
             <position x="3.417533" y="0.000000" z="10.050637" />
         </frame>
     </animation>
-    <animation loop="0" end="1.000000" speed="0.300000" comment="reloading, portable mortar">
+    <animation loop="0" end="1.000000" speed="0.320000" comment="reloading, portable mortar">
         <frame time="0.000000">
             <position x="-5.836623" y="30.322624" z="9.751943" />
             <position x="-5.626014" y="23.334223" z="9.408601" />

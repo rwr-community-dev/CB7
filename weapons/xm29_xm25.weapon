@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="xm29_xm25.weapon">
+    <tag name="assault" />
+
+    <specification 
+  retrigger_time="1.8" 
+  accuracy_factor="0.91" 
+  sustained_fire_grow_step="2.3" 
+  sustained_fire_diminish_rate="1.0" 
+  stance_accuracy_rate="1.0"
+  magazine_size="4" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="XM-29 GL" 
+  class="0" 
+  sight_range_modifier="1.5"  
+  projectile_speed="60.0"
+  projectiles_per_shot="1"  
+  barrel_offset="0.45" 
+/>
+
+	<next_in_chain key="xm29_xm8.weapon" share_ammo="0" />
+
+	<!--<addon_model filename="backpack_small.xml" />-->
+
+    <!--     <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="50.0" randomness="0.0" />    -->
+    <!-- original <ballistics curve_height="3.6" near_far_distance="100.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="40.0" randomness="0.0" tweak_factor="1.1" />    --> 
+
+    <!-- auto detonating conversion by Unit G17									max_speed ~ max range -->
+    <ballistics curve_height="2.0" near_far_distance="0.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="60.0" randomness="0.0" tweak_factor="1.94" /> 
+
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m79" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />    
+    
+    <sound key="fire" fileref="xm25_shot.wav" pitch_variety="0.1" volume="1.0" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />    
+ 
+    <model filename="xm29.xml" />
+  
+    <projectile file="xm25.projectile" />
+    <weak_hand_hold offset="0.005" />
+
+    <capacity value="1" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.4" />
+
+    <hud_icon filename="hud_xm29_xm25.png" />
+    <commonness value="0.2" in_stock="1" can_respawn_with="0" />
+    <inventory encumbrance="20.0" price="5000.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.6" />
+    <stance state_key="walking" accuracy="0.65" />
+    <stance state_key="crouch_moving" accuracy="0.5" />
+    <stance state_key="standing" accuracy="0.95" />
+    <stance state_key="crouching" accuracy="0.98" />
+    <stance state_key="prone" accuracy="0.9" /> 
+    <stance state_key="prone_moving" accuracy="0.5" />
+    <stance state_key="over_wall" accuracy="1" /> 
+
+    <modifier class="speed" value="-0.20" />    
+
+</weapon>

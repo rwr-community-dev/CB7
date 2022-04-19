@@ -15,8 +15,11 @@
   <weapon file="surefire_mgx.weapon" />
   <weapon file="gp90.weapon" />
   <weapon file="sks.weapon" />
+  <weapon file="sks2.weapon" />
   <weapon file="sks_fire.weapon" />
   <weapon file="af2011.weapon" />
+  <weapon file="xm29_xm8.weapon" />
+  <weapon file="xm29_xm25.weapon" />
 
   <weapon file="banner_beachball.weapon" />
 </weapons>

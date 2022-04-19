@@ -25,6 +25,7 @@ Depending on the type of thing you are adding, add your items to the respective 
 ## New Submissions
 * Clown Car //MR. BANG
 * SKS (+ incendiary) //KFRedFox/RubberyChicken
+* SKS (alternative version) //KFRedFox/mus1CK
 * AF2011 //Courting Death
 * Glock18c //MarcusKrug
 * Gold P90 //MR. BANG
@@ -32,3 +33,5 @@ Depending on the type of thing you are adding, add your items to the respective 
 * Platinum Bar //MR. BANG
 * Dog bone (flare) //MR. BANG
 * Patriot flare //MR. BANG
+* Beach Banner //MR. BANG
+* XM29 OICW //Unit G17/MarcusKrug/warbrand2/Kiruex  (warbrand/Kiruex from CB6 version. not sure if Marcus did stuff or just handed it to me for inclusion.  Better to include an extra person than to leave out someone.)

@@ -17,6 +17,4 @@
   <weapon file="sks.weapon" />
   <weapon file="sks_fire.weapon" />
   <weapon file="af2011.weapon" />
-
-  <weapon file="banner_beachball.weapon" />
 </weapons>

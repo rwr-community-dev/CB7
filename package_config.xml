@@ -3,13 +3,15 @@
   name="CB7 testing" image="campaign_preview.png"
   description="https://github.com/rwr-community-dev/CB7"
   show_in_campaign_menu="1" show_in_campaigns="1" show_in_quick_match_mods="1"
-  campaign_entry_script="start_cb_tester_invasion.as" quick_match_entry_script="start_cb_tester.as">
+  campaign_entry_script="start_cb_invasion.as" quick_match_entry_script="start_cb_tester.as"
+  server_entry_script="start_cb_invasion_server.as">
 
   <campaign_options
     faction="1" presets="1"
     friendly_capacity="1" enemy_capacity="1"
     friendly_accuracy="1" enemy_accuracy="1"
-    xp_multiplier="1" rp_multiplier="1" />
+    xp_multiplier="1" rp_multiplier="1"
+    allow_skinpacks="1" />
 
   <!-- <overlay path="media/packages/invasion" /> -->
 </package>

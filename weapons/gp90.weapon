@@ -29,11 +29,7 @@
   <inventory encumbrance="10.0" price="1969.0" />
 
   <!-- should it shoot gold bullets? -->
-  <projectile file="bullet.projectile">
-    <result class="hit" kill_probability="0.62"
-            kill_decay_start_time="0.42"
-            kill_decay_end_time="0.54" />
-  </projectile>
+  <projectile file="bullet_gp90.projectile"/>
 
   <modifier class="speed" value="-0.05" />
 </weapon>

@@ -1,28 +1,30 @@
 ﻿# CB7
 
-#How to run the mod:
+Community repo for CB7 contributions
+
+## How to run the mod
 
 Download and unzip the package to RunningWithRifles/media/packages.
-Rename package to CB7 (exactly as is, otherwise scripts break from not finding the right folders.)
+Rename package to `CB7` (exactly as is, otherwise scripts break from not finding the right folders.)
 Open RWR, and run a new campaign with the cb7 mod.
 
-
-#How to add more things to the mod:
+## How to add more things to the mod
 
 Add files to the folders, as they would belong in the vanilla game. (For example: weapons need a file in weapons, a texture in textures, and a model in models. Optional files in sounds/particles)
 
-Depending on the type of thing you are adding, add your items to the respective cb_all_*** files.
+Depending on the type of thing you are adding, add your items to the respective `cb_all_***.xml` files.
   This makes them appear in the armory.
 
-
 ## Previous Submissions
+
 * MGV-176 //in4ss/Oche34/MarcusKrug (formerly submitted as A180 smg)
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug (Still haven't gotten the files for the new version)
 * Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
-* Glock18 //LordNoodle
-* Surefire MGX //LordNoodle
+* Glock18 //Lord_Noodal
+* Surefire MGX //Lord_Noodal
 
 ## New Submissions
+
 * Clown Car //MR. BANG
 * SKS (+ incendiary) //KFRedFox/RubberyChicken
 * SKS (alternative version) //KFRedFox/mus1CK
@@ -35,3 +37,4 @@ Depending on the type of thing you are adding, add your items to the respective 
 * Patriot flare //MR. BANG
 * Beach Banner //MR. BANG
 * XM29 OICW //Unit G17/MarcusKrug/warbrand2/Kiruex  (warbrand/Kiruex from CB6 version. not sure if Marcus did stuff or just handed it to me for inclusion.  Better to include an extra person than to leave out someone.)
+* Cowboy outfits //Lord_Noodal

@@ -14,7 +14,7 @@
     sight_range_modifier="1" 
     slot="1"
     deployment="1"
-	stab_enabled="1"	
+	stab_enabled="0"	
 	projectiles_per_shot="1" />
 	<addon_model filename="backpack_sandbag.xml" />
 
@@ -27,13 +27,14 @@
     <animation state_key="walking" 		animation_key="walking, heavy weapon" />
     <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
     <animation state_key="crouch_moving" 	animation_key="crouching forwards, large wrench" />
-
-	<animation state_key="stabbing"	animation_key="melee, gunto whip" />
-	<animation state_key="stabbing"	animation_key="melee, gunto stab" />
 	
 	<sound key="effect" fileref="dig.wav" pitch_variety="0.05" volume="0.8" /> 
+	<!--
+	<animation state_key="stabbing"	animation_key="melee, gunto whip" />
+	<animation state_key="stabbing"	animation_key="melee, gunto stab" /> 
+	
     <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="1.0" />  
-    <sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.0" />     
+    <sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.0" />   -->  
 
     <model mesh_filename="shovel.xml" />
 

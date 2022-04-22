@@ -19,7 +19,7 @@
   <weapon file="af2011.weapon" />
   <weapon file="xm29_xm8.weapon" />
   <weapon file="xm29_xm25.weapon" />
-  <weapon file="mk14_ebr" />
-  <weapon file="mk14_ebr_supp" />
-  <weapon file="gilboa_dbr" />
+  <weapon file="mk14_ebr.weapon" />
+  <weapon file="mk14_ebr_supp.weapon" />
+  <weapon file="gilboa_dbr.weapon" />
 </weapons>

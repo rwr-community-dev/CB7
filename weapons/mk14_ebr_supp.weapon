@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="mk14_ebr_supp.weapon">
+    <tag name="stealth" />
+    <specification 
+	retrigger_time="0.32" 
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="1.8" 
+	sustained_fire_diminish_rate="1.1" 
+	magazine_size="20" 
+	can_shoot_standing="0" 
+	can_shoot_crouching="1" 
+	suppressed="1" 
+	name="Mk 14 EBR Suppressed" 
+	class="4" 
+	burst_shots="1"
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1.6" 
+	projectile_speed="170.0" 
+	barrel_offset="0.65" 
+	projectiles_per_shot="1" />
+
+	<next_in_chain key="mk14_ebr.weapon" share_ammo="1" />
+	<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2"/>
+	<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1"/>
+	
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation key="reload" ref="35" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+	
+
+    <sound key="fire" fileref="mk14_ebr_supp_shot.wav" pitch_variety="0.05" volume="1.5" />
+    <sound key="cycle" fileref="sniper_cycle.wav" />
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" />
+    <sound key="magazine_in" fileref="sniper_clip_in.wav" />
+    <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+    <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="mk14_ebr_supp.xml" />
+    <hud_icon filename="hud_mk14_ebr_supp.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+    <inventory encumbrance="11.0" price="600.0" />
+    
+    <capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.9" />
+
+    <projectiles_per_shot value="1" />
+    <weak_hand_hold offset="0.3" />
+
+    <projectile file="bullet.projectile">
+        <result 
+		class="hit" 
+		kill_probability="1.0"  
+		kill_decay_start_time="0.51" 
+		kill_decay_end_time="0.78" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.08" />
+    <stance state_key="walking" accuracy="0.4" />
+    <stance state_key="crouch_moving" accuracy="0.08" />
+    <stance state_key="standing" accuracy="0.75" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="0.08" />
+    <stance state_key="over_wall" accuracy="0.9" />
+
+    <modifier class="speed" value="-0.1" /> 
+</weapon>

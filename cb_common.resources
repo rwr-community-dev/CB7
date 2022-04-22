@@ -22,7 +22,7 @@
   <weapon key="af2011.weapon" />
   <weapon key="xm29_xm8.weapon" />
   <weapon key="xm29_xm25.weapon" />  
-  <weapon key="gilboa_dbr.weapon" />
+  <weapon key="gilboa_DBR.weapon" />
   <weapon key="mk14_ebr.weapon" />
   <weapon key="mk14_ebr_supp.weapon" />
   <carry_item key="costume_panda.carry_item" />

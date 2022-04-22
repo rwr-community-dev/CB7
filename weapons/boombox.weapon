@@ -1,0 +1,68 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="boombox.weapon" on_ground_up="1 0 0">
+    <tag name="cqb" />
+    <specification 
+  retrigger_time="12.0" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.0" 
+  sustained_fire_diminish_rate="2.0" 
+  magazine_size="1" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="1" 
+  can_shoot_prone="0" 
+  suppressed="1" 
+  carry_in_two_hands="0" 
+  name="Boombox" 
+  class="4" 
+  burst_shots="1"
+  reload_one_at_a_time="0" 
+  sight_range_modifier="1.0" 
+  projectile_speed="80.0" 
+  projectiles_per_shot="1" 
+  use_basic_muzzle_smoke_effect="0"/>
+
+	<!-- reload dancing -->
+    <animation state_key="reload"	animation_key="boombox, headbang" />
+	
+	<!-- these animations are needed, which ones? idk, but it doesn't shoot without them.
+		 recoil one alone wasn't enough either -->
+	<animation state_key="recoil"	animation_key="recoil, pistol" />
+    <animation state_key="hold" 		animation_key="still, single hand carry" />
+    <animation state_key="hold_on_wall" 	animation_key="still, single hand carry" />
+    <animation state_key="hold_casual" 		animation_key="still, single hand carry" />
+    <animation state_key="still_against_wall" 	animation_key="still, single hand carry" />
+    <animation state_key="crouching" 		animation_key="crouch, still, single hand carry" />
+    <animation state_key="running" 		animation_key="running, single hand carry" />
+    <animation state_key="walking" 		animation_key="walking, single hand carry" />
+    <animation state_key="walking_backwards" 	animation_key="walking backwards, single hand carry" />
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, single hand carry" />
+    <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, single hand carry" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+	
+	<!-- replace with static or record scratch -->
+    <sound key="fire" fileref="radio_close.wav" pitch_variety="0.8" volume="1.0"/>
+	
+	<!-- song go here -->
+	<sound key="effect" fileref="army_whistle.wav" pitch_variety="0.0" volume="1.0" />
+	
+	<!-- don't want these sounds, and it doesn't break things. yay.
+    <sound key="magazine_out" fileref="revolver_cycle_in.wav" volume="0"/>
+    <sound key="magazine_in" fileref="revolver_magazine_out.wav" volume="0" />    
+    <sound key="cycle" fileref="revolver_magazine_in.wav" volume="0" /> -->
+	
+	
+    <model filename="boombox.mesh"  texture_filename="radio.png" />
+
+    <hud_icon filename="hud_radio.png" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1" />
+    <inventory encumbrance="5.0" price="360.0" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.4" />
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="selfnone.projectile" />
+    
+    <modifier class="speed" value="-0.00" />
+</weapon>

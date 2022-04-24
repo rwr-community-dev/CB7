@@ -319,6 +319,9 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "glock18.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "surefire_mgx.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "gp90.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "model_29.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "enforcer.weapon", "weapon", 0);
+            spawnInstanceNearPlayer(senderId, "vest_blackops.carry_item", "carry_item", 0);
             // todo: flare is active at spawn, need to insert to backpack instead
             spawnInstanceNearPlayer(senderId, "dogbone.projectile", "projectile", 0);
         } else if (checkCommand(message, "hb1")) {

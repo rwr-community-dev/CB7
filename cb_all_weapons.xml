@@ -22,4 +22,11 @@
   <weapon file="mk14_ebr.weapon" />
   <weapon file="mk14_ebr_supp.weapon" />
   <weapon file="gilboa_DBR.weapon" />
+  <weapon file="type88_2.weapon" />
+  <weapon file="type88_2_stock.weapon" />
+  
+  <!-- boombox -->
+  <weapon file="boombox_resource_banana.weapon" /> 
+  <weapon file="boombox_resource_panda.weapon" />
+  
 </weapons>

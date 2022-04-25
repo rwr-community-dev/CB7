@@ -15,6 +15,9 @@ Add files to the folders, as they would belong in the vanilla game. (For example
 Depending on the type of thing you are adding, add your items to the respective `cb_all_***.xml` files.
   This makes them appear in the armory.
 
+## Known problems
+Moving while prone periodically teleports the player in the direction they are moving, including through walls.
+
 ## Previous Submissions
 
 * MGV-176 //in4ss/Oche34/MarcusKrug (formerly submitted as A180 smg)
@@ -37,7 +40,8 @@ Depending on the type of thing you are adding, add your items to the respective 
 * Patriot flare //MR. BANG
 * Beach Banner //MR. BANG
 * XM29 OICW //Unit G17/MarcusKrug/warbrand2/Kiruex  (warbrand/Kiruex from CB6 version. not sure if Marcus did stuff or just handed it to me for inclusion.  Better to include an extra person than to leave out someone.)
-* Mk14 EBR //MoistGoat
+* Mk14 EBR //MoistGoat/MarcusKrug
 * Gilboa DBR //MarcusKrug/(Maybe more?)
-* Boombox //RubberyChicken/MR. BANG/Sgt.SwaySway(temp music, unsure if original or not?)
+* Boomboxes //RubberyChicken/MR. BANG
 * Cowboy outfits //Lord_Noodal
+* Type88 //Dimitri/Unit G17/MarcusKrug

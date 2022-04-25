@@ -25,5 +25,12 @@
   <weapon key="gilboa_DBR.weapon" />
   <weapon key="mk14_ebr.weapon" />
   <weapon key="mk14_ebr_supp.weapon" />
+  <weapon key="type88_2.weapon" />
+  <weapon key="type88_2_stock.weapon" />
+  
+  <!-- boombox -->
+  <weapon key="boombox_resource_banana.weapon" /> 
+  <weapon key="boombox_resource_panda.weapon" />
+  
   <carry_item key="costume_panda.carry_item" />
 </resources>

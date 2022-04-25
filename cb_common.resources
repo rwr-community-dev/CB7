@@ -25,4 +25,7 @@
   <weapon key="xm29_xm25.weapon" />
   
   <carry_item key="costume_panda.carry_item" />
+
+  <!--  bangtest -->
+  <weapon key="am_squad_equipment_kit_proxy.weapon" />
 </resources>

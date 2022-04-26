@@ -11,7 +11,6 @@
   <vehicle file="dogcrate_para.vehicle" />
   <!-- patriot -->
   <vehicle file="technical_spawn.vehicle" />
-  <vehicle file="technical_para.vehicle" />
 
   <!-- bangtest -->
   <vehicle file="am_squad_equipment_kit_proxy.vehicle" />

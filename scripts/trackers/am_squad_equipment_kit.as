@@ -40,6 +40,14 @@ class am_squad_equipment_kit : Tracker {
                 int factionId = character.getIntAttribute("faction_id");
                 // extracting the position of said soldier
                 Vector3 position = stringToVector3(event.getStringAttribute("position"));
+                // deploying the flag
+                XmlElement f("command");
+                f.setStringAttribute("class", "create_instance");
+                f.setIntAttribute("faction_id", factionId);
+                f.setStringAttribute("position", position.toString());
+                f.setStringAttribute("instance_class", "vehicle");
+                f.setStringAttribute("instance_key", "am_squad_equipment_kit_proxy.vehicle");
+                m_metagame.getComms().send(f);
                 // collecting all nearby soldiers
                 array<const XmlElement@>@ characters = getCharactersNearPosition(m_metagame, position, factionId, range);
                 // counting the number of soldiers that have received new vests so far

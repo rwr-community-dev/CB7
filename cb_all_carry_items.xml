@@ -9,6 +9,6 @@
   <carry_item file="costume_panda.carry_item" />
   <carry_item file="platinum_bar.carry_item" />
 
-  <!--  bangtest -->
+  <!-- bangtest -->
   <carry_item file="am_vest_kit_proxy.carry_item" />
 </carry_items>

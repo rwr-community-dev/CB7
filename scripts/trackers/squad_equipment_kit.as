@@ -67,7 +67,12 @@ class SquadEquipmentKit : Tracker {
                 "costume_lizard.carry_item",
                 "costume_santa.carry_item",
                 "costume_underpants.carry_item",
-                "costume_werewolf.carry_item"
+                "costume_werewolf.carry_item",
+                "costume_bat.carry_item",
+                "costume_chicken.carry_item",
+                "costume_scream.carry_item",
+                "costume_underpants.carry_item",
+                "costume_panda.carry_item"
             };
 
             //extracting the faction id of the soldier that deployed the kit

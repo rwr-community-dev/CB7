@@ -120,9 +120,10 @@ class SquadEquipmentKit : Tracker {
                             if (vestAmount == 0 || (vestAmount == 1 && (vestKey == "vest2_2" || vestKey == "vest2_3" || vestKey == "vest1.carry_item" || vestKey == "vest1_2"))) {
                                 string newVest = "vest2.carry_item";
 
-                                //1% chance that they receive a costume instead of a vest, faulty kit contents happen :)
+                                //10% chance that they receive a costume instead of a vest, faulty kit contents happen :)
+                                //budgets cuts have resulted in a 10x increase in the chance for a faulty kit :D
                                 int r = rand(1, 100);
-                                if (r == 1) {
+                                if (r <= 10) {
                                     r = rand(0, vestKeys.length() - 1);
                                     newVest = vestKeys[r];
                                 }

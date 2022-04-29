@@ -126,8 +126,11 @@ class Escape {
 
     // --------------------------------------------
     float getSpawnTime() const {
-        // TODO: randomize between min and max
-        return MIN_SPAWN_TIME;
+        // randomize between min and max
+        int r = rand(0, 100);
+        float delta = (MAX_SPAWN_TIME - MIN_SPAWN_TIME) * (r / 100.0);
+        _log("spawn r: " + r + ", delta: " + delta, 1);
+        return MIN_SPAWN_TIME + delta;
     }
 
     // --------------------------------------------

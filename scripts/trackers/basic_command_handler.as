@@ -264,6 +264,8 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "dog", "soldier", 0);
         } else if (checkCommand(message, "edog")) {
             spawnInstanceNearPlayer(senderId, "dog", "soldier", 1);
+        } else if (checkCommand(message, "ebus")) {
+			spawnInstanceNearPlayer(senderId, "prison_bus.vehicle", "vehicle", 1);
         } else if (checkCommand(message, "gb1")) {
             spawnInstanceNearPlayer(senderId, "gift_box_1.carry_item", "carry_item", 0);
         } else if (checkCommand(message, "gb2")) {

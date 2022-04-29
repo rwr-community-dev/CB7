@@ -144,12 +144,19 @@ class Escape {
         Vector3 position = m_position;
         position = position.add(offset);
 
-        string command = "<command "+
-            "class='create_instance' "+
-            "faction_id='" + m_factionId + "' "+
-            "position='" + position.toString() + "' "+
-            "instance_class='character' "+
-            "instance_key='prisoner' "+
+        string instanceKey = "prisoner";
+        int r = rand(1, 100);
+        // 20% chance of a dog per spawn, across 20 soldiers should give avg 4 dogs
+        if (r <= 20) {
+            instanceKey = "dog";
+        }
+
+        string command = "<command " +
+            "class='create_instance' " +
+            "faction_id='" + m_factionId + "' " +
+            "position='" + position.toString() + "' " +
+            "instance_class='character' " +
+            "instance_key='" + instanceKey + "' " +
             "/>";
         m_metagame.getComms().send(command);
     }

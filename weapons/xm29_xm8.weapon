@@ -29,7 +29,7 @@
     <model filename="xm29.xml" />
 
     <hud_icon filename="hud_xm29_xm8.png" />
-    <commonness value="0.0004" can_respawn_with="0" in_stock="1" />
+    <commonness value="0.0000" can_respawn_with="0" in_stock="1" />
     <inventory encumbrance="20.0" price="5000.0" />
 
     <weak_hand_hold offset="0.0" />

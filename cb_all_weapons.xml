@@ -6,7 +6,6 @@
   <!-- add cb weapons below, not in ./weapons/all_weapons.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
   
-  <!-- CB6 rejects-->
   <weapon file="gilboa_c.weapon" />
   <weapon file="shovel.weapon" />
   <weapon file="mgv176.weapon" />
@@ -20,7 +19,16 @@
   <weapon file="af2011.weapon" />
   <weapon file="xm29_xm8.weapon" />
   <weapon file="xm29_xm25.weapon" />
-
+  <weapon file="mk14_ebr.weapon" />
+  <weapon file="mk14_ebr_supp.weapon" />
+  <weapon file="gilboa_DBR.weapon" />
+  <weapon file="type88_2.weapon" />
+  <weapon file="type88_2_stock.weapon" />
+  
+  <!-- boombox -->
+  <weapon file="boombox_resource_banana.weapon" /> 
+  <weapon file="boombox_resource_panda.weapon" />
+  
   <!-- bangtest -->
   <weapon file="am_squad_equipment_kit_proxy.weapon" />
 </weapons>

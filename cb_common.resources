@@ -9,7 +9,6 @@
   <call key='a10_gun_run.call' />
   <call key='gunship_run.call' />
 
-  <!-- adding cb6 rejects-->
   <weapon key='gilboa_c.weapon' />
   <weapon key='shovel.weapon' />
   <weapon key='mgv176.weapon' />
@@ -22,7 +21,16 @@
   <weapon key="sks_fire.weapon" />
   <weapon key="af2011.weapon" />
   <weapon key="xm29_xm8.weapon" />
-  <weapon key="xm29_xm25.weapon" />
+  <weapon key="xm29_xm25.weapon" />  
+  <weapon key="gilboa_DBR.weapon" />
+  <weapon key="mk14_ebr.weapon" />
+  <weapon key="mk14_ebr_supp.weapon" />
+  <weapon key="type88_2.weapon" />
+  <weapon key="type88_2_stock.weapon" />
+  
+  <!-- boombox -->
+  <weapon key="boombox_resource_banana.weapon" /> 
+  <weapon key="boombox_resource_panda.weapon" />
   
   <carry_item key="costume_panda.carry_item" />
 

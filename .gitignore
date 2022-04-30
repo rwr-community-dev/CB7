@@ -6,3 +6,4 @@ __pycache__/
 *.bak
 *.zip
 *.7z
+*.code-workspace

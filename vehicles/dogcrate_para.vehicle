@@ -4,20 +4,16 @@
          map_view_atlas_index="-1" minimum_fill_requirement="0.0" max_character_collision_speed_on_normal="0.0"
          time_to_live="14.0">
   <tag name="dogcrate_para" />
-
   <tire_set offset="0.1 0.0 0.1" radius="0.1" />
   <tire_set offset="0.1 0.0 -0.1" radius="0.1" />
-
-  <sky_diving chute_offset="0 1.2 0" trigger_height="20.0" gravity="-2.5" mesh_filename="chute_medium.mesh"
+  <sky_diving chute_offset="0 0.6 0" trigger_height="20.0" gravity="-2.5" mesh_filename="chute_medium.mesh"
               texture_filename="chute.png" />
   <control max_speed="0" acceleration="0" max_reverse_speed="0" max_rotation="0.0"
            max_water_depth="1.4" can_steer_on_ground="0" />
   <physics max_health="100.0" mass="0.0" extent="1.0 0.0 1.0" offset="0 0.0 0" top_offset="0 0 0" collision_model_pos="0 0 0"
-           collision_model_extent="0 0 0" visual_offset="0 0 0" />
-
+           collision_model_extent="0 0 0" visual_offset="0 0.6 0" />
   <visual class="chassis" mesh_filename="crate.mesh" texture_filename="dog_crate.png" offset="0.0 0.0 0.0"
           max_tilt="0.06" />
-
   <event>
     <trigger class="destroy" />
     <result class="spawn" faction_id="0" instance_class="soldier" instance_key="dog" min_amount="1" max_amount="1"
@@ -28,5 +24,4 @@
       <result class="spawn" instance_class="visual_item" instance_key="crate_debris.visual_item" min_amount="5" max_amount="10"
               offset="0 0.2 0" position_spread="1.0 0.0" direction_spread="0.05 0.1" />
   </event>
-
 </vehicle>

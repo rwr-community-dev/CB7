@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="golden_mp5sd.weapon">
+<weapon file="base_primary_rare.weapon" key="golden_mp5sd.weapon">
   <tag name="stealth" />
   <specification
       retrigger_time="0.092"

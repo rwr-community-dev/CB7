@@ -29,4 +29,6 @@
   <weapon file="boombox_resource_banana.weapon" /> 
   <weapon file="boombox_resource_panda.weapon" />
   
+  <!-- bangtest -->
+  <weapon file="am_squad_equipment_kit_proxy.weapon" />
 </weapons>

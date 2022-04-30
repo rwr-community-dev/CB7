@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Squad Equipment Kit" key="am_squad_equipment_kit_proxy.projectile" slot="0" radius="0.15">
+    <tag name="grenade" />
+    <result class="notify_script" key="squad_equipment_kit" />
+    <trigger class="time" time_to_live="0.0" />
+    <rotation class="random" />
+    <model filename="" />
+    <throwable curve_height="5.0" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="14.0" randomness="0.06" tweak_factor="1.1" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <inventory encumbrance="0.0" price="0.0" />
+</projectile>

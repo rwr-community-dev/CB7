@@ -2623,7 +2623,7 @@
             <position x="-19.212337" y="4.045997" z="-27.121950" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-7.822461" y="2.819550" z="-33.267399" />
-      <position x="1.242175" y="3.861485" z="-42.011278" />
+            <position x="1.242175" y="3.861485" z="-42.011278" />
         </frame>
         <frame time="0.100000">
             <position x="-2.965921" y="14.858221" z="7.841400" />
@@ -2641,11 +2641,7 @@
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-12.423149" y="1.872940" z="-31.061211" />
             <position x="1.242175" y="3.861485" z="-42.011278" />
-            <control key="push" value="1" />
-            <control key="push" value="1" />
-            <control key="push" value="1" />
-            <control key="push" value="1" />
-            <control key="push" value="1" />
+            <!-- todo checklist remove letocrawl for release submission -->
             <control key="push" value="1" />
             <control key="push" value="1" />
             <control key="push" value="1" />
@@ -2717,7 +2713,7 @@
             <position x="-19.212337" y="4.045997" z="-27.121950" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-7.822461" y="2.819550" z="-33.267399" />
-      <position x="1.242175" y="3.861485" z="-42.011278" />
+            <position x="1.242175" y="3.861485" z="-42.011278" />
         </frame>
     </animation>
     <animation loop="0" end="0.820000" speed="0.300000" comment="reloading, m24">

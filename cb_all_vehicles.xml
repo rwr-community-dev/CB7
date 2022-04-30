@@ -9,14 +9,15 @@
   <vehicle file="sandbag_cover.vehicle" />
   <vehicle file="clownvan.vehicle" />
   <vehicle file="dogcrate_para.vehicle" />
-  <!--  patriot -->
+  <!-- patriot -->
   <vehicle file="technical_spawn.vehicle" />
-  <vehicle file="technical_para.vehicle" />
   
   <!-- boombox -->
   <vehicle file="deployable_boombox_banana.vehicle" />
   <vehicle file="deployable_boombox_base_banana.vehicle" />
   <vehicle file="deployable_boombox_panda.vehicle" />
   <vehicle file="deployable_boombox_base_panda.vehicle" />
-  
+
+  <!-- bangtest -->
+  <vehicle file="am_squad_equipment_kit_proxy.vehicle" />
 </vehicles>

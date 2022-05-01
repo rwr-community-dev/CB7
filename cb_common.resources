@@ -27,6 +27,8 @@
   <weapon key="mk14_ebr_supp.weapon" />
   <weapon key="type88_2.weapon" />
   <weapon key="type88_2_stock.weapon" />
+  <weapon key="model_29.weapon" />
+  <weapon key="enforcer.weapon" />
   
   <!-- boombox -->
   <weapon key="boombox_resource_banana.weapon" /> 

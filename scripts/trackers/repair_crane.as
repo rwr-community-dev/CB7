@@ -35,19 +35,19 @@ class RepairCrane : Tracker {
         uint rpReward = 5;
 
         //checking if the event was triggered by a repair projectile
-        string key = event.getStringAttribute("key");
+        string sourceKey = event.getStringAttribute("key");
 
-        if (key == "repair_crane") {
+        if (sourceKey == "repair_crane") {
             range = 3.5;
             repairValue = 0.6;
             overHealth = 1.1;
             y_offset = -5.0;
-        } else if (key == "repair_tank") {
+        } else if (sourceKey == "repair_tank") {
             range = 3.5;
             repairValue = 0.5;
             overHealth = 1.0;
             y_offset = -5.0;
-        } else if (key == "repair_torch") {
+        } else if (sourceKey == "repair_torch") {
             range = 3.0;
             repairValue = 0.1;
             overHealth = 1.1;
@@ -78,10 +78,10 @@ class RepairCrane : Tracker {
                         int vehicleId = vehicles[i].getIntAttribute("id");
                         const XmlElement@ vehicleInfo = getVehicleInfo(m_metagame, vehicleId);
                         if (vehicleInfo !is null) {
-                            string key2 = vehicleInfo.getStringAttribute("key");
+                            string targetKey = vehicleInfo.getStringAttribute("key");
 
                             //repair tank can't repair repair tanks to prevent self repair
-                            if (not(key == "repair_tank" && key2 == "zjx19.vehicle")) {
+                            if (not(sourceKey == "repair_tank" && targetKey == "zjx19.vehicle")) {
                                 float vehicleHealth = vehicleInfo.getFloatAttribute("health");
 
                                 //not running for destroyed vehicles

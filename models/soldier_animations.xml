@@ -1252,7 +1252,7 @@
             <position x="-20.678385" y="4.288251" z="-25.739170" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-8.566290" y="2.784336" z="-30.215261" />
-      <position x="1.242175" y="3.861485" z="-42.011278" />
+            <position x="1.242175" y="3.861485" z="-42.011276" />
         </frame>
     </animation>
     <animation loop="0" end="0.000000" speed="1.000000" comment="prone">
@@ -1271,7 +1271,7 @@
             <position x="-20.678385" y="4.288251" z="-25.739170" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-8.566290" y="2.784336" z="-30.215261" />
-      <position x="1.242175" y="3.861485" z="-42.011278" />
+            <position x="1.242175" y="3.861485" z="-42.011276" />
         </frame>
     </animation>
     <animation loop="0" end="0.290000" speed="0.600000" comment="leaving prone">
@@ -1290,7 +1290,7 @@
             <position x="-20.678385" y="4.288251" z="-25.739170" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-8.566290" y="2.784336" z="-30.215261" />
-      <position x="1.242175" y="3.861485" z="-42.011278" />
+            <position x="1.242175" y="3.861485" z="-42.011276" />
         </frame>
         <frame time="0.103299">
             <position x="-6.409081" y="15.621397" z="21.017790" />
@@ -2623,7 +2623,7 @@
             <position x="-19.212337" y="4.045997" z="-27.121950" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-7.822461" y="2.819550" z="-33.267399" />
-            <position x="1.242175" y="3.861485" z="-42.011278" />
+            <position x="1.242175" y="3.861485" z="-42.011276" />
         </frame>
         <frame time="0.100000">
             <position x="-2.965921" y="14.858221" z="7.841400" />
@@ -2640,8 +2640,12 @@
             <position x="-22.202057" y="0.912019" z="-22.549479" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-12.423149" y="1.872940" z="-31.061211" />
-            <position x="1.242175" y="3.861485" z="-42.011278" />
-            <!-- todo checklist remove letocrawl for release submission -->
+            <position x="1.242175" y="3.861485" z="-42.011276" />
+            <control key="push" value="1" />
+            <control key="push" value="1" />
+            <control key="push" value="1" />
+            <control key="push" value="1" />
+            <control key="push" value="1" />
             <control key="push" value="1" />
             <control key="push" value="1" />
             <control key="push" value="1" />
@@ -2713,7 +2717,7 @@
             <position x="-19.212337" y="4.045997" z="-27.121950" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-7.822461" y="2.819550" z="-33.267399" />
-            <position x="1.242175" y="3.861485" z="-42.011278" />
+            <position x="1.242175" y="3.861485" z="-42.011276" />
         </frame>
     </animation>
     <animation loop="0" end="0.820000" speed="0.300000" comment="reloading, m24">
@@ -3850,9 +3854,9 @@
             <position x="-9.267119" y="3.997123" z="-6.590645" />
             <position x="0.500925" y="2.909402" z="-5.682705" />
             <position x="-8.573342" y="1.147095" z="-21.301050" />
-      <position x="2.545160" y="1.890744" z="-20.141990"/>
-      <position x="-5.082563" y="3.346170" z="-33.629007"/>
-      <position x="4.623483" y="4.873413" z="-32.623346"/>
+            <position x="2.545160" y="1.890744" z="-20.141991" />
+            <position x="-5.082563" y="3.346170" z="-33.629005" />
+            <position x="4.623483" y="4.873413" z="-32.623344" />
         </frame>
         <frame time="1.200000">
             <position x="-4.389737" y="9.475399" z="11.298283" />
@@ -3866,8 +3870,8 @@
             <position x="-5.399567" y="0.630638" z="-7.944430" />
             <position x="-8.882549" y="3.655429" z="-13.317006" />
             <position x="0.827723" y="1.745601" z="-12.115377" />
-      <position x="-15.119352" y="-0.097448" z="-26.432576"/>
-      <position x="1.541107" y="2.847969" z="-26.827046"/>
+            <position x="-15.119352" y="-0.097448" z="-26.432575" />
+            <position x="1.541107" y="2.847969" z="-26.827045" />
             <position x="-9.585511" y="1.732931" z="-38.052658" />
             <position x="-0.657557" y="4.478359" z="-39.535614" />
         </frame>
@@ -3886,7 +3890,7 @@
             <position x="-19.212337" y="4.045997" z="-27.121950" />
             <position x="2.953089" y="2.531703" z="-29.193148" />
             <position x="-7.822461" y="2.819550" z="-33.267399" />
-      <position x="1.242175" y="3.861485" z="-42.011278"/>
+            <position x="1.242175" y="3.861485" z="-42.011276" />
         </frame>
     </animation>
     <animation loop="0" end="0.000000" speed="1.000000" comment="driving, boat">
@@ -11783,7 +11787,7 @@
             <position x="5.138107" y="1.329849" z="4.603353" />
         </frame>
     </animation>
-  <animation loop="1" end="1.7000" speed="1.70000" comment="celebrating">
+    <animation loop="1" end="1.700000" speed="1.700000" comment="celebrating">
         <frame time="0.000000">
             <position x="-0.004471" y="50.119629" z="0.393288" />
             <position x="-0.811754" y="43.170609" z="0.149554" />
@@ -11869,7 +11873,7 @@
             <position x="-5.514470" y="27.174612" z="-2.013574" />
             <position x="6.294674" y="22.489902" z="-1.520287" />
         </frame>
-    <frame time="0.80">
+        <frame time="0.800000">
             <position x="0.582542" y="57.543766" z="0.347608" />
             <position x="-0.036788" y="50.714855" z="1.755590" />
             <position x="-7.176095" y="48.091984" z="1.365349" />
@@ -11886,7 +11890,7 @@
             <position x="-4.523757" y="3.257682" z="0.500917" />
             <position x="5.483331" y="3.362961" z="0.500649" />
         </frame>
-    <frame time="1.0">
+        <frame time="1.000000">
             <position x="0.549567" y="54.119961" z="0.627715" />
             <position x="-0.671888" y="47.268661" z="-0.125781" />
             <position x="-7.811100" y="44.681568" z="0.459721" />
@@ -11903,7 +11907,7 @@
             <position x="-10.341398" y="2.118085" z="-0.804358" />
             <position x="6.180973" y="1.203697" z="-1.067503" />
         </frame>
-    <frame time="1.2">
+        <frame time="1.200000">
             <position x="-0.004471" y="50.119629" z="0.393288" />
             <position x="-0.811754" y="43.170609" z="0.149554" />
             <position x="-8.043305" y="40.788708" z="0.429002" />
@@ -11955,7 +11959,7 @@
             <position x="6.498072" y="0.559043" z="0.509819" />
         </frame>
     </animation>
-  <animation loop="0" end="5.0000" speed="1.50000" comment="celebrating2">
+    <animation loop="0" end="5.000000" speed="1.500000" comment="celebrating2">
         <frame time="0.000000">
             <position x="0.500000" y="55.500000" z="0.500000" />
             <position x="0.500000" y="48.500000" z="0.500000" />
@@ -15826,7 +15830,7 @@
             <control key="magazine" value="0" />
             <control key="weak_hand" value="0" />
         </frame>
-        <frame time="0.0750000">
+        <frame time="0.075000">
             <position x="-5.315256" y="54.423260" z="0.144905" />
             <position x="-2.667892" y="48.183800" z="-1.604553" />
             <position x="-5.932880" y="43.333622" z="-6.480588" />
@@ -16035,7 +16039,7 @@
             <position x="5.154892" y="0.392032" z="4.682786" />
             <control key="cycle" value="0" />
         </frame>
-        <frame time="1.20000">
+        <frame time="1.200000">
             <position x="-5.315256" y="54.423260" z="0.144905" />
             <position x="-2.667892" y="48.183800" z="-1.604553" />
             <position x="-5.932880" y="43.333622" z="-6.480588" />
@@ -16069,7 +16073,7 @@
             <position x="-5.341257" y="1.375622" z="-7.258128" />
             <position x="5.154892" y="0.392032" z="4.682786" />
         </frame>
-        <frame time="1.26000">
+        <frame time="1.260000">
             <position x="-5.315256" y="54.423260" z="0.144905" />
             <position x="-2.667892" y="48.183800" z="-1.604553" />
             <position x="-5.932880" y="43.333622" z="-6.480588" />
@@ -16486,7 +16490,7 @@
             <position x="-5.341043" y="1.379136" z="-7.257515" />
             <position x="5.154892" y="0.392032" z="4.682786" />
         </frame>
-        <frame time="0.90000">
+        <frame time="0.900000">
             <position x="0.652750" y="55.420918" z="2.942152" />
             <position x="1.398168" y="48.731911" z="1.018217" />
             <position x="-4.137244" y="46.102814" z="-3.750293" />
@@ -18854,7 +18858,7 @@
             <position x="4.623178" y="4.067707" z="-12.999729" />
         </frame>
     </animation>
-  <animation loop="1" end="0.800000" speed="0.500000" comment="claymore deploy">
+    <animation loop="1" end="0.800000" speed="0.500000" comment="claymore deploy">
         <frame time="0.000000">
             <position x="1.087597" y="55.182121" z="3.377389" />
             <position x="0.463770" y="48.523205" z="1.353427" />
@@ -18980,7 +18984,7 @@
             <control key="shoot" value="1" />
         </frame>
     </animation>
-  <animation loop="0" end="0.800000" speed="0.500000" comment="at mine deploy">
+    <animation loop="0" end="0.800000" speed="0.500000" comment="at mine deploy">
         <frame time="0.000000">
             <position x="1.087597" y="55.182121" z="3.377389" />
             <position x="0.463770" y="48.523205" z="1.353427" />
@@ -18997,7 +19001,7 @@
             <position x="6.034061" y="13.550758" z="0.505253" />
             <position x="-6.746631" y="0.635917" z="0.583741" />
             <position x="6.498072" y="0.559043" z="0.509819" />
-		</frame>
+        </frame>
         <frame time="0.200000">
             <position x="-5.977656" y="30.054827" z="19.050243" />
             <position x="-7.224594" y="24.064999" z="15.649197" />
@@ -19145,7 +19149,7 @@
         </frame>
     </animation>
     <animation loop="0" end="0.400000" speed="0.500000" comment="leaving_wounded">
-    <frame time="0.0">
+        <frame time="0.000000">
             <position x="-10.754429" y="17.842064" z="-23.790623" />
             <position x="-9.761505" y="11.210812" z="-21.780500" />
             <position x="-16.635296" y="8.695568" z="-20.396929" />
@@ -28199,11 +28203,11 @@
             <position x="-9.024400" y="35.904823" z="-3.394972" />
             <position x="8.236096" y="35.915180" z="-2.937538" />
             <position x="0.250000" y="36.750000" z="0.250000" />
-            <position x="-0.845353" y="34.933787" z="0.210350" />
+            <position x="-0.845353" y="34.933788" z="0.210350" />
             <position x="2.027992" y="35.668724" z="0.661807" />
-            <position x="-0.542178" y="32.452752" z="0.260844" />
-            <position x="1.985257" y="33.173098" z="0.520611" />
-            <position x="-0.236767" y="29.971982" z="0.310892" />
+            <position x="-0.542178" y="32.452751" z="0.260844" />
+            <position x="1.985257" y="33.173100" z="0.520611" />
+            <position x="-0.236767" y="29.971981" z="0.310892" />
             <position x="1.922693" y="30.674278" z="0.476101" />
         </frame>
     </animation>
@@ -33100,7 +33104,7 @@
             <control key="weak_hand" value="1" />
         </frame>
     </animation>
-    <animation loop="0" end="1.150000"  speed="0.5" comment="reloading, ar1, prone">
+    <animation loop="0" end="1.150000" speed="0.500000" comment="reloading, ar1, prone">
         <frame time="0.000000">
             <position x="-2.659441" y="15.104884" z="8.104493" />
             <position x="-4.716663" y="9.534175" z="4.398411" />
@@ -33311,7 +33315,7 @@
             <position x="1.293325" y="3.767021" z="-42.021435" />
         </frame>
     </animation>
-    <animation loop="0" end="1.150000"  speed="0.4" comment="reloading, ar2, prone">
+    <animation loop="0" end="1.150000" speed="0.400000" comment="reloading, ar2, prone">
         <frame time="0.000000">
             <position x="-2.659441" y="15.104884" z="8.104493" />
             <position x="-4.716663" y="9.534175" z="4.398411" />
@@ -33522,7 +33526,7 @@
             <position x="1.293325" y="3.767021" z="-42.021435" />
         </frame>
     </animation>
-    <animation loop="0" end="1.100000" speed="0.45" comment="reloading, smg1, prone">
+    <animation loop="0" end="1.100000" speed="0.450000" comment="reloading, smg1, prone">
         <frame time="0.000000">
             <position x="-2.659441" y="15.104884" z="8.104493" />
             <position x="-4.716663" y="9.534175" z="4.398411" />
@@ -33696,7 +33700,7 @@
             <position x="0.962858" y="2.944872" z="-29.051666" />
             <position x="-8.206204" y="2.738056" z="-30.369579" />
             <position x="1.293325" y="3.767021" z="-42.021435" />
-			<control key="cycle" value="1" />
+            <control key="cycle" value="1" />
         </frame>
         <frame time="1.000000">
             <position x="-2.604906" y="15.406996" z="8.411168" />
@@ -34121,7 +34125,7 @@
             <position x="1.242175" y="3.861485" z="-42.011276" />
         </frame>
     </animation>
-	<animation loop="0" end="0.180000" speed="0.500000" comment="recoil, pistol, 2hand">
+    <animation loop="0" end="0.180000" speed="0.500000" comment="recoil, pistol, 2hand">
         <frame time="0.000000">
             <position x="1.553612" y="55.665001" z="1.570316" />
             <position x="1.461781" y="48.712612" z="0.760448" />
@@ -34496,7 +34500,7 @@
             <control key="stop" value="1" />
         </frame>
     </animation>
-    <animation loop="0" end="1.550000" speed="0.35" comment="reloading, mg1, prone">
+    <animation loop="0" end="1.550000" speed="0.350000" comment="reloading, mg1, prone">
         <frame time="0.000000">
             <position x="-2.659441" y="15.104884" z="8.104493" />
             <position x="-4.716663" y="9.534175" z="4.398411" />
@@ -34724,7 +34728,7 @@
             <position x="-8.206204" y="2.738056" z="-30.369579" />
             <position x="1.293325" y="3.767021" z="-42.021435" />
         </frame>
-        <frame time="1.45000">
+        <frame time="1.450000">
             <position x="-2.687359" y="15.028385" z="8.053720" />
             <position x="-4.694899" y="9.434184" z="4.355790" />
             <position x="-11.532956" y="9.573159" z="1.006173" />
@@ -34760,7 +34764,7 @@
             <control key="strong_hand" value="1" />
         </frame>
     </animation>
-    <animation loop="0" end="0.975000" speed="0.3800" comment="reloading, sniper1, prone">
+    <animation loop="0" end="0.975000" speed="0.380000" comment="reloading, sniper1, prone">
         <frame time="0.000000">
             <position x="-2.659441" y="15.104884" z="8.104493" />
             <position x="-4.716663" y="9.534175" z="4.398411" />
@@ -34936,7 +34940,7 @@
             <position x="1.293325" y="3.767021" z="-42.021435" />
         </frame>
     </animation>
-    <animation loop="0" end="1.000000" speed="0.7" comment="bolt cycle, sniper2, prone">
+    <animation loop="0" end="1.000000" speed="0.700000" comment="bolt cycle, sniper2, prone">
         <frame time="0.000000">
             <position x="-2.659441" y="15.104884" z="8.104493" />
             <position x="-4.716663" y="9.534175" z="4.398411" />
@@ -35091,7 +35095,7 @@
             <position x="1.293325" y="3.767021" z="-42.021435" />
         </frame>
     </animation>
-    <animation loop="0" end="0.600000" speed="1.00000" comment="bolt cycle, prone">
+    <animation loop="0" end="0.600000" speed="1.000000" comment="bolt cycle, prone">
         <frame time="0.000000">
             <position x="-2.659441" y="15.104884" z="8.104493" />
             <position x="-4.716663" y="9.534175" z="4.398411" />
@@ -36880,7 +36884,7 @@
             <position x="1.323078" y="8.546584" z="-9.133956" />
             <position x="-5.029876" y="2.869144" z="-13.137346" />
             <position x="1.032644" y="2.749627" z="-13.046876" />
-			<control key="effect" value="1" />
+            <control key="effect" value="1" />
         </frame>
         <frame time="0.139080">
             <position x="0.948033" y="36.753910" z="9.397257" />
@@ -37038,7 +37042,7 @@
             <position x="1.323078" y="8.546584" z="-9.133956" />
             <position x="-5.029876" y="2.869144" z="-13.137346" />
             <position x="1.032644" y="2.749627" z="-13.046876" />
-			<control key="effect" value="1" />
+            <control key="effect" value="1" />
         </frame>
         <frame time="0.139080">
             <position x="0.948033" y="36.753910" z="9.397257" />
@@ -38511,7 +38515,6 @@
             <position x="5.154892" y="0.392032" z="4.682786" />
         </frame>
     </animation>
-
     <animation loop="0" end="0.350000" speed="1.000000" comment="recoil, revolver">
         <frame time="0.000000">
             <position x="-0.995668" y="55.551552" z="0.164213" />
@@ -38581,7 +38584,7 @@
             <position x="-9.471902" y="1.083165" z="7.948585" />
             <position x="6.962823" y="0.725944" z="-1.286222" />
         </frame>
-        <frame time="0.10000">
+        <frame time="0.100000">
             <position x="-0.995668" y="55.551552" z="0.164213" />
             <position x="-0.654966" y="48.573368" z="0.598787" />
             <position x="-6.517905" y="45.624840" z="4.576976" />
@@ -39253,7 +39256,6 @@
             <control key="strong_hand" value="1" />
         </frame>
     </animation>
-
     <animation loop="0" end="1.300000" speed="0.350000" comment="reloading, ultimax">
         <frame time="0.000000">
             <position x="1.553612" y="55.665001" z="1.570316" />
@@ -39976,7 +39978,6 @@
             <control key="stop" value="1" />
         </frame>
     </animation>
-
     <animation loop="0" end="0.600000" speed="1.400000" comment="zweihander slash 1">
         <frame time="0.000000">
             <position x="2.505812" y="55.633385" z="0.874004" />
@@ -40471,7 +40472,6 @@
             <position x="5.154892" y="0.392032" z="4.682786" />
         </frame>
     </animation>
-
     <animation loop="0" end="0.800000" speed="0.300000" comment="mount bayonet part 3">
         <frame time="0.000000">
             <position x="1.553612" y="55.665001" z="1.570316" />
@@ -41324,7 +41324,6 @@
             <position x="6.498072" y="0.559043" z="0.509819" />
         </frame>
     </animation>
-
     <animation loop="0" end="2.000000" speed="1.000000" comment="shock paddle heal">
         <frame time="0.000000">
             <position x="-4.514198" y="36.183231" z="11.881970" />
@@ -41343,7 +41342,7 @@
             <position x="-4.299095" y="3.541464" z="-12.065640" />
             <position x="4.599201" y="-0.159432" z="13.712048" />
         </frame>
-        <frame time="0.200000">     <!--  STEP 1/1 -->
+        <frame time="0.200000">
             <position x="-2.587739" y="40.993874" z="3.492097" />
             <position x="-1.395922" y="34.751930" z="0.556506" />
             <position x="-8.513583" y="32.097145" z="1.095928" />
@@ -41360,7 +41359,7 @@
             <position x="-5.205406" y="4.235781" z="-11.932287" />
             <position x="4.599201" y="-0.159432" z="13.712048" />
         </frame>
-        <frame time="0.400000">     <!--  STEP 1/2 -->
+        <frame time="0.400000">
             <position x="-0.613406" y="41.416149" z="2.550459" />
             <position x="-1.395922" y="34.751930" z="0.556506" />
             <position x="-8.513583" y="32.097145" z="1.095928" />
@@ -41377,7 +41376,7 @@
             <position x="-5.205406" y="4.235781" z="-11.932287" />
             <position x="4.599201" y="-0.159432" z="13.712048" />
         </frame>
-        <frame time="0.600000">     <!--  STEP 1/3 -->
+        <frame time="0.600000">
             <position x="-4.173098" y="41.150539" z="1.143962" />
             <position x="-1.395922" y="34.751930" z="0.556506" />
             <position x="-8.513583" y="32.097145" z="1.095928" />
@@ -41394,7 +41393,7 @@
             <position x="-5.205406" y="4.235781" z="-11.932287" />
             <position x="4.599201" y="-0.159432" z="13.712048" />
         </frame>
-        <frame time="0.800000">     <!--  STEP 2/1 -->
+        <frame time="0.800000">
             <position x="-2.587739" y="40.993874" z="3.492097" />
             <position x="-1.395922" y="34.751930" z="0.556506" />
             <position x="-8.513583" y="32.097145" z="1.095928" />
@@ -41411,7 +41410,7 @@
             <position x="-5.205406" y="4.235781" z="-11.932287" />
             <position x="4.599201" y="-0.159432" z="13.712048" />
         </frame>
-        <frame time="1.000000">     <!--  STEP 2/2 -->
+        <frame time="1.000000">
             <position x="-0.613406" y="41.416149" z="2.550459" />
             <position x="-1.395922" y="34.751930" z="0.556506" />
             <position x="-8.513583" y="32.097145" z="1.095928" />
@@ -41428,7 +41427,7 @@
             <position x="-5.205406" y="4.235781" z="-11.932287" />
             <position x="4.599201" y="-0.159432" z="13.712048" />
         </frame>
-        <frame time="1.200000">     <!--  STEP 2/3 -->
+        <frame time="1.200000">
             <position x="-4.173098" y="41.150539" z="1.143962" />
             <position x="-1.395922" y="34.751930" z="0.556506" />
             <position x="-8.513583" y="32.097145" z="1.095928" />
@@ -41781,7 +41780,7 @@
             <position x="4.621695" y="-0.048124" z="13.697505" />
         </frame>
     </animation>
-    <animation loop="0" end="0.1" speed="1.0" comment="m14 carry, cycle">
+    <animation loop="0" end="0.100000" speed="1.000000" comment="m14 carry, cycle">
         <frame time="0.000000">
             <position x="-10.189827" y="21.979902" z="20.431509" />
             <position x="-7.935853" y="18.302408" z="14.918283" />
@@ -41799,7 +41798,7 @@
             <position x="-4.296813" y="3.546399" z="-12.083192" />
             <position x="4.621695" y="-0.048124" z="13.697505" />
         </frame>
-        <frame time="0.1">
+        <frame time="0.100000">
             <position x="-8.593827" y="24.019615" z="19.773434" />
             <position x="-8.169551" y="19.056721" z="14.855136" />
             <position x="-15.078438" y="18.619652" z="11.680507" />
@@ -42277,7 +42276,7 @@
             <position x="5.154892" y="0.392032" z="4.682786" />
         </frame>
     </animation>
-    <animation loop="0" end="1.500000" speed="0.6500000" comment="howling">
+    <animation loop="0" end="1.500000" speed="0.650000" comment="howling">
         <frame time="0.000000">
             <position x="-10.777678" y="18.458635" z="24.593029" />
             <position x="-7.246033" y="19.157572" z="18.589781" />
@@ -42294,7 +42293,7 @@
             <position x="2.051896" y="12.526597" z="15.304764" />
             <position x="-4.299095" y="3.541464" z="-12.065641" />
             <position x="4.823800" y="-0.100215" z="13.933582" />
-			<control key="action" value="1" />
+            <control key="action" value="1" />
         </frame>
         <frame time="0.300000">
             <position x="0.869989" y="42.855492" z="-1.896527" />
@@ -42312,7 +42311,7 @@
             <position x="5.003327" y="12.866440" z="17.101154" />
             <position x="-8.127500" y="3.742590" z="-14.570445" />
             <position x="4.958057" y="0.288187" z="13.817024" />
-	    </frame>
+        </frame>
         <frame time="1.400000">
             <position x="-4.544104" y="38.300709" z="-9.573716" />
             <position x="-1.905276" y="35.653370" z="-3.655253" />
@@ -42612,7 +42611,7 @@
             <position x="3.312034" y="0.732556" z="0.778092" />
         </frame>
     </animation>
-   <animation loop="0" end="0.600000" speed="0.500000" comment="raise, scythe">
+    <animation loop="0" end="0.600000" speed="0.500000" comment="raise, scythe">
         <frame time="0.000000">
             <position x="1.558641" y="55.707069" z="1.585155" />
             <position x="1.398168" y="48.731911" z="1.018217" />
@@ -42720,7 +42719,7 @@
             <position x="5.154892" y="0.392032" z="4.682786" />
         </frame>
     </animation>
-	    <animation loop="1" end="0.900000" speed="1.600000" speed_spread="0.040000" comment="running, zombie">
+    <animation loop="1" end="0.900000" speed="1.600000" speed_spread="0.040000" comment="running, zombie">
         <frame time="0.000000">
             <position x="2.458455" y="53.377705" z="12.211919" />
             <position x="2.094417" y="47.057281" z="9.225327" />
@@ -42841,7 +42840,7 @@
             <position x="5.723689" y="18.933851" z="-25.097122" />
         </frame>
     </animation>
-<animation loop="1" end="0.800000" speed="1.400000" comment="walking, zombie">
+    <animation loop="1" end="0.800000" speed="1.400000" comment="walking, zombie">
         <frame time="0.000000">
             <position x="-1.227965" y="53.390976" z="0.650934" />
             <position x="2.213722" y="48.007488" z="3.509754" />
@@ -42927,7 +42926,7 @@
             <position x="-5.034548" y="2.655105" z="15.102726" />
             <position x="10.572015" y="1.747936" z="-5.065062" />
         </frame>
-  </animation>
+    </animation>
     <animation loop="1" end="5.850000" speed="1.000000" comment="still, zombie">
         <frame time="0.000000">
             <position x="-1.210223" y="54.194046" z="8.014623" />
@@ -43333,7 +43332,7 @@
             <position x="6.602404" y="0.457960" z="3.385968" />
         </frame>
     </animation>
-    <animation loop="1" end="0.400000" speed="0.7000000" comment="claw_normal attack, zombie">
+    <animation loop="1" end="0.400000" speed="0.700000" comment="claw_normal attack, zombie">
         <frame time="0.000000">
             <position x="-0.083329" y="55.721035" z="1.843374" />
             <position x="0.408765" y="48.743713" z="1.569798" />
@@ -43440,7 +43439,7 @@
             <position x="6.602404" y="0.457960" z="3.385968" />
         </frame>
     </animation>
-    <animation loop="1" end="0.400000" speed="0.5500000" comment="claw_slow attack, zombie">
+    <animation loop="1" end="0.400000" speed="0.550000" comment="claw_slow attack, zombie">
         <frame time="0.000000">
             <position x="-0.083329" y="55.721035" z="1.843374" />
             <position x="0.408765" y="48.743713" z="1.569798" />
@@ -43618,7 +43617,7 @@
             <position x="6.602404" y="0.457960" z="3.385968" />
         </frame>
     </animation>
-	<animation loop="0" end="0.000000" speed="1.000000" comment="fast zombie still">
+    <animation loop="0" end="0.000000" speed="1.000000" comment="fast zombie still">
         <frame time="0.000000">
             <position x="2.197362" y="40.231239" z="18.830479" />
             <position x="1.505258" y="35.668396" z="13.567263" />
@@ -45266,7 +45265,7 @@
             <position x="3.423394" y="1.339722" z="-3.290496" />
         </frame>
     </animation>
-   <animation loop="0" end="4.050000" speed="1.000000" comment="push up">
+    <animation loop="0" end="4.050000" speed="1.000000" comment="push up">
         <frame time="0.000000">
             <position x="1.026089" y="53.002708" z="11.076964" />
             <position x="0.815697" y="46.976257" z="7.522020" />
@@ -46448,7 +46447,7 @@
             <position x="-3.686248" y="58.679375" z="16.737572" />
             <position x="8.895814" y="59.550575" z="10.502394" />
         </frame>
-        <frame time="1.9">
+        <frame time="1.900000">
             <position x="-3.313935" y="8.086122" z="9.546972" />
             <position x="-1.120870" y="14.707346" z="10.138457" />
             <position x="-7.964904" y="15.498530" z="13.383931" />
@@ -46465,7 +46464,7 @@
             <position x="-3.373719" y="58.768181" z="16.002769" />
             <position x="8.526404" y="59.519936" z="11.086150" />
         </frame>
-        <frame time="2.70000">
+        <frame time="2.700000">
             <position x="-3.313935" y="8.086122" z="9.546972" />
             <position x="-1.120870" y="14.707346" z="10.138457" />
             <position x="-7.964904" y="15.498530" z="13.383931" />
@@ -46482,7 +46481,7 @@
             <position x="-3.624451" y="57.599277" z="17.479130" />
             <position x="4.726001" y="59.799778" z="12.291550" />
         </frame>
-		<frame time="3.300000">
+        <frame time="3.300000">
             <position x="-3.313935" y="8.086122" z="9.546972" />
             <position x="-1.120870" y="14.707346" z="10.138457" />
             <position x="-7.964904" y="15.498530" z="13.383931" />
@@ -46499,7 +46498,7 @@
             <position x="-3.686248" y="58.679375" z="16.737572" />
             <position x="8.895814" y="59.550575" z="10.502394" />
         </frame>
-		<frame time="5.174648">
+        <frame time="5.174648">
             <position x="-3.313935" y="8.086122" z="9.546972" />
             <position x="-1.120870" y="14.707346" z="10.138457" />
             <position x="-7.964904" y="15.498530" z="13.383931" />
@@ -46516,7 +46515,7 @@
             <position x="-4.778903" y="56.753391" z="16.128298" />
             <position x="6.698949" y="56.686459" z="9.490294" />
         </frame>
-        <frame time="5.4">
+        <frame time="5.400000">
             <position x="-3.313935" y="8.086122" z="9.546972" />
             <position x="-1.120870" y="14.707346" z="10.138457" />
             <position x="-7.964904" y="15.498530" z="13.383931" />
@@ -46533,7 +46532,7 @@
             <position x="-3.583634" y="45.913799" z="-5.702938" />
             <position x="5.180688" y="45.971012" z="-1.319532" />
         </frame>
-        <frame time="5.7">
+        <frame time="5.700000">
             <position x="-0.893586" y="8.267853" z="13.223060" />
             <position x="-0.875474" y="15.056613" z="11.516479" />
             <position x="-8.037906" y="15.133086" z="9.743529" />
@@ -46550,7 +46549,7 @@
             <position x="-4.369465" y="0.062420" z="-4.070372" />
             <position x="6.287444" y="0.351276" z="-4.267597" />
         </frame>
-        <frame time="5.9">
+        <frame time="5.900000">
             <position x="1.682080" y="11.304474" z="17.249050" />
             <position x="-0.681905" y="15.496737" z="12.166088" />
             <position x="-7.656775" y="15.124637" z="9.130864" />
@@ -46567,7 +46566,7 @@
             <position x="-4.393468" y="1.738230" z="-3.795326" />
             <position x="7.073326" y="1.937495" z="-4.502702" />
         </frame>
-        <frame time="6.1">
+        <frame time="6.100000">
             <position x="1.297963" y="44.751976" z="1.722847" />
             <position x="0.790523" y="38.415905" z="-1.209166" />
             <position x="-6.254363" y="35.929668" z="-2.688890" />
@@ -46584,7 +46583,7 @@
             <position x="-4.480640" y="0.500000" z="0.651000" />
             <position x="7.901406" y="2.093765" z="1.008713" />
         </frame>
-        <frame time="6.3">
+        <frame time="6.300000">
             <position x="0.522300" y="54.737419" z="0.482845" />
             <position x="-0.166056" y="47.771347" z="0.480857" />
             <position x="-7.100147" y="44.618923" z="0.229268" />
@@ -46601,7 +46600,7 @@
             <position x="-4.480640" y="0.500000" z="0.651000" />
             <position x="5.513692" y="0.500000" z="0.314815" />
         </frame>
-        <frame time="6.7">
+        <frame time="6.700000">
             <position x="0.516509" y="55.496258" z="0.482915" />
             <position x="0.552508" y="48.496349" z="0.482678" />
             <position x="-6.455622" y="45.518517" z="0.618427" />
@@ -46618,9 +46617,8 @@
             <position x="-4.480640" y="0.500000" z="0.651000" />
             <position x="5.513692" y="0.500000" z="0.314815" />
         </frame>
-
     </animation>
-    <animation loop="0" end="4.5000000" speed="1.000000" comment="salute">
+    <animation loop="0" end="4.500000" speed="1.000000" comment="salute">
         <frame time="0.000000">
             <position x="0.500000" y="55.500000" z="0.500000" />
             <position x="0.500000" y="48.500000" z="0.500000" />
@@ -46689,7 +46687,7 @@
             <position x="-4.500000" y="0.500000" z="0.500000" />
             <position x="5.500000" y="0.500000" z="0.500000" />
         </frame>
-		<frame time="3.699414">
+        <frame time="3.699414">
             <position x="0.500000" y="55.500000" z="0.500000" />
             <position x="0.500000" y="48.500000" z="0.500000" />
             <position x="-6.500000" y="45.500000" z="0.500000" />
@@ -46744,7 +46742,7 @@
             <control key="weak_hand" value="0" />
             <control key="magazine" value="0" />
         </frame>
-        <frame time="0.09000">
+        <frame time="0.090000">
             <position x="0.291166" y="55.325008" z="3.144881" />
             <position x="0.609642" y="48.437084" z="1.938621" />
             <position x="-6.295526" y="45.393623" z="0.898001" />
@@ -46761,7 +46759,7 @@
             <position x="-5.341257" y="1.375622" z="-7.258128" />
             <position x="5.154892" y="0.392032" z="4.682786" />
         </frame>
-        <frame time="0.18000">
+        <frame time="0.180000">
             <position x="0.291166" y="55.325008" z="3.144881" />
             <position x="0.609642" y="48.437084" z="1.938621" />
             <position x="-6.295526" y="45.393623" z="0.898001" />
@@ -46779,7 +46777,7 @@
             <position x="5.154892" y="0.392032" z="4.682786" />
             <control key="magazine" value="1" />
         </frame>
-        <frame time="0.3">
+        <frame time="0.300000">
             <position x="0.291166" y="55.325008" z="3.144881" />
             <position x="0.609642" y="48.437084" z="1.938621" />
             <position x="-6.295526" y="45.393623" z="0.898001" />
@@ -46796,7 +46794,7 @@
             <position x="-5.341257" y="1.375622" z="-7.258128" />
             <position x="5.154892" y="0.392032" z="4.682786" />
         </frame>
-        <frame time="0.45000">
+        <frame time="0.450000">
             <position x="0.291166" y="55.325008" z="3.144881" />
             <position x="0.609642" y="48.437084" z="1.938621" />
             <position x="-6.295526" y="45.393623" z="0.898001" />
@@ -46814,7 +46812,7 @@
             <position x="5.154892" y="0.392032" z="4.682786" />
             <control key="cycle" value="1" />
         </frame>
-        <frame time="0.5">
+        <frame time="0.500000">
             <position x="1.553612" y="55.665001" z="1.570316" />
             <position x="1.461781" y="48.712612" z="0.760448" />
             <position x="-4.137244" y="46.102814" z="-3.750293" />
@@ -46833,7 +46831,7 @@
             <control key="strong_hand" value="1" />
         </frame>
     </animation>
-    <animation loop="0" end="2.000000" speed="0.3000000" comment="recoil, digging">
+    <animation loop="0" end="2.000000" speed="0.300000" comment="recoil, digging">
         <frame time="0.000000">
             <position x="-4.396959" y="33.743355" z="10.382351" />
             <position x="-5.939518" y="26.928961" z="9.952772" />
@@ -47077,4 +47075,435 @@
             <position x="4.599201" y="-0.159432" z="13.712048" />
         </frame>
     </animation>
+	    <animation loop="0" end="0.400000" speed="1.000000" comment="boombox, entrance">
+        <frame time="0.000000">
+            <position x="0.504273" y="54.926662" z="3.581346" />
+            <position x="0.472655" y="48.550381" z="0.693089" />
+            <position x="-6.499465" y="45.500160" z="0.408004" />
+            <position x="7.242254" y="45.479687" z="2.349251" />
+            <position x="-9.285026" y="38.213551" z="-1.365685" />
+            <position x="7.910364" y="37.672989" z="3.964265" />
+            <position x="-10.226903" y="31.305758" z="-2.546892" />
+            <position x="5.371129" y="32.855835" z="8.475065" />
+            <position x="0.500000" y="35.500000" z="0.500000" />
+            <position x="-4.500000" y="28.500000" z="0.500000" />
+            <position x="5.500000" y="28.500000" z="0.500000" />
+            <position x="-4.146808" y="14.654558" z="6.260120" />
+            <position x="5.032544" y="15.431181" z="-6.698628" />
+            <position x="-3.836717" y="2.790924" z="11.330985" />
+            <position x="4.623178" y="4.067707" z="-12.999729" />
+        </frame>
+        <frame time="0.200000">
+            <position x="0.505124" y="54.820522" z="3.528892" />
+            <position x="0.166600" y="48.407059" z="0.744487" />
+            <position x="-6.770568" y="45.306362" z="0.250649" />
+            <position x="7.077741" y="45.618893" z="2.313017" />
+            <position x="-9.661427" y="37.856052" z="-0.117915" />
+            <position x="9.820935" y="38.302673" z="0.596094" />
+            <position x="-9.345247" y="30.802637" z="0.268555" />
+            <position x="9.497276" y="32.828735" z="5.060536" />
+            <position x="0.464252" y="35.482483" z="0.727157" />
+            <position x="-4.504085" y="28.437302" z="-0.083245" />
+            <position x="5.486657" y="28.501257" z="0.532362" />
+            <position x="-5.576990" y="13.740035" z="2.946122" />
+            <position x="5.756681" y="15.083865" z="7.203838" />
+            <position x="-3.971056" y="1.921981" z="-2.226361" />
+            <position x="5.493278" y="10.003917" z="-4.759636" />
+        </frame>
+        <frame time="0.390000">
+            <position x="1.072194" y="54.652840" z="4.470540" />
+            <position x="0.447687" y="48.474689" z="1.239371" />
+            <position x="-6.485272" y="45.462116" z="0.312756" />
+            <position x="7.376538" y="45.488670" z="2.276057" />
+            <position x="-8.077419" y="37.622158" z="0.323339" />
+            <position x="9.892611" y="39.134434" z="-1.882435" />
+            <position x="-8.212179" y="31.157267" z="3.184636" />
+            <position x="9.533555" y="32.092541" z="-1.350633" />
+            <position x="0.507892" y="35.480278" z="0.990064" />
+            <position x="-4.498561" y="28.510740" z="0.474144" />
+            <position x="5.506193" y="28.499615" z="0.502793" />
+            <position x="-4.591235" y="15.583847" z="-7.126577" />
+            <position x="5.234803" y="15.212810" z="7.454632" />
+            <position x="-4.679214" y="4.431326" z="-13.705475" />
+            <position x="5.548067" y="2.747038" z="11.129737" />
+        </frame>
+    </animation>
+    <animation loop="1" end="7.200000" speed="1.600000" comment="standing, headbang">
+        <frame time="0.000000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-5.081227" y="42.950464" z="5.314955" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-4.438853" y="40.547695" z="11.934174" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="0.400000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-7.535768" y="38.934665" z="5.304175" />
+			<position x="9.128423" y="37.880834" z="6.411837" />
+			<position x="-4.587521" y="40.445646" z="11.551156" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="0.800000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-5.081227" y="42.950464" z="5.314955" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-4.438853" y="40.547695" z="11.934174" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="1.200000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-7.535768" y="38.934665" z="5.304175" />
+			<position x="9.128423" y="37.880834" z="6.411837" />
+			<position x="-4.587521" y="40.445646" z="11.551156" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="1.600000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-5.081227" y="42.950464" z="5.314955" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-4.438853" y="40.547695" z="11.934174" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="2.000000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-7.535768" y="38.934665" z="5.304175" />
+			<position x="9.128423" y="37.880834" z="6.411837" />
+			<position x="-4.587521" y="40.445646" z="11.551156" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="2.400000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-5.081227" y="42.950464" z="5.314955" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-4.438853" y="40.547695" z="11.934174" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="2.800000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-7.535768" y="38.934665" z="5.304175" />
+			<position x="9.128423" y="37.880834" z="6.411837" />
+			<position x="-4.587521" y="40.445646" z="11.551156" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="3.200000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-12.995576" y="48.967065" z="-3.012424" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-12.54869" y="54.944757" z="-6.76309" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="3.600000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-5.383308" y="49.806986" z="8.877983" />
+			<position x="9.124815" y="37.906685" z="6.398777" />
+			<position x="-5.189825" y="53.234712" z="15.059671" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="4.000000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-12.995576" y="48.967065" z="-3.012424" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-12.54869" y="54.944757" z="-6.76309" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="4.400000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-5.383308" y="49.806986" z="8.877983" />
+			<position x="9.124815" y="37.906685" z="6.398777" />
+			<position x="-5.189825" y="53.234712" z="15.059671" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="4.800000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-12.995576" y="48.967065" z="-3.012424" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-12.54869" y="54.944757" z="-6.76309" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="5.200000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-5.383308" y="49.806986" z="8.877983" />
+			<position x="9.124815" y="37.906685" z="6.398777" />
+			<position x="-5.189825" y="53.234712" z="15.059671" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="5.600000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-5.081227" y="42.950464" z="5.314955" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-4.438853" y="40.547695" z="11.934174" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="6.000000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-7.535768" y="38.934665" z="5.304175" />
+			<position x="9.128423" y="37.880834" z="6.411837" />
+			<position x="-4.587521" y="40.445646" z="11.551156" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="6.400000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-5.081227" y="42.950464" z="5.314955" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-4.438853" y="40.547695" z="11.934174" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="6.800000">
+			<position x="2.298445" y="54.020498" z="7.575604" />
+			<position x="1.537831" y="48.677633" z="3.117437" />
+			<position x="-5.598511" y="45.995912" z="2.005116" />
+			<position x="8.188236" y="44.946588" z="2.716037" />
+			<position x="-7.535768" y="38.934665" z="5.304175" />
+			<position x="9.128423" y="37.880834" z="6.411837" />
+			<position x="-4.587521" y="40.445646" z="11.551156" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="7.200000">
+			<position x="1.373537" y="53.278932" z="-9.044724" />
+			<position x="1.367248" y="48.560953" z="-3.873591" />
+			<position x="-5.694156" y="45.791731" z="-2.415285" />
+			<position x="7.963285" y="45.062803" z="-2.199892" />
+			<position x="-5.081227" y="42.950464" z="5.314955" />
+			<position x="7.030372" y="42.559198" z="5.595447" />
+			<position x="-4.438853" y="40.547695" z="11.934174" />
+			<position x="6.14328" y="40.447937" z="12.285413" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+    </animation>
+    <animation loop="1" end="1.000000" speed="1.000000" comment="standing, dance">
+        <frame time="0.000000">
+			<position x="-0.088803" y="55.150524" z="0.953473" />
+			<position x="-1.387469" y="48.32262" z="0.120901" />
+			<position x="-7.79254" y="44.293735" z="-0.741129" />
+			<position x="5.651432" y="46.565029" z="2.437092" />
+			<position x="-6.092976" y="41.840269" z="6.68127" />
+			<position x="10.07516" y="42.477537" z="7.702356" />
+			<position x="-3.894491" y="40.963274" z="13.344417" />
+			<position x="6.687642" y="40.863516" z="13.695656" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="0.500000">
+			<position x="2.847752" y="55.227311" z="-1.498825" />
+			<position x="3.59915" y="48.277021" z="-1.857791" />
+			<position x="-3.822224" y="46.942819" z="-0.585475" />
+			<position x="9.527406" y="43.533574" z="-2.569192" />
+			<position x="-6.983118" y="41.385196" z="4.257878" />
+			<position x="9.185018" y="42.022464" z="5.278964" />
+			<position x="-4.784633" y="40.508201" z="10.921025" />
+			<position x="5.7975" y="40.408443" z="11.272264" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+        <frame time="1.000000">
+			<position x="-0.088803" y="55.150524" z="0.953473" />
+			<position x="-1.387469" y="48.32262" z="0.120901" />
+			<position x="-7.79254" y="44.293735" z="-0.741129" />
+			<position x="5.651432" y="46.565029" z="2.437092" />
+			<position x="-6.092976" y="41.840269" z="6.68127" />
+			<position x="10.07516" y="42.477537" z="7.702356" />
+			<position x="-3.894491" y="40.963274" z="13.344417" />
+			<position x="6.687642" y="40.863516" z="13.695656" />
+			<position x="0.71476" y="35.604362" z="0.31739" />
+			<position x="-3.840678" y="28.94479" z="-2.644089" />
+			<position x="4.664622" y="28.307108" z="2.576375" />
+			<position x="-4.55209" y="14.233736" z="-5.48641" />
+			<position x="4.883023" y="13.342298" z="3.579739" />
+			<position x="-5.341043" y="1.379136" z="-7.257515" />
+			<position x="5.154892" y="0.392032" z="4.682786" />
+        </frame>
+	</animation>
 </animations>

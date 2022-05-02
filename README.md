@@ -21,8 +21,8 @@ Moving while prone periodically teleports the player in the direction they are m
 ## Previous Submissions
 
 * MGV-176 //in4ss/Oche34/MarcusKrug (formerly submitted as A180 smg)
-* Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKrug (Still haven't gotten the files for the new version)
-* Ordnance Shovel //CNmemories/KFredfox/MarcusKrug
+* Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKRUG (Still haven't gotten the files for the new version)
+* Ordnance Shovel //CNmemories/KFredfox/MarcusKRUG
 * Glock18 //Lord_Noodal
 * Surefire MGX //Lord_Noodal
 
@@ -32,15 +32,15 @@ Moving while prone periodically teleports the player in the direction they are m
 * SKS (+ incendiary) //KFRedFox/RubberyChicken
 * SKS (alternative version) //KFRedFox/mus1CK
 * AF2011 //Courting Death
-* Glock18c //MarcusKrug
-* Gold P90 //MR. BANG/MarcusKrug (gold bullet trail)
+* Glock18c //MarcusKRUG
+* Gold P90 //MR. BANG/MarcusKRUG (gold bullet trail)
 * Panda outfit //Panda
 * Platinum Bar //MR. BANG
 * Dog bone (flare) //MR. BANG
 * Patriot flare //MR. BANG
-* XM29 OICW //Unit G17/MarcusKrug/warbrand2/Kiruex  (warbrand/Kiruex from CB6 version. not sure if Marcus did stuff or just handed it to me for inclusion.  Better to include an extra person than to leave out someone.)
+* XM29 OICW //Unit G17/MarcusKRUG/warbrand2/Kiruex  (warbrand/Kiruex from CB6 version. not sure if Marcus did stuff or just handed it to me for inclusion.  Better to include an extra person than to leave out someone.)
 * Mk14 EBR //MoistGoat/MarcusKrug
-* Gilboa DBR //MarcusKrug/(Maybe more?)
-* Boomboxes //RubberyChicken/MR. BANG
+* Gilboa DBR //NC0032/KFRedfox/KacrusKRUG
+* Boomboxes //RubberyChicken(animation, code)/MR. BANG(model assistance)/Candlemass(Music)/Laughtrack(Music, Galactic)
 * Cowboy outfits //Lord_Noodal
-* Type88 //Dimitri/Unit G17/MarcusKrug
+* Type88 //Dimitri/Unit G17/MarcusKRUG

@@ -114,10 +114,14 @@ class RepairCrane : Tracker {
                                             //rewarding the repairer
                                             float xpRewardFinal = xpReward * vehicleHealthDifference;
                                             float rpRewardFinal = rpReward * vehicleHealthDifference;
-                                            command = "<command class='xp_reward' character_id='" + repairerId + "' reward='" + xpRewardFinal + "' />";
-                                            m_metagame.getComms().send(command);
-                                            command = "<command class='rp_reward' character_id='" + repairerId + "' reward='" + rpRewardFinal + "' />";
-                                            m_metagame.getComms().send(command);
+                                            if (xpRewardFinal > 0.0) {
+                                                command = "<command class='xp_reward' character_id='" + repairerId + "' reward='" + xpRewardFinal + "' />";
+                                                m_metagame.getComms().send(command);
+                                            }
+                                            if (rpRewardFinal > 0.0) {
+                                                command = "<command class='rp_reward' character_id='" + repairerId + "' reward='" + rpRewardFinal + "' />";
+                                                m_metagame.getComms().send(command);
+                                            }
                                         }
                                     }
                                 }

@@ -11,10 +11,12 @@
 // --------------------------------------------
 class RepairCrane : Tracker {
     protected Metagame@ m_metagame;
+    protected array<string> m_excludedVehicles;
 
     // --------------------------------------------
     RepairCrane(Metagame@ metagame) {
         @m_metagame = @metagame;
+        m_excludedVehicles = array<string> = {"cover1.vehicle", "sandbag_cover.vehicle"};
     }
 
     // --------------------------------------------
@@ -80,40 +82,43 @@ class RepairCrane : Tracker {
                         if (vehicleInfo !is null) {
                             string targetKey = vehicleInfo.getStringAttribute("key");
 
-                            //repair tank can't repair repair tanks to prevent self repair
-                            if (not(sourceKey == "repair_tank" && targetKey == "zjx19.vehicle")) {
-                                float vehicleHealth = vehicleInfo.getFloatAttribute("health");
+                            //checking that targetKey is not in m_excludedVehicles
+                            if (m_excludedVehicles.find(targetKey) < 0) {
+                                //repair tank can't repair repair tanks to prevent self repair
+                                if (not(sourceKey == "repair_tank" && targetKey == "zjx19.vehicle")) {
+                                    float vehicleHealth = vehicleInfo.getFloatAttribute("health");
 
-                                //not running for destroyed vehicles
-                                if (vehicleHealth > 0.0) {
-                                    float vehicleMaxHealth = vehicleInfo.getFloatAttribute("max_health");
-                                    float vehicleMaxOverHealth = vehicleMaxHealth * overHealth;
+                                    //not running for destroyed vehicles
+                                    if (vehicleHealth > 0.0) {
+                                        float vehicleMaxHealth = vehicleInfo.getFloatAttribute("max_health");
+                                        float vehicleMaxOverHealth = vehicleMaxHealth * overHealth;
 
-                                    //only running the update command when necessary
-                                    if (vehicleHealth < vehicleMaxOverHealth) {
-                                        //rounding error fix
-                                        vehicleMaxOverHealth += 0.01;
+                                        //only running the update command when necessary
+                                        if (vehicleHealth < vehicleMaxOverHealth) {
+                                            //rounding error fix
+                                            vehicleMaxOverHealth += 0.01;
 
-                                        string command = "";
+                                            string command = "";
 
-                                        //calculating and applying repairs
-                                        float vehicleHealthDifference = vehicleMaxOverHealth - vehicleHealth;
-                                        if (vehicleHealthDifference > repairValue){
-                                            vehicleHealth += repairValue;
-                                            vehicleHealthDifference = repairValue;
-                                            command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleHealth + "' />";
-                                        } else {
-                                            command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleMaxOverHealth + "' />";
+                                            //calculating and applying repairs
+                                            float vehicleHealthDifference = vehicleMaxOverHealth - vehicleHealth;
+                                            if (vehicleHealthDifference > repairValue){
+                                                vehicleHealth += repairValue;
+                                                vehicleHealthDifference = repairValue;
+                                                command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleHealth + "' />";
+                                            } else {
+                                                command = "<command class='update_vehicle' id='" + vehicleId + "' health='" + vehicleMaxOverHealth + "' />";
+                                            }
+                                            m_metagame.getComms().send(command);
+
+                                            //rewarding the repairer
+                                            float xpRewardFinal = xpReward * vehicleHealthDifference;
+                                            float rpRewardFinal = rpReward * vehicleHealthDifference;
+                                            command = "<command class='xp_reward' character_id='" + repairerId + "' reward='" + xpRewardFinal + "' />";
+                                            m_metagame.getComms().send(command);
+                                            command = "<command class='rp_reward' character_id='" + repairerId + "' reward='" + rpRewardFinal + "' />";
+                                            m_metagame.getComms().send(command);
                                         }
-                                        m_metagame.getComms().send(command);
-
-                                        //rewarding the repairer
-                                        float xpRewardFinal = xpReward * vehicleHealthDifference;
-                                        float rpRewardFinal = rpReward * vehicleHealthDifference;
-                                        command = "<command class='xp_reward' character_id='" + repairerId + "' reward='" + xpRewardFinal + "' />";
-                                        m_metagame.getComms().send(command);
-                                        command = "<command class='rp_reward' character_id='" + repairerId + "' reward='" + rpRewardFinal + "' />";
-                                        m_metagame.getComms().send(command);
                                     }
                                 }
                             }
@@ -123,4 +128,5 @@ class RepairCrane : Tracker {
             }
         }
     }
+
 }

@@ -23,9 +23,9 @@
 	<visual class="chassis" mesh_filename="boombox_deploy.mesh" texture_filename="radio.png" />
 <!--	<visual class="chassis" key="broken" mesh_filename="deployable_mg_tripod.mesh" texture_filename="deployable_mg.png" />   -->
 
-	<character_slot type="driver" attached_on_turret="0" seat_position="0.0 -0.0 -0.8" enter_position="0 0 -1.5" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="driving car, dance">
-		<state class="entering" animation_key="crouching forwards short, no weapon" position="0.2 0 -0.7" rotation="0" />
-		<state class="leaving" animation_key="crouching forwards short, no weapon" position="0.2 0 -0.7" rotation="3.14" />
+	<character_slot type="driver" attached_on_turret="0" seat_position="0.0 -0.0 -0.8" enter_position="0 0 -1.5" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="standing, dance">
+		<state class="entering" animation_key="boombox, entrance" position="0.2 0 -0.7" rotation="0" />
+		<state class="leaving" animation_key="boombox, entrance" position="0.2 0 -0.7" rotation="3.14" />
 	</character_slot>
 	
 	<!-- add backup dancers? -->

@@ -41,6 +41,6 @@ Moving while prone periodically teleports the player in the direction they are m
 * XM29 OICW //Unit G17/MarcusKRUG/warbrand2/Kiruex  (warbrand/Kiruex from CB6 version. not sure if Marcus did stuff or just handed it to me for inclusion.  Better to include an extra person than to leave out someone.)
 * Mk14 EBR //MoistGoat/MarcusKrug
 * Gilboa DBR //NC0032/KFRedfox/KacrusKRUG
-* Boomboxes //RubberyChicken/MR. BANG
+* Boomboxes //RubberyChicken(animation, code)/MR. BANG(model assistance)/Candlemass(Music, TBD)/Laughtrack(Music, Galactic 2, Arcade Ambiance)
 * Cowboy outfits //Lord_Noodal
 * Type88 //Dimitri/Unit G17/MarcusKRUG

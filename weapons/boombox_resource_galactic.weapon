@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="boombox_resource_banana.weapon" radius="0.25" on_ground_up="1 0 0">
+<weapon file="base_primary_rare.weapon" key="boombox_resource_galactic.weapon" radius="0.25" on_ground_up="1 0 0">
     <tag name="engineer" />
     <specification 
 	magazine_size="1" 
 	can_shoot_standing="0" 
 	can_shoot_crouching="1" 
 	carry_in_two_hands="0" can_shoot_prone="0" 
-	name="Boombox deploy - Banana" 
+	name="Boombox - Galactic 2" 
 	class="5" 
 	spawn_instance_class="vehicle" 
-	spawn_instance_key="deployable_boombox_banana.vehicle" 
+	spawn_instance_key="deployable_boombox_galactic.vehicle" 
 	consume="0" 
 	slot="1" 
 	deployment="1" />
@@ -24,7 +24,6 @@
     <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" /> -->
 	
 	
-	
 	<animation state_key="recoil" 		animation_key="deploy1" />
 	<animation state_key="hold" 		animation_key="still, single hand carry" />
     <animation state_key="hold_on_wall" 	animation_key="still, single hand carry" />
@@ -37,8 +36,8 @@
     <animation state_key="crouch_moving" 	animation_key="crouching forwards, single hand carry" />
     <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, single hand carry" />
     <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
-	
     
+	
     <sound class="impact" fileref="sandbag_drop.wav" />    
 
     <model filename="boombox.mesh"  texture_filename="radio.png" />

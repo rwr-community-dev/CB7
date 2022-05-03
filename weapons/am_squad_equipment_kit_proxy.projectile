@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="Squad Equipment Kit" key="am_squad_equipment_kit_proxy.projectile" slot="0" radius="0.15">
     <tag name="grenade" />
-    <result class="notify_script" key="squad_equipment_kit" />
+    <result class="notify_script" key="am_squad_equipment_kit" />
     <trigger class="time" time_to_live="0.0" />
     <rotation class="random" />
     <model filename="" />

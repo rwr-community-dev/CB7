@@ -32,7 +32,7 @@
   
   <!-- boombox -->
   <weapon key="boombox_resource_banana.weapon" /> 
-  <weapon key="boombox_resource_panda.weapon" />
+  <weapon key="boombox_resource_galactic.weapon" />
   
   <carry_item key="costume_panda.carry_item" />
 

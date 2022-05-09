@@ -27,9 +27,10 @@
   <weapon key="mk14_ebr_supp.weapon" />
   <weapon key="type88_2.weapon" />
   <weapon key="type88_2_stock.weapon" />
+  <weapon key="mpx.weapon" />
   
   <!-- boombox -->
-  <weapon key="boombox_resource_banana.weapon" /> 
+  <weapon key="boombox_resource_arcade.weapon" /> 
   <weapon key="boombox_resource_galactic.weapon" />
   
   <carry_item key="costume_panda.carry_item" />

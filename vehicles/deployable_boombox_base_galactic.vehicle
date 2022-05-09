@@ -20,7 +20,7 @@
 	blast_push_threshold="10.0" 
 	vehicle_collision_damage_factor="2.0" /> 
 
-	<visual class="chassis" mesh_filename="boombox_deploy.mesh" texture_filename="radio.png" />
+	<visual class="chassis" mesh_filename="boombox_deploy.mesh" texture_filename="radio_galactic.png" />
 <!--	<visual class="chassis" key="broken" mesh_filename="deployable_mg_tripod.mesh" texture_filename="deployable_mg.png" />   -->
 
 	<character_slot type="driver" attached_on_turret="0" seat_position="0.0 -0.0 -0.8" enter_position="0 0 -1.5" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="standing, headbang">

@@ -40,12 +40,12 @@
 	
     <sound class="impact" fileref="sandbag_drop.wav" />    
 
-    <model filename="boombox.mesh"  texture_filename="radio.png" />
+    <model filename="boombox.mesh"  texture_filename="radio_galactic.png" />
 
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.15" />
 
-    <hud_icon filename="hud_radio.png" />
+    <hud_icon filename="hud_radio_galactic.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
     <inventory encumbrance="5.0" price="70.0" />
 

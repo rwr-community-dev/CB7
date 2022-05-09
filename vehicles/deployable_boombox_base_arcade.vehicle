@@ -1,4 +1,4 @@
-<vehicle name="Boombox" map_view_atlas_index="-1" usable_for_cover="0" protectors="0" soldier_capacity_offset="0" allow_ai_to_use="0" time_to_live="140.0">
+<vehicle name="Boombox" map_view_atlas_index="-1" usable_for_cover="0" protectors="0" soldier_capacity_offset="0" allow_ai_to_use="0" time_to_live="150.0">
 	<tag name="target" />
 	<tire_set offset="0.5 0.0 0.5" radius="0.65" />
 	<tire_set offset="0.5 0.0 -0.5" radius="0.65" />
@@ -20,23 +20,21 @@
 	blast_push_threshold="10.0" 
 	vehicle_collision_damage_factor="2.0" /> 
 
-	<visual class="chassis" mesh_filename="boombox_deploy.mesh" texture_filename="radio_galactic.png" />
+	<visual class="chassis" mesh_filename="boombox_deploy.mesh" texture_filename="radio_arcade.png" />
 <!--	<visual class="chassis" key="broken" mesh_filename="deployable_mg_tripod.mesh" texture_filename="deployable_mg.png" />   -->
 
-	<character_slot type="driver" attached_on_turret="0" seat_position="0.0 -0.0 -0.8" enter_position="0 0 -1.5" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="standing, headbang">
+	<character_slot type="driver" attached_on_turret="0" seat_position="0.0 -0.0 -0.8" enter_position="0 0 -1.5" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="standing, dance">
 		<state class="entering" animation_key="boombox, entrance" position="0.2 0 -0.7" rotation="0" />
 		<state class="leaving" animation_key="boombox, entrance" position="0.2 0 -0.7" rotation="3.14" />
 	</character_slot>
-	<!-- crouching forwards short, no weapon -->
-	
 	
 	<!-- add backup dancers? -->
 	
 	<!-- sound handling -->
-	<rev_sound filename="galactic_2_music.wav" low_pitch="1.0" high_pitch="1.0" low_rev="0.0" high_rev="1.0" volume="2.5" />  
+	<rev_sound filename="banana_car_music.wav" low_pitch="1.0" high_pitch="1.0" low_rev="0.0" high_rev="1.0" volume="2.0" />  
 
 	<!-- maybe make the horn the record scratch? -->
-	<sound key="horn" filename="horn_ee.wav" />
+	<sound key="horn" filename="horn_banana.wav" />
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />
 	<sound key="hit" filename="car_hit3.wav" />

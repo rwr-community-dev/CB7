@@ -44,3 +44,4 @@ Moving while prone periodically teleports the player in the direction they are m
 * Boomboxes //RubberyChicken(animation, code)/MR. BANG(model assistance)/Candlemass(Music)/Laughtrack(Music, Galactic)
 * Cowboy outfits //Lord_Noodal
 * Type88 //Dimitri/Unit G17/MarcusKRUG
+* MPX //mus1CK

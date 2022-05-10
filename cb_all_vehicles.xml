@@ -13,8 +13,8 @@
   <vehicle file="technical_spawn.vehicle" />
   
   <!-- boombox -->
-  <vehicle file="deployable_boombox_banana.vehicle" />
-  <vehicle file="deployable_boombox_base_banana.vehicle" />
+  <vehicle file="deployable_boombox_arcade.vehicle" />
+  <vehicle file="deployable_boombox_base_arcade.vehicle" />
   <vehicle file="deployable_boombox_galactic.vehicle" />
   <vehicle file="deployable_boombox_base_galactic.vehicle" />
 

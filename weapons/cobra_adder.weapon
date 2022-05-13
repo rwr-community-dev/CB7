@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="cobra_adder.weapon">
+
+<!-- TODO: Animations, SFX, tweak values -->
+
+    <tag name="stealth" />
+    <specification 
+	retrigger_time="0.5" 
+	accuracy_factor="0.95" 
+	sight_range_modifier="1.2"
+	sustained_fire_grow_step="0.75" 
+	sustained_fire_diminish_rate="0.8" 
+	magazine_size="7" 
+	can_shoot_standing="1" 
+	can_shoot_crouching="1" 
+	can_shoot_prone="1"
+	suppressed="1" 
+	name="Cobra Adder" 
+	class="2" 
+	slot="1"
+	projectile_speed="80.0" 
+	barrel_offset="0.55" 
+	use_basic_muzzle_smoke_effect="0"  />
+    <!-- <ballistics curve_height="1.0" near_far_distance="1000.0" speed_estimation_near="80.0" speed_estimation_far="80.0" max_speed="90.0" randomness="0.0" tweak_factor="1.1" /> -->
+	
+	<animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+	<animation state_key="cycle" animation_key="cycle, cobra" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />	
+    <animation state_key="reload" animation_key="reloading, p90" />
+	
+    <sound key="fire" fileref="bow_shoot.wav" pitch_variety="0.1" volume="0.8" />
+    <sound key="cycle" fileref="bow_reload.wav" volume="0.7" />
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="cobra_adder.xml" />
+    <hud_icon filename="hud_cobra_adder.png" />
+    <inventory encumbrance="8.0" price="69.0" />
+    <commonness value="0.0" can_respawn_with="0" in_stock="1" />
+    
+    <projectile file="crossbow_bolt.projectile">
+        <result class="hit" kill_probability="1.5" kill_decay_start_time="0.6" kill_decay_end_time="1.0" />
+    </projectile>
+	
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.4" />
+
+    <stance state_key="running" accuracy="0.3" />
+    <stance state_key="walking" accuracy="0.5" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />
+
+    <modifier class="speed" value="-0.05" />
+</weapon>

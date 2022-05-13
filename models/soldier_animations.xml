@@ -47523,7 +47523,7 @@
 			<position x="4.876333" y="13.137909" z="3.575139" />
 			<position x="-5.341257" y="1.375622" z="-7.258128" />
 			<position x="5.159259" y="0.189778" z="4.700242" />
-			<control key="weak_hand" value="1" />
+			<control key="weak_hand" value="0" />
 			<control key="strong_hand" value="1" />
 		</frame>
 		<frame time="0.150000">
@@ -47599,7 +47599,7 @@
 			<position x="4.876333" y="13.137909" z="3.575139" />
 			<position x="-5.341257" y="1.375622" z="-7.258128" />
 			<position x="5.159259" y="0.189778" z="4.700242" />
-			<control key="weak_hand" value="1" />
+			<control key="weak_hand" value="0" />
 			<control key="strong_hand" value="1" />
 		</frame>
 	</animation>

@@ -24,7 +24,7 @@ Moving while prone periodically teleports the player in the direction they are m
 * Gilboa C (Jungle Style) //daidai2bzhe/KFredfox/MarcusKRUG (Still haven't gotten the files for the new version)
 * Ordnance Shovel //CNmemories/KFredfox/MarcusKRUG
 * Glock18 //Lord_Noodal
-* Surefire MGX //Lord_Noodal (new shot sfx by mus1CK)
+* Surefire MGX //Lord_Noodal (shot sfx by mus1CK)
 
 ## New Submissions
 
@@ -45,3 +45,4 @@ Moving while prone periodically teleports the player in the direction they are m
 * Cowboy outfits //Lord_Noodal
 * Type88 //Dimitri/Unit G17/MarcusKRUG
 * MPX //mus1CK
+* Cobra Adder crossbow //Lord_Noodal

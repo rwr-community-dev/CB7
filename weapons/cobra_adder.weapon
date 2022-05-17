@@ -16,7 +16,7 @@
 	can_shoot_prone="0"
 	suppressed="1" 
 	name="Cobra Adder" 
-	class="2" 
+	class="1" 
 	slot="1"
 	projectile_speed="80.0" 
 	barrel_offset="0.55" 
@@ -26,7 +26,8 @@
 	<animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
-	<animation state_key="cycle" animation_key="cycle, cobra" />	
+	<!-- <animation state_key="cycle" animation_key="cycle, cobra" /> -->
+    <animation state_key="cycle" ref="28" />	
     <animation state_key="reload" animation_key="reloading, p90" />
 	
     <sound key="fire" fileref="bow_shoot.wav" pitch_variety="0.1" volume="0.8" />

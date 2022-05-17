@@ -28,6 +28,7 @@
   <weapon key="type88_2.weapon" />
   <weapon key="type88_2_stock.weapon" />
   <weapon key="mpx.weapon" />
+  <weapon key="cobra_adder.weapon" />
   
   <!-- boombox -->
   <weapon key="boombox_resource_arcade.weapon" /> 

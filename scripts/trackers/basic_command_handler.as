@@ -325,6 +325,7 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "enforcer.weapon", "weapon", 0);
             spawnInstanceNearPlayer(senderId, "vest_blackops.carry_item", "carry_item", 0);
             spawnInstanceNearPlayer(senderId, "vest3.carry_item", "carry_item", 0);
+            spawnInstanceNearPlayer(senderId, "cobra_adder.weapon", "weapon", 0);
             // todo: flare is active at spawn, need to insert to backpack instead
             spawnInstanceNearPlayer(senderId, "dogbone.projectile", "projectile", 0);
         } else if (checkCommand(message, "hb1")) {

@@ -25,6 +25,7 @@
   <weapon file="type88_2.weapon" />
   <weapon file="type88_2_stock.weapon" />
   <weapon file="mpx.weapon" />
+  <weapon file="cobra_adder.weapon" />
   
   <!-- boombox -->
   <weapon file="boombox_resource_arcade.weapon" /> 

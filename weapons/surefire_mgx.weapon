@@ -9,7 +9,6 @@
     magazine_size="60"
     can_shoot_standing="1"
     can_shoot_crouching="1"
-    can_shoot_prone="0"
     suppressed="0"
     name="Surefire MGX"
     class="0"
@@ -37,12 +36,14 @@
     <result class="hit" kill_probability="0.6" kill_decay_start_time="0.55" kill_decay_end_time="0.65" />
   </projectile>
 
-  <stance state_key="running" accuracy="0.5" />
-  <stance state_key="walking" accuracy="0.6" />
-  <stance state_key="crouch_moving" accuracy="0.4" />
+  <stance state_key="running" accuracy="0.1" />
+  <stance state_key="walking" accuracy="0.5" />
+  <stance state_key="crouch_moving" accuracy="0.1" />
   <stance state_key="standing" accuracy="0.8" />
-  <stance state_key="crouching" accuracy="0.95" />
-  <stance state_key="over_wall" accuracy="0.95" />
+  <stance state_key="crouching" accuracy="0.9" />
+  <stance state_key="prone" accuracy="1.0" />
+  <stance state_key="prone_moving" accuracy="0.1" />
+  <stance state_key="over_wall" accuracy="0.9" />
 
   <modifier class="speed" value="-0.05" />
 </weapon>

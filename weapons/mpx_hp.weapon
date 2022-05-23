@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="mpx.weapon">
+<weapon file="base_primary_rare.weapon" key="mpx_hp.weapon">
     <tag name="assault" />
     <specification 
   retrigger_time="0.073" 
   accuracy_factor="1.0" 
-  sustained_fire_grow_step="0.23" 
+  sustained_fire_grow_step="0.3" 
   sustained_fire_diminish_rate="2.5" 
   magazine_size="30" 
   can_shoot_standing="1" 
   suppressed="0" 
-  name="MPX" 
+  name="MPX - Hollow Point" 
   class="0" 
   projectile_speed="115.0" />
 
-<next_in_chain key="mpx_hp.weapon" share_ammo="0" />
+<next_in_chain key="mpx.weapon" share_ammo="0" />
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
@@ -31,13 +31,13 @@
     <sound key="effect" fileref="ammo_switch.wav" />
     <control key="effect" value="1" />
 
-    <model filename="mpx.xml" />
-    <hud_icon filename="hud_mpx.png" />
+    <model filename="mpx_hp.xml" />
+    <hud_icon filename="hud_mpx_hp.png" />
     <inventory encumbrance="8.0" price="300.0" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.50" kill_decay_start_time="0.28" kill_decay_end_time="0.36" />
+        <result class="hit" kill_probability="0.70" kill_decay_start_time="0.28" kill_decay_end_time="0.36" />
     </projectile>
 
     <capacity value="0" source="rank" source_value="0.0" />

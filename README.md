@@ -29,8 +29,8 @@ Moving while prone periodically teleports the player in the direction they are m
 ## New Submissions
 
 * Clown Car //MR. BANG
-* SKS (+ incendiary) //KFRedFox/RubberyChicken
-* SKS (alternative version) //KFRedFox/mus1CK
+* SKS //KFRedFox/mus1CK
+* SKS - incendiary //KFRedFox/mus1CK/RubberyChicken
 * AF2011 //Courting Death
 * Glock18c //MarcusKRUG
 * Gold P90 //MR. BANG/MarcusKRUG (gold bullet trail)
@@ -44,5 +44,5 @@ Moving while prone periodically teleports the player in the direction they are m
 * Boomboxes //RubberyChicken(animation, code)/MR. BANG(model assistance)/Candlemass(Music)/Laughtrack(Music, Galactic)
 * Cowboy outfits //Lord_Noodal
 * Type88 //Dimitri/Unit G17/MarcusKRUG
-* MPX //mus1CK
+* MPX (+Hollow Point) //mus1CK
 * Cobra Adder crossbow //Lord_Noodal

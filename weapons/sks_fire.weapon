@@ -32,6 +32,7 @@
     <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
 
+    <model filename="sks_fire.xml" />
     <hud_icon filename="hud_sks_fire.png" />
     <commonness value="0.0"  can_respawn_with="0" in_stock="1" />
     <inventory encumbrance="10.0" price="400.0" />

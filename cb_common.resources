@@ -17,7 +17,6 @@
   <weapon key="surefire_mgx.weapon" />
   <weapon key="gp90.weapon" />
   <weapon key="sks.weapon" />
-  <weapon key="sks2.weapon" />
   <weapon key="sks_fire.weapon" />
   <weapon key="af2011.weapon" />
   <weapon key="xm29_xm8.weapon" />
@@ -28,6 +27,7 @@
   <weapon key="type88_2.weapon" />
   <weapon key="type88_2_stock.weapon" />
   <weapon key="mpx.weapon" />
+  <weapon key="mpx_hp.weapon" />
   <weapon key="cobra_adder.weapon" />
   
   <!-- boombox -->

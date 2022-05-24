@@ -13,7 +13,8 @@
     name="Surefire MGX"
     class="0"
     projectile_speed="100.0"
-    barrel_offset="0.4" />
+    barrel_offset="0.4" 
+    stance_accuracy_rate="1" />
 
   <animation key="recoil" ref="12" />
   <animation key="recoil" ref="13" />

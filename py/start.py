@@ -94,7 +94,7 @@ if __name__ == '__main__':
         sys.exit(2)
 
     print(f"Starting '{RWR_SERV}'...")
-    rwr_serv_args = [f"{RWR_SERV}"]
+    rwr_serv_args = [f"{RWR_SERV}", "debugmode"]
 
     rwr_serv = subprocess.Popen(rwr_serv_args, cwd=RWR_ROOT.absolute(), encoding="utf-8",
                                 stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)

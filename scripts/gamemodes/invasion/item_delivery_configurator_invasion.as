@@ -595,6 +595,53 @@ class ItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
             );
     }
 
+   // ----------------------------------------------------
+    protected void setupCommunity7() {
+        _log("adding community box 7 config", 1);
+        array<Resource@> deliveryList = {
+             Resource("gift_box_community_7.carry_item", "carry_item")
+        };
+
+        array<array<ScoredResource@>> rewardPasses = {
+            {
+         ScoredResource("gp90.weapon", "weapon", 15.0f),
+         ScoredResource("af2011.weapon", "weapon", 20.0f),
+         ScoredResource("cobra_adder.weapon", "weapon", 7.5f),
+         ScoredResource("gilboa_DBR.weapon", "weapon", 10.0f),
+         ScoredResource("glock18.weapon", "weapon", 20.0f),
+         ScoredResource("glock18c.weapon", "weapon", 20.0f),
+         ScoredResource("mgv176.weapon", "weapon", 15.0f),
+         ScoredResource("mk14_ebr.weapon", "weapon", 10.0f),
+         ScoredResource("mpx.weapon", "weapon", 15.0f),
+         ScoredResource("sks.weapon", "weapon", 10.0f),
+         ScoredResource("surefire_mgx.weapon", "weapon", 7.5f),
+         ScoredResource("type88_2.weapon", "weapon", 12.5f),
+         ScoredResource("xm29_xm8.weapon", "weapon", 5.0f),
+         ScoredResource("dp28.weapon", "weapon", 5.0f)
+            },
+            {
+         ScoredResource("boombox_resource_arcade.weapon", "weapon", 10.0f),
+         ScoredResource("boombox_resource_galactic.weapon", "weapon", 10.0f),
+         ScoredResource("dogbone.projectile", "projectile", 20.0f, 2),
+         ScoredResource("shovel.weapon", "weapon", 5.0f),
+         ScoredResource("technical_flare.projectile", "projectile", 10.0f, 2),
+         ScoredResource("costume_panda.carry_item", "carry_item", 20.0f, 2),
+         ScoredResource("gift_box_community_3.carry_item", "carry_item", 3.0f),
+         ScoredResource("gift_box_community_4.carry_item", "carry_item", 4.0f),
+         ScoredResource("gift_box_community_5.carry_item", "carry_item", 5.0f),
+         ScoredResource("gift_box_community_6.carry_item", "carry_item", 6.0f)
+            }
+        };
+
+        processRewardPasses(rewardPasses);
+
+        GiftItemDeliveryRandomRewarder@ rewarder = GiftItemDeliveryRandomRewarder(m_metagame, rewardPasses);
+
+        m_itemDeliveryOrganizer.addObjective(
+            ItemDeliveryObjective(m_metagame, 0, deliveryList, m_itemDeliveryOrganizer, null, "", "", "", -1 /* loop */, rewarder)
+            );
+    }
+
     // ----------------------------------------------------
     protected void setupIcecream() {
         _log("adding icecream van config", 1);

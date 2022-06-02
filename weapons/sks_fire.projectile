@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="bullet" name="Dragon fire" slot="1" pulldown_in_air="8.0" time_to_live="0.5" key="dragons_flame.projectile">
+<projectile class="bullet" name="Dragon fire" slot="1" pulldown_in_air="8.0" time_to_live="0.5" key="sks_fire.projectile">
 	<tag name="flamethrower_flame"/>
 	
 	<trigger class="impact" />

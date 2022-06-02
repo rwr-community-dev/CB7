@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="stick_horse.weapon" on_ground_up="0 0 1">
+    <tag name="cqb" />
+
+    <specification
+		magazine_size="-1" 
+		can_shoot_prone="1" 
+		can_shoot_crouching="1" 
+		carry_in_two_hands="1" 
+		name="Stick Horse" 
+		class="5" 
+		character_state="none" 
+		consume="0" 
+		affect_characters="0"
+		affect_vehicles="0"
+		sight_range_modifier="1" 
+		slot="1" 
+		range="0"
+		stab_enabled="1"
+		stab_range="2.5"
+	/>
+    
+    <animation state_key="recoil" 		animation_key="raise, banner" />
+    <animation state_key="hold" 		animation_key="hold_casual, line infantry" />
+    <animation state_key="hold_on_wall" 	animation_key="hold_casual, line infantry" />
+    <animation state_key="running" animation_key="running, line infantry" />
+    <animation state_key="walking" animation_key="walking, line infantry" />     
+	<animation state_key="hold_casual"		animation_key="hold_casual, line infantry" />   
+    <animation state_key="still_against_wall" 	animation_key="hold_casual, line infantry" />
+    <animation state_key="walking" 		animation_key="walking, line infantry"  />
+    <animation state_key="walking_backwards" animation_key="walking, line infantry"  />
+
+    <animation state_key="crouching" 		animation_key="crouch still, banner" />
+	<animation state_key="crouch_moving"	animation_key="crouching forwards, banner" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, banner" />
+
+    <animation state_key="stabbing" 		animation_key="stabbing, bat" />
+
+	<sound key="stab" fileref="banner_shot.wav" pitch_variety="0.0" volume="0.8" />       
+
+	<sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5" />
+
+
+    <model filename="stick_horse.xml" />
+	<hud_icon filename="hud_stick_horse.png" />
+
+    <weak_hand_hold offset="1.0" />
+	
+	<commonness value="0.0" can_respawn_with="0" in_stock="1"/>
+	<inventory encumbrance="5.0" price="0.0" />
+	<inventory encumbrance="6.0" price="500.0" />
+
+	
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+	<modifier class="speed" value="0.33" />
+</weapon>

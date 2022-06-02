@@ -23,7 +23,7 @@
 	<animation state_key="next_in_chain_in" animation_key="ammo switch, mpx" /> 
 
 	
-    <sound key="fire" fileref="mpx_shot.wav" pitch_variety="0.05" volume="1.0"/>
+    <sound key="fire" fileref="mpx_shot.wav" pitch_variety="0.05" volume="0.4"/>
     <sound key="magazine_out" fileref="rifle_clip_out.wav" />
     <sound key="magazine_in" fileref="rifle_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle name="Clown Car" key="clownvan.vehicle" map_view_atlas_index="-1" respawn_time="10000.0" allow_ai_to_use="0">
+<vehicle name="Clown Car" key="clowncar.vehicle" map_view_atlas_index="-1" respawn_time="10000.0" allow_ai_to_use="0">
   <!-- what does this tag do?! -->
   <!--	<tag name="medivan" />-->
   <tag name="metal_light" />
@@ -12,8 +12,8 @@
   <physics max_health="10.0" mass="5.0" extent="2.0 0.0 1.5" offset="0 0.0 0" top_offset="0 2 0"
            collision_model_pos="0 0.8 0" collision_model_extent="2.2 2.0 4.7" visual_offset="0 0.5 0.1" />
 
-  <visual class="chassis" mesh_filename="medivan.mesh" texture_filename="clownvan.png" />
-  <visual class="tire" mesh_filename="medivan_wheel.mesh" texture_filename="medivan.png" />
+  <visual class="chassis" mesh_filename="clowncar.mesh" texture_filename="clowncar.png" />
+  <visual class="tire" mesh_filename="medivan_wheel.mesh" texture_filename="clowncar.png" />
   <visual class="chassis" key="broken" mesh_filename="van_broken.mesh" texture_filename="medivan_broken.png" />
 
   <character_slot type="driver" position="0.47 0.6 1.12" rotation="0" exit_rotation="1.57" hiding="1"

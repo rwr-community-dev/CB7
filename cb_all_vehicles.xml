@@ -7,7 +7,7 @@
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
   <!-- shovel sandbags -->
   <vehicle file="sandbag_cover.vehicle" />
-  <vehicle file="clownvan.vehicle" />
+  <vehicle file="clowncar.vehicle" />
   <vehicle file="dogcrate_para.vehicle" />
   <!-- patriot -->
   <vehicle file="technical_spawn.vehicle" />

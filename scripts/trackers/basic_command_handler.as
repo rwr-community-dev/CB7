@@ -437,7 +437,7 @@ class BasicCommandHandler : Tracker {
         } else if (checkCommand(message, "repair_crane")) {
             spawnInstanceNearPlayer(senderId, "repair_crane.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "clowncar")) {
-            spawnInstanceNearPlayer(senderId, "clownvan.vehicle", "vehicle", 0);
+            spawnInstanceNearPlayer(senderId, "clowncar.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "repair_tank")) {
             spawnInstanceNearPlayer(senderId, "zjx19_flare.projectile", "projectile", 0);
         } else  if(checkCommand(message, "mg42")) {

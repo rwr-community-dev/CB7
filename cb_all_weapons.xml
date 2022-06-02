@@ -39,7 +39,4 @@
   <!-- boombox -->
   <weapon file="boombox_resource_arcade.weapon" /> 
   <weapon file="boombox_resource_galactic.weapon" />
-
-  <!-- bangtest -->
-  <weapon file="am_squad_equipment_kit_proxy.weapon" />
 </weapons>

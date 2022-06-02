@@ -49,3 +49,4 @@ Moving while prone periodically teleports the player in the direction they are m
 * Malyuk (+suppressor) //Chip
 * Stick Horse //Solo Queue Pixy
 * AN94 //mus1CK
+* RPC //Solo Queue Pixy

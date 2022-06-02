@@ -15,7 +15,7 @@
   <weapon file="gp90.weapon" />
   <weapon file="sks.weapon" />
   <weapon file="sks_fire.weapon" />
-  <weapon file="af2011.weapon" />
+  <weapon file="bf2011.weapon" />
   <weapon file="xm29_xm8.weapon" />
   <weapon file="xm29_xm25.weapon" />
   <weapon file="mk14_ebr.weapon" />
@@ -26,6 +26,15 @@
   <weapon file="mpx.weapon" />
   <weapon file="mpx_hp.weapon" />
   <weapon file="cobra_adder.weapon" />
+  
+  <weapon file="galil.weapon" />
+  <weapon file="galil_fmj.weapon" />
+  <weapon file="malyuk.weapon" />
+  <weapon file="malyuk_supp.weapon" />
+  <weapon file="rpc.weapon" />
+  <weapon file="an94.weapon" />
+  <weapon file="an94_burst.weapon" />
+  <weapon file="stick_horse.weapon" />
   
   <!-- boombox -->
   <weapon file="boombox_resource_arcade.weapon" /> 

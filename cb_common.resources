@@ -18,7 +18,7 @@
   <weapon key="gp90.weapon" />
   <weapon key="sks.weapon" />
   <weapon key="sks_fire.weapon" />
-  <weapon key="af2011.weapon" />
+  <weapon key="bf2011.weapon" />
   <weapon key="xm29_xm8.weapon" />
   <weapon key="xm29_xm25.weapon" />  
   <weapon key="gilboa_DBR.weapon" />
@@ -29,6 +29,15 @@
   <weapon key="mpx.weapon" />
   <weapon key="mpx_hp.weapon" />
   <weapon key="cobra_adder.weapon" />
+  
+  <weapon key="galil.weapon" />
+  <weapon key="galil_fmj.weapon" />
+  <weapon key="malyuk.weapon" />
+  <weapon key="malyuk_supp.weapon" />
+  <weapon key="rpc.weapon" />
+  <weapon key="an94.weapon" />
+  <weapon key="an94_burst.weapon" />
+  <weapon key="stick_horse.weapon" />
   
   <!-- boombox -->
   <weapon key="boombox_resource_arcade.weapon" /> 

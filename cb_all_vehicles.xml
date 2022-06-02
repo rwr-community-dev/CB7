@@ -18,6 +18,4 @@
   <vehicle file="deployable_boombox_galactic.vehicle" />
   <vehicle file="deployable_boombox_base_galactic.vehicle" />
 
-  <!-- bangtest -->
-  <vehicle file="am_squad_equipment_kit_proxy.vehicle" />
 </vehicles>

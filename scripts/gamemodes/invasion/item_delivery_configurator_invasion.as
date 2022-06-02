@@ -26,7 +26,8 @@ class ItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         setupCommunity3();
         setupCommunity4();  
         setupCommunity5();
-        setupCommunity6(); 
+        setupCommunity6();
+        setupCommunity7();
         setupHalloween1();
         setupXmasBox();
         setupIcecream();
@@ -553,49 +554,7 @@ class ItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
             );
     }
 
-        // ----------------------------------------------------
-    protected void setupCommunity6() {
-        _log("adding community box 6 config", 1);
-        array<Resource@> deliveryList = {
-             Resource("gift_box_community_6.carry_item", "carry_item")
-        };
-
-        array<array<ScoredResource@>> rewardPasses = {
-            {
-
-         ScoredResource("kulakov.weapon", "weapon", 10.0f),
-         ScoredResource("rpd.weapon", "weapon", 15.0f),
-         ScoredResource("ak47_w_gp25.weapon", "weapon", 14.0f),
-         ScoredResource("g36_w_ag36.weapon", "weapon", 14.0f),
-         ScoredResource("m16a4_w_m203.weapon", "weapon", 14.0f),
-         ScoredResource("mac10.weapon", "weapon", 20.0f),
-         ScoredResource("ash12.weapon", "weapon", 9.0f),
-         ScoredResource("torch.weapon", "weapon", 4.0f, 2)
-
-            },
-            {
-         ScoredResource("ultimax.weapon", "weapon", 10.0f),
-         ScoredResource("zweihander.weapon", "weapon", 20.0f),
-         ScoredResource("sabre.weapon", "weapon", 20.0f),
-         ScoredResource("doublebarrel.weapon", "weapon", 20.0f),
-         ScoredResource("golden_mp5sd.weapon", "weapon", 12.0f),
-         ScoredResource("gift_box_community_4.carry_item", "carry_item", 3.0f),
-         ScoredResource("gift_box_community_3.carry_item", "carry_item", 4.0f),
-         ScoredResource("gift_box_community_5.carry_item", "carry_item", 6.0f),
-         ScoredResource("gift_box_community_2.carry_item", "carry_item", 5.0f)
-            }
-        };
-
-        processRewardPasses(rewardPasses);
-
-        GiftItemDeliveryRandomRewarder@ rewarder = GiftItemDeliveryRandomRewarder(m_metagame, rewardPasses);
-
-        m_itemDeliveryOrganizer.addObjective(
-            ItemDeliveryObjective(m_metagame, 0, deliveryList, m_itemDeliveryOrganizer, null, "", "", "", -1 /* loop */, rewarder)
-            );
-    }
-
-   // ----------------------------------------------------
+    // ----------------------------------------------------
     protected void setupCommunity7() {
         _log("adding community box 7 config", 1);
         array<Resource@> deliveryList = {

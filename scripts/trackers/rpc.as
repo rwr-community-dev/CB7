@@ -51,30 +51,44 @@ class RPCTracker : Tracker {
 					float xdiff = position.m_values[0] - plrPos.m_values[0];
 					float ydiff = position.m_values[1] - plrPos.m_values[1];
 					float zdiff = position.m_values[2] - plrPos.m_values[2];
-					offset = Vector3(xdiff/3, ydiff/3, zdiff/3);
-					// doesn't handle wall ricochets, but i don't think that's even possible to handle
+					offset = Vector3(xdiff/2, ydiff/3, zdiff/2);
+					// doesn't properly handle wall ricochets, but i don't think i can even reasonably detect the surface angle
 				}
 
-				// haha vroom vroom chainsaw go brrrrr
-				string c = 
-					"<command class='create_instance'" +
-					" faction_id='" + factionId + "'" +
-					" instance_class='grenade'" +
-					" instance_key='rpc_rocket2.projectile'" +
-					" position='" + position.add(Vector3(0, 0.5, 0)).toString() + "'" +
-					" character_id='" + characterId + "'" + 
-					" offset='" + Vector3(offset.m_values[0]/20, offset.m_values[1]/20 + 0.05, offset.m_values[2]/20).toString() + "' />";
-				m_metagame.getComms().send(c);
-
 				// make fake surface-scratching rocket
-				string d = 
+				string cmd1 = 
 					"<command class='create_instance'" +
 					" faction_id='" + factionId + "'" +
 					" instance_class='grenade'" +
 					" instance_key='rpc_rocket_fakescratcher.projectile'" +
 					" position='" + position.toString() + "'" +
 					" character_id='" + characterId + "' />";
-				m_metagame.getComms().send(d);
+				m_metagame.getComms().send(cmd1);
+
+				// launch chainsaw at targeted enemy
+				string cmd2 = 
+					"<command class='create_instance'" +
+					" faction_id='" + factionId + "'" +
+					" instance_class='grenade'" +
+					" instance_key='rpc_rocket2.projectile'" +
+					" position='" + position.add(Vector3(0, 0.5, 0)).toString() + "'" +
+					" character_id='" + characterId + "'" + 
+					" offset='" + Vector3(offset.m_values[0]/18, offset.m_values[1]/20 + 0.05, offset.m_values[2]/18).toString() + "' />";
+
+				string cmd3 = 
+					"<command class='create_instance'" +
+					" faction_id='" + factionId + "'" +
+					" instance_class='grenade'" +
+					" instance_key='rpc_rocket2b.projectile'" +
+					" position='" + position.add(Vector3(0, 0.5, 0)).toString() + "'" +
+					" character_id='" + characterId + "'" + 
+					" offset='" + Vector3(offset.m_values[0]/18, offset.m_values[1]/20 + 0.05, offset.m_values[2]/18).toString() + "' />";
+
+				m_metagame.getComms().send(cmd2);
+				m_metagame.getComms().send(cmd3);
+				m_metagame.getComms().send(cmd3);
+				m_metagame.getComms().send(cmd3);
+				m_metagame.getComms().send(cmd3);
 			}
 
 		}

@@ -23,16 +23,16 @@
     <sound class="result" key="other" fileref="chainsawhit2.wav" volume="1.5" />
 	<sound class="result" key="character" fileref="rpc_ripandtear.wav" pitch_variety="0.3" volume="3.0" />
 
-    <effect class="result" key="other" ref="SmokeBurstSmaller" />
-    <effect class="result" key="other" ref="BulletSparksLahti" />
-    <effect class="result" key="other" ref="BurstShineFast" />
+    <effect class="result" key="other" ref="RpcSmokeBurst" />
+    <effect class="result" key="other" ref="RpcSparks" lighting="0" />
+    <effect class="result" key="other" ref="RpcBurstShineFast" lighting="0" />
 
     <effect class="result" key="vehicle" copy="other" />
     <effect class="result" key="shield" copy="other" />
     <effect class="result" key="static_object" copy="other" />
     <effect class="result" key="terrain" copy="other" />
 
-    <effect class="result" key="character" ref="SmokeBurstSmaller" />
+    <effect class="result" key="character" ref="RpcSmokeBurst" />
     <effect class="result" key="character" ref="BloodSplat3" />
     <effect class="result" key="character" ref="BloodSplat2" />
 <!--    <effect class="result" key="character" ref="BloodExplosion" /> -->

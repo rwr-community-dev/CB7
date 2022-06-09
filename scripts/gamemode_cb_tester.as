@@ -12,6 +12,7 @@
 #include "squad_equipment_kit.as"
 #include "call_marker_tracker.as"
 #include "rangefinder.as"
+#include "rpc.as"
 // #include "spawn_with_dir.as"
 
 class GameModeCBTester : Metagame {
@@ -46,6 +47,7 @@ class GameModeCBTester : Metagame {
         addTracker(RepairCrane(this));
         addTracker(SquadEquipmentKit(this));
         addTracker(RangeFinder(this));
+        addTracker(RPCTracker(this));
         // vfs related
         /* addTracker(SpawnWithDir(this)); */
 

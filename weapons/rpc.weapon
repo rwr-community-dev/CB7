@@ -10,7 +10,7 @@
         can_shoot_standing="1" 
         can_shoot_crouching="1" 
         suppressed="0" 
-        name="[RL] RPC" 
+        name="RPC" 
         class="4" 
         projectile_speed="35.0" 
         slot="0" 
@@ -18,7 +18,7 @@
         projectiles_per_shot="1"
 	/>
 
-    <ballistics curve_height="4.0" near_far_distance="1000.0" speed_estimation_near="35.0" speed_estimation_far="35.0" max_speed="60.0" randomness="0.0" tweak_factor="1.1" /> 
+    <ballistics curve_height="4.0" near_far_distance="1000.0" speed_estimation_near="35.0" speed_estimation_far="35.0" max_speed="35.0" randomness="0.0" tweak_factor="1.0" /> 
 
     <animation key="recoil" ref="40" />
     <!-- <animation key="reload" ref="35" /> -->
@@ -43,7 +43,7 @@
     <weak_hand_hold offset="0.3" />
 
 
-    <commonness value="0" can_respawn_with="0" in_stock="0"/>    
+    <commonness value="0" can_respawn_with="0" in_stock="1"/>    
     <inventory encumbrance="10.0" price="300.0" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="1" source="rank" source_value="0.4" />

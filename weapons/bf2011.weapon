@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary_sidearm.weapon" key="af2011.weapon" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="45.0">
+<weapon file="base_secondary_sidearm.weapon" key="bf2011.weapon" time_to_live_out_in_the_open="90.0" player_death_drop_owner_lock_time="45.0">
     <tag name="assault" />       
 	
     <specification
@@ -11,7 +11,7 @@
 	can_shoot_standing="1"
     carry_in_two_hands="0" 
 	suppressed="0"
-	name="AF2011-A1"
+	name="BF2011"
 	class="4"
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.0"
@@ -34,15 +34,15 @@
     <animation state_key="prone_still" animation_key="prone_still, pistol" />
     <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
 	
-    <sound key="fire" fileref="pistol_03_m1911.wav" pitch_variety="0.05" volume="1.2" />
+    <sound key="fire" fileref="bf2011.wav" pitch_variety="0.05" volume="1.2" />
     <sound key="magazine_out" fileref="pistol_clip_out.wav" />
     <sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.5" />    
     <sound key="cycle" fileref="pistol_chamber.wav" volume="0.5" />
-    <model filename="af2011.xml" />
+    <model filename="bf2011.xml" />
 
-    <hud_icon filename="hud_af2011.png" />
+    <hud_icon filename="hud_bf2011.png" />
     <commonness value="0.0" can_respawn_with="0" />
-    <inventory encumbrance="15.0" price="400.0" />
+    <inventory encumbrance="7.5" price="1.0" />
 
     <projectiles_per_shot value="2" />
     <weak_hand_hold offset="0.1" />

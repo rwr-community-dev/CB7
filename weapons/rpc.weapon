@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="rpc.weapon">
+    <tag name="bazooka" />
+    <specification 
+        retrigger_time="0.5" 
+        accuracy_factor="1.0" 
+        sustained_fire_grow_step="0" 
+        sustained_fire_diminish_rate="1" 
+        magazine_size="1" 
+        can_shoot_standing="1" 
+        can_shoot_crouching="1" 
+        suppressed="0" 
+        name="RPC" 
+        class="4" 
+        projectile_speed="35.0" 
+        slot="0" 
+        burst_shots="1" 
+        projectiles_per_shot="1"
+	/>
+
+    <ballistics curve_height="4.0" near_far_distance="1000.0" speed_estimation_near="35.0" speed_estimation_far="35.0" max_speed="35.0" randomness="0.0" tweak_factor="1.0" /> 
+
+    <animation key="recoil" ref="40" />
+    <!-- <animation key="reload" ref="35" /> -->
+    <animation state_key="reload" animation_key="reloading, flamethrower" />    
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
+
+    <sound key="fire" fileref="rpc_launch.wav" volume="1"/>
+    <sound key="magazine_out" fileref="rpc_rev.wav" volume="2.0" />
+    <sound key="magazine_in" fileref="pf98_cycle_in.wav" volume="0.3"/>
+    <sound key="cycle" fileref="rpc_rev2.wav" volume="2.0"/>      
+
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <hud_icon filename="hud_rgw90as_rpc.png" />
+    <model filename="rgw90as_rpc.xml" />
+
+    <projectile file="rpc_rocket.projectile" />
+    <weak_hand_hold offset="0.3" />
+
+
+    <commonness value="0" can_respawn_with="0" in_stock="1"/>    
+    <inventory encumbrance="10.0" price="300.0" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.4" />
+
+    <modifier class="speed" value="-0.20" />
+</weapon>

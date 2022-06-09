@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Rocket Chainsaw" slot="1" pulldown_in_air="8" key="rpc_rocket_fakescratcher.projectile" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" >
+    <tag name="rocket"/>
+<!-- this damage is only meaningful against vehicles because spawning by script is delayed -->
+    <result class="blast" radius="1" damage="1.00" push="0.5" decal="1" />
+    <trigger class="time" time_to_live="0"/>
+    <rotation class="motion" />
+    <model />
+
+    <commonness value="0.0" />
+
+
+<!-- fake surface-scratching projectile just because the base rocket won't scratch it -->
+    <effect class="result" type="splat_map" surface_tag="" size="1.5" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="2.25" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="2" additive="0" />
+
+</projectile>

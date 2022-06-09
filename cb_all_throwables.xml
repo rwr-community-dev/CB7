@@ -10,6 +10,7 @@
   <projectile file="dogbone.projectile" />
   <projectile file="technical_flare.projectile" />
 
-  <!-- bangtest -->
-  <projectile file="am_squad_equipment_kit_proxy.projectile" />
+  <projectile file="rpc_rocket2.projectile" />
+  <projectile file="rpc_rocket2b.projectile" />
+  <projectile file="rpc_rocket_fakescratcher.projectile" />
 </projectiles>

@@ -31,7 +31,7 @@ Moving while prone periodically teleports the player in the direction they are m
 * Clown Car //MR. BANG
 * SKS //KFRedFox/mus1CK
 * SKS - incendiary //KFRedFox/mus1CK/RubberyChicken
-* AF2011 //Courting Death
+* BF2011 //Courting Death
 * Glock18c //MarcusKRUG
 * Gold P90 //MR. BANG/MarcusKRUG (gold bullet trail)
 * Panda outfit //Panda
@@ -46,3 +46,7 @@ Moving while prone periodically teleports the player in the direction they are m
 * Type88 //Dimitri/Unit G17/MarcusKRUG
 * MPX (+Hollow Point) //mus1CK
 * Cobra Adder crossbow //Lord_Noodal
+* Malyuk (+suppressor) //Chip
+* Stick Horse //Solo Queue Pixy
+* AN94 //mus1CK
+* RPC //Solo Queue Pixy

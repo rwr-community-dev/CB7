@@ -31,7 +31,7 @@
     <control key="effect" value="1" />
 
     <model filename="galil_fmj.xml" />
-    <hud_icon filename="new_version_blue.png" />
+    <hud_icon filename="hud_galil_fmj.png" />
     <inventory encumbrance="8.0" price="250.0" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
 

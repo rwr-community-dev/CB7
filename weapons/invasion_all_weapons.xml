@@ -27,8 +27,7 @@
     <capacity source="rank" source_value="0.0" value="1" />
   </weapon>
   <weapon file="mp5sd.weapon">
-    <capacity source="rank" source_value="0.0" value="0" />
-    <capacity source="rank" source_value="0.1" value="1" />
+    <capacity source="rank" source_value="0.0" value="1" />
   </weapon>
   <weapon file="pkm.weapon">
     <capacity source="rank" source_value="0.0" value="0" />
@@ -89,8 +88,7 @@
     <capacity source="rank" source_value="0.0" value="1" />
   </weapon>
   <weapon file="qcw-05.weapon">
-    <capacity source="rank" source_value="0.0" value="0" />
-    <capacity source="rank" source_value="0.1" value="1" />
+    <capacity source="rank" source_value="0.0" value="1" />
   </weapon>
 
   <weapon file="cover_resource.weapon">
@@ -149,8 +147,7 @@
   </weapon>
 
   <weapon file="scorpion-evo.weapon" >
-    <capacity source="rank" source_value="0.0" value="0" />
-    <capacity source="rank" source_value="0.1" value="1" />
+    <capacity source="rank" source_value="0.0" value="1" />
   </weapon>
 
   <weapon file="mg_resource.weapon" >

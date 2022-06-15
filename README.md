@@ -51,3 +51,5 @@ Moving while prone periodically teleports the player in the direction they are m
 * AN94 //mus1CK
 * RPC //Solo Queue Pixy
 * Galil (+FMJ) //mus1CK
+* L199A2 // exerdamn
+* Armsel Striker // John_Doe (AKA SimplyKevin)

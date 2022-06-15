@@ -33,8 +33,8 @@
     <model filename="l119a2ret.xml" />
 	
     <hud_icon filename="hud_l119a2ret.png" />
-    <commonness value="0.2" />
-    <inventory encumbrance="9.0" price="180.0" in_stock="1"/>
+    <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
+    <inventory encumbrance="9.0" price="180.0"/>
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">

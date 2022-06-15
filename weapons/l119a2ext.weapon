@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary.weapon" key="l119a2ext.weapon">
+<weapon file="base_primary_rare.weapon" key="l119a2ext.weapon">
     <tag name="assault" />
     <specification 
   retrigger_time="0.113" 
@@ -35,8 +35,8 @@
     <model filename="l119a2ext.xml" />
 	
     <hud_icon filename="hud_l119a2ext.png" />
-    <commonness value="0.2" />
-    <inventory encumbrance="9.0" price="180.0" />
+    <commonness value="0.0" />
+    <inventory encumbrance="9.0" price="180.0" in_stock="1"/>
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">

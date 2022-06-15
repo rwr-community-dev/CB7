@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="l119a2ret.weapon">
+    <tag name="assault" />
+    <specification 
+  retrigger_time="0.113" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.4" 
+  sustained_fire_diminish_rate="1.4" 
+  magazine_size="30" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="L119A2 (Retracted)" 
+  class="0" 
+  projectile_speed="110.0" 
+  barrel_offset="0.3" />
+
+	<next_in_chain key="l119a2ext.weapon" share_ammo="1" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m16a4" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />
+	
+
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="shot_l119a2.wav" pitch_variety="0.05" volume="0.5" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />    
+    <model filename="l119a2ret.xml" />
+	
+    <hud_icon filename="hud_l119a2ret.png" />
+    <commonness value="0.2" />
+    <inventory encumbrance="9.0" price="180.0" />
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="0.55" kill_decay_start_time="0.4" kill_decay_end_time="0.7" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.3" />
+    <stance state_key="walking" accuracy="0.675" />
+    <stance state_key="crouch_moving" accuracy="0.75" />
+    <stance state_key="prone_moving" accuracy="0.3" />
+
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="0.93" />
+    
+    <modifier class="speed" value="-0.01" />
+</weapon>

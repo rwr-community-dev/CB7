@@ -40,6 +40,8 @@
   <weapon key="stick_horse.weapon" />
   <weapon key="l119a2ext.weapon" />
   <weapon key="l119a2ret.weapon" />
+  <weapon key="armsel.weapon" />
+  <weapon key="armsel_slug.weapon" />
   
   <!-- boombox -->
   <weapon key="boombox_resource_arcade.weapon" /> 

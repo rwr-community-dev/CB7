@@ -37,6 +37,8 @@
   <weapon file="stick_horse.weapon" />
   <weapon file="l119a2ext.weapon" />
   <weapon file="l119a2ret.weapon" />
+  <weapon file="armsel.weapon" />
+  <weapon file="armsel.weapon" />
   
   <!-- boombox -->
   <weapon file="boombox_resource_arcade.weapon" /> 

@@ -34,7 +34,7 @@
     <sound key="effect" fileref="rifle_clip_in.wav" />
 
     <hud_icon filename="hud_type88_2_stocked.png" />
-    <commonness value="0.0" can_respawn_with="1" in_stock="1" />
+    <commonness value="0.0" can_respawn_with="1" in_stock="0" />
     <inventory encumbrance="10.0" price="489.0" />
 
     <weak_hand_hold offset="0.2" />

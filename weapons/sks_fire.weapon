@@ -39,7 +39,7 @@
 
     <model filename="sks_fire.xml" />
     <hud_icon filename="hud_sks_fire.png" />
-    <commonness value="0.0"  can_respawn_with="0" in_stock="1" />
+    <commonness value="0.0"  can_respawn_with="0" in_stock="0" />
     <inventory encumbrance="10.0" price="400.0" />
 
     <weak_hand_hold offset="0.3" />

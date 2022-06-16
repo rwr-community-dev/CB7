@@ -34,7 +34,7 @@
     <model filename="mpx_hp.xml" />
     <hud_icon filename="hud_mpx_hp.png" />
     <inventory encumbrance="8.0" price="300.0" />
-    <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
+    <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.70" kill_decay_start_time="0.28" kill_decay_end_time="0.36" />

@@ -2,10 +2,11 @@
 <weapon file="base_primary_rare.weapon" key="armsel_slug.weapon">
     <tag name="shotgun" />
     <specification 
+
 	retrigger_time="0.5" 
 	accuracy_factor="0.9" 
 	sustained_fire_grow_step="0.9" 
-    sustained_fire_diminish_rate="1.7" 
+  sustained_fire_diminish_rate="1.7" 
 	magazine_size="12" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -17,6 +18,7 @@
 
 
 	<!-- <next_in_chain key="armsel.weapon" share_ammo="0" /> -->
+
   
     <animation state_key="hold" animation_key="still, mgl" />
     <animation key="recoil" ref="12" />
@@ -24,6 +26,7 @@
     <animation key="recoil" ref="14" />
     <animation state_key="reload" animation_key="reloading, armsel" />
     <!-- <animation state_key="next_in_chain_in" animation_key="ammo switch, armsel" /> -->
+
     
     <sound key="fire" fileref="armsel_shot_slug.wav" pitch_variety="0.05" volume="0.8" />
     <sound key="magazine_out" fileref="m79_clip_out.wav" pitch_variety="0.2" />

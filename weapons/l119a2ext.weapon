@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="l119a2ext.weapon">
+<weapon file="base_primary_sniper.weapon" key="l119a2ext.weapon">
     <tag name="assault" />
     <specification 
   retrigger_time="0.113" 
   accuracy_factor="1.0" 
-  sustained_fire_grow_step="0.32" 
-  sustained_fire_diminish_rate="1.32" 
+  sustained_fire_grow_step="0.28" 
+  sustained_fire_diminish_rate="1.5" 
   magazine_size="30" 
   can_shoot_standing="0" 
   can_shoot_crouching="0" 
@@ -35,12 +35,12 @@
     <model filename="l119a2ext.xml" />
 	
     <hud_icon filename="hud_l119a2ext.png" />
-    <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
-    <inventory encumbrance="9.0" price="180.0" />
+    <commonness value="0.0" />
+    <inventory encumbrance="9.0" price="119.0" />
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">
-        <result class="hit"  kill_probability="0.55" kill_probability_offset_on_successful_hit="0.2" kill_decay_start_time="0.4" kill_decay_end_time="0.7" />
+        <result class="hit"  kill_probability="0.55" kill_probability_offset_on_successful_hit="0.2" kill_decay_start_time="0.5" kill_decay_end_time="0.69" />
     </projectile>
     
     <stance state_key="running" accuracy="0.3" />

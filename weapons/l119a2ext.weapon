@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_sniper.weapon" key="l119a2ext.weapon">
+<weapon file="base_primary_rare.weapon" key="l119a2ext.weapon">
     <tag name="assault" />
     <specification 
   retrigger_time="0.113" 

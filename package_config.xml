@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package
-  name="CB7a13 testing" image="campaign_preview.png"
+  name="CB7a14 testing" image="campaign_preview.png"
   description="https://github.com/rwr-community-dev/CB7"
   show_in_campaign_menu="1" show_in_campaigns="1" show_in_quick_match_mods="1"
   campaign_entry_script="start_cb_invasion.as" quick_match_entry_script="start_cb_tester.as"

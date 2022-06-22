@@ -17,12 +17,15 @@
 	projectile_speed="110.0" 
 	barrel_offset="0.4" 
 	projectiles_per_shot="1" />
+ 
+  <next_in_chain key="sks.weapon" share_ammo="0" />
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
     <animation state_key="reload" animation_key="reloading, dragunov_svd" />
     <animation key="reload" stance_key="prone" animation_key="reloading, sniper1, prone" />
+    <animation state_key="next_in_chain_in" animation_key="ammo switch, sks" />
 
     <sound key="fire" fileref="sks_shot.wav" pitch_variety="0.25" volume="0.25" />
     <sound key="cycle" fileref="sniper_cycle.wav" />
@@ -31,10 +34,12 @@
     <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
     <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="effect" fileref="ammo_switch_sniper.wav" pitch_variety="0" />
+    <control key="effect" value="1" />
 
     <model filename="sks_fire.xml" />
     <hud_icon filename="hud_sks_fire.png" />
-    <commonness value="0.0"  can_respawn_with="0" in_stock="1" />
+    <commonness value="0.0"  can_respawn_with="0" in_stock="0" />
     <inventory encumbrance="10.0" price="400.0" />
 
     <weak_hand_hold offset="0.3" />

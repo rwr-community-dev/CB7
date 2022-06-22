@@ -149,6 +149,11 @@
 		<requirement class="carry_item" slot="1" key="costume_panda_1"/>
 		<requirement class="rank" range="0 10000"/>
 	</model>
+	<model filename="costume_wickpanda.xml">
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+		<requirement class="carry_item" slot="1" key="costume_panda.carry_item"/>
+		<requirement class="rank" range="0 10000"/>
+	</model>
 	<model filename="soldier_wickpanda.xml">
 		<requirement class="weapon" slot="0" key="l30p.weapon"/>
 		<requirement class="carry_item" slot="1" key="costume_panda_1"/>

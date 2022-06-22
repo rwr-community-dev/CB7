@@ -27,7 +27,7 @@
 
     <model filename="mx4_storm.xml" />
     <hud_icon filename="hud_mx4_storm.png" />
-    <inventory encumbrance="10.0" price="10.0" />
+    <inventory encumbrance="5.0" price="10.0" />
     <commonness value="0.00001" can_respawn_with="0" in_stock="0" />
 
     <projectile file="bullet.projectile">

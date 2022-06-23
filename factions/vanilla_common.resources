@@ -40,9 +40,10 @@
   <weapon key="m16a4_support.weapon" />
   <weapon key="tti.weapon" />
   <weapon key="chainsaw.weapon" />
+  <!-- Since these are faction specific SMGs with commonness > 0, they shouldn't be included here
   <weapon key="ump40.weapon" />
   <weapon key="mx4_storm.weapon" />
-  <weapon key="bizon.weapon" />
+  <weapon key="bizon.weapon" /> -->
   <weapon key="dragons_breath.weapon" />
   <weapon key="enforcer.weapon" />
   <weapon key="gps_laptop.weapon" />

@@ -28,7 +28,7 @@
     <model filename="ump40.xml" />
     <hud_icon filename="hud_ump40.png" />
     <inventory encumbrance="10.0" price="10.0" />
-    <commonness value="0.00001" can_respawn_with="0" in_stock="0" />
+    <commonness value="0.0001" can_respawn_with="0" in_stock="0" />
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.5" kill_decay_start_time="0.35" kill_decay_end_time="0.45" />

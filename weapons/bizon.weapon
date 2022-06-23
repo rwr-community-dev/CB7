@@ -26,7 +26,7 @@
     <model filename="bizon.xml" />
 
     <hud_icon filename="hud_bizon.png" />
-    <commonness value="0.00001" can_respawn_with="0" in_stock="0" />
+    <commonness value="0.0001" can_respawn_with="0" in_stock="0" />
     <inventory encumbrance="10.0" price="10.0" />
 
     <projectile file="bullet.projectile">

@@ -27,7 +27,8 @@
 
     <hud_icon filename="hud_bizon.png" />
     <commonness value="0.0001" can_respawn_with="0" in_stock="0" />
-    <inventory encumbrance="10.0" price="10.0" />
+
+    <inventory encumbrance="5.0" price="10.0" />
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.5" kill_decay_start_time="0.28" kill_decay_end_time="0.41" />

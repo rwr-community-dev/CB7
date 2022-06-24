@@ -31,5 +31,5 @@
   <!-- should it shoot gold bullets? -->
   <projectile file="bullet_gp90.projectile"/>
 
-  <modifier class="speed" value="-0.07" />
+  <modifier class="speed" value="-0.06" />
 </weapon>

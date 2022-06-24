@@ -676,7 +676,7 @@
 	<!-- --- -->
 	<!-- NCO -->
 	<!-- --- -->
-	<soldier name="NCO" spawn_score="0.06">
+	<soldier name="nco" spawn_score="0.06">
 		<character filename="default_male.character" />
 		<ai filename="elite.ai" />
 		

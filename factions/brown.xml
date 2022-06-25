@@ -654,8 +654,7 @@
 		<character filename="default_male.character" />
 		<ai filename="elite.ai" />
 		
-		<models file="brown_default_basic.models" />
-		<models file="brown_default.models" />
+		<model filename="soldier_c1_vest_alt.xml" />
 		
 		<resources file="common_nco.resources" />
 		<resources file="brown_nco.resources" />

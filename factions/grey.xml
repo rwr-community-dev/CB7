@@ -680,8 +680,7 @@
 		<character filename="default_male.character" />
 		<ai filename="elite.ai" />
 		
-		<models file="grey_default_basic.models" />
-		<models file="grey_default.models" />
+		<model filename="soldier_b1_vest_alt.xml" />
 		
 		<resources file="common_nco.resources" />
 		<resources file="grey_nco.resources" />

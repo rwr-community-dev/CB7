@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="taser_medic.weapon" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0">
+    <tag name="assault" />       
+	
+    <specification
+	retrigger_time="-1"
+	accuracy_factor="0.95"
+	sustained_fire_grow_step="0.8"
+	sustained_fire_diminish_rate="0.65"
+	magazine_size="1"
+	can_shoot_standing="1"
+    carry_in_two_hands="0" 
+	suppressed="1"
+	name="taser"
+	class="4"
+	reload_one_at_a_time="0"
+	sight_range_modifier="1.0"
+	projectile_speed="100.0"
+	projectiles_per_shot="1"
+	burst_shots="1"
+    slot="0" />
+	
+	<!-- when the AI dies with them they must transform into their normal version, handled below. a requirement with this is drop-count factor on death be 0 -->
+	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="taser.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
+	
+	<animation state_key="recoil"	animation_key="recoil, pistol" />
+    <animation state_key="reload"	animation_key="reloading, pistol" />
+	<animation state_key="hold"	animation_key="hold, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
+	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, pistol" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+	
+    <sound key="fire" fileref="taser_shot.wav" pitch_variety="0.05" volume="0.5" />
+    <sound key="magazine_out" fileref="pistol_clip_out.wav" />
+    <sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.5" />    
+    <sound key="cycle" fileref="pistol_chamber.wav" volume="0.5" />
+    <model filename="taser.xml" />
+
+    <hud_icon filename="hud_taser.png" />
+    <commonness value="0.000001"  can_respawn_with="0" in_stock="0" />
+    <inventory encumbrance="5.0" price="20.0"/>
+
+    <projectiles_per_shot value="1" />
+    <weak_hand_hold offset="0.1" />
+    
+    <capacity value="1" source="rank" source_value="0.0" />
+    
+    <projectile file="taser.projectile">
+        <result class="hit"
+		kill_probability="5.01"
+		kill_decay_start_time="0.25"
+		kill_decay_end_time="0.26" 
+		character_state="wound" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.4" />
+    <stance state_key="walking" accuracy="0.5" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="prone_moving" accuracy="0.6" />
+
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="0.95" />
+    <modifier class="speed" value="+0.05" />    
+
+</weapon>

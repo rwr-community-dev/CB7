@@ -8,7 +8,7 @@
 
     <round instances="2"
            instance_class="soldier"
-	   instance_key="default"
+		   instance_key="default"
            instance_spread="10 15 10" 
            common_spread="0 0 0" 
            launch_time="5.0"
@@ -20,7 +20,7 @@
 
     <round instances="1"
            instance_class="soldier"
-	   instance_key="medic"
+		   instance_key="medic"
            instance_spread="10 15 10" 
            common_spread="0 0 0" 
            launch_time="5.0"
@@ -29,7 +29,7 @@
 	
     <round instances="1"
            instance_class="soldier"
-	   instance_key="nco"
+		   instance_key="nco"
            instance_spread="10 15 10" 
            common_spread="0 0 0" 
            launch_time="5.0"

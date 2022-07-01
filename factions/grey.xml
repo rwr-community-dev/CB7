@@ -258,6 +258,7 @@
 		<character filename="default_male.character" />
 		<ai filename="eod.ai" />
 		<model filename="soldier_b1eod.xml" />
+		<model filename="soldier_b1eod_alt.xml" />
 
 		<resources file="common_eod.resources" />
 		<resources file="grey_eod.resources" />

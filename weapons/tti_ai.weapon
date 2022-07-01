@@ -33,7 +33,7 @@
     <model filename="tti.xml" />
 
     <hud_icon filename="hud_tti.png" />
-    <commonness value="0.004" can_respawn_with="0" in_stock="0" />
+    <commonness value="0.0004" can_respawn_with="0" in_stock="0" />
     <inventory encumbrance="20.0" price="10.0" />
     
     <capacity value="1" source="rank" source_value="0.0" /> 

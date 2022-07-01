@@ -142,7 +142,7 @@
 		<character filename="default_miniboss_male.character" />
 		<ai filename="elite.ai" />
 		<model filename="soldier_elite_c1.xml" />
-		<model filename="soldier_elite_c2.xml" />     
+		<model filename="soldier_elite_c2.xml" />
 
 		<resources file="common_miniboss.resources" />
 		<resources file="brown_miniboss.resources" />
@@ -231,6 +231,7 @@
 		<character filename="default_male.character" />
 		<ai filename="eod.ai" />
 		<model filename="soldier_c1eod.xml" />
+		<model filename="soldier_c1eod_alt.xml" />
 
 		<resources file="common_eod.resources" />
 		<resources file="brown_eod.resources" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1">
 	<!-- always load common first; it's the one that clears the initial weapon resources -->
+	<weapon key="model_29.weapon" />
 	<weapon key="javelin.weapon" />
 
 	<carry_item key='vest1.carry_item' enabled="0" />

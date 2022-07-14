@@ -3,8 +3,5 @@
 	<weapon key='mx4_storm.weapon' />
 	<weapon key='famasg1.weapon' />
 	
-	<!-- <weapon key="m2_carlgustav.weapon" />
-	
-	<weapon key="glock17.weapon" />
-    <weapon key="steyr_tmp.weapon" />  -->
+	<weapon key="m2_carlgustav.weapon" />
 </resources>

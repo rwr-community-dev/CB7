@@ -10,7 +10,7 @@
   <weapon key='binoculars.weapon' />
   <weapon key='javelin.weapon' />
   <weapon key='m712.weapon' />
-  <weapon key='model_29.weapon' />
+  <!-- <weapon key='model_29.weapon' /> -->
   <weapon key='sawnoff.weapon' />
   <weapon key='beretta_93r.weapon' />
   <weapon key='claymore_resource.weapon' />

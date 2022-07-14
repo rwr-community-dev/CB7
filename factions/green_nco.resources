@@ -3,8 +3,5 @@
 	<weapon key='ump40.weapon' />
 	<weapon key='l85a2.weapon' />
 
-	<!-- <weapon key='m72_law.weapon' />
-
-	<weapon key="beretta_m9.weapon" />  
-	<weapon key="mini_uzi.weapon" />  -->
+	<weapon key='m72_law.weapon' />
 </resources>

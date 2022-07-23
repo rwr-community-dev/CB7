@@ -3,7 +3,5 @@
 	<weapon key='bizon.weapon' />
 	<weapon key='sg552.weapon' />
 	
-	<!-- <weapon key='rpg-7.weapon' />
-	
-	<weapon key='aek_919k.weapon' />  -->
+	<weapon key='rpg-7.weapon' />
 </resources>

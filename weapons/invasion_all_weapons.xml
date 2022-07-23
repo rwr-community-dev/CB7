@@ -502,13 +502,13 @@
   </weapon>
 
   <weapon file="flamethrower.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0005" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.6" value="1" />
   </weapon>
 
   <weapon file="aa12_frag.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0002" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.3" value="1" />
   </weapon>
@@ -568,7 +568,7 @@
    <weapon file="medikit_ai.weapon" />
    <weapon file="medikit_ai_2.weapon" />
    <weapon file="dragons_breath.weapon" >
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.4" value="1" />
    </weapon>

@@ -9,7 +9,7 @@
 
 	<weapon key='stoner_lmg.weapon' />
 
-	<weapon key='mgl_flasher.weapon' /> 
+	<!-- <weapon key='mgl_flasher.weapon' /> -->
 	<weapon key='barrett_m107.weapon' />
 	<weapon key='xm8.weapon' /> 
 	<weapon key='microgun.weapon' /> 
@@ -17,13 +17,13 @@
 <!--	<weapon key='benelli_m4_supp.weapon' />  -->
 	<weapon key='mg42.weapon' /> 
 	<weapon key='lahti_l39.weapon' />  
-	<weapon key='milkor_mgl.weapon' /> 
+	<!-- <weapon key='milkor_mgl.weapon' /> -->
 	<weapon key='m202_flash.weapon' /> 
 	<weapon key='steyr_aug.weapon' />
 	<weapon key='scarssr.weapon' />  
 	<weapon key='chain_saw.weapon' /> 
 	<weapon key='pecheneg_bullpup.weapon' />
-	<weapon key='paw20.weapon' />   
+	<!-- <weapon key='paw20.weapon' /> -->
 	<weapon key='stoner62.weapon' />     
    
 

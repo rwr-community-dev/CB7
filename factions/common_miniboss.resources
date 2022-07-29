@@ -5,26 +5,44 @@
 
 	<weapon key='f2000.weapon' />
 	<weapon key='aks74u.weapon' />
-	<weapon key='vss_vintorez.weapon' />
-
-	<weapon key='stoner_lmg.weapon' />
-
-	<!-- <weapon key='mgl_flasher.weapon' /> -->
-	<weapon key='barrett_m107.weapon' />
 	<weapon key='xm8.weapon' /> 
-	<weapon key='microgun.weapon' /> 
-	<weapon key='kriss_vector.weapon' />
-<!--	<weapon key='benelli_m4_supp.weapon' />  -->
-	<weapon key='mg42.weapon' /> 
-	<weapon key='lahti_l39.weapon' />  
-	<!-- <weapon key='milkor_mgl.weapon' /> -->
-	<weapon key='m202_flash.weapon' /> 
 	<weapon key='steyr_aug.weapon' />
-	<weapon key='scarssr.weapon' />  
+	<weapon key='g3_1x.weapon' />
+	<weapon key='g3_3x.weapon' />
+	<weapon key='tkb059.weapon' />
+	<weapon key='fal.weapon' />
+	<weapon key='fal_bayonet.weapon' />
+	<weapon key='honey_badger.weapon' />
+	<weapon key='p416.weapon' />
+	
+	<!-- <weapon key='vss_vintorez.weapon' /> -->
+	<weapon key='scarssr.weapon' />
+	<weapon key='barrett_m107.weapon' />
+	<weapon key='lahti_l39.weapon' /> 
+	<weapon key='fd338.weapon' />
+	<weapon key='enforcer.weapon' />
+	
+	<weapon key='stoner_lmg.weapon' />
+	<weapon key='stoner62.weapon' /> 
+	<weapon key='microgun.weapon' />
 	<weapon key='chain_saw.weapon' /> 
 	<weapon key='pecheneg_bullpup.weapon' />
-	<!-- <weapon key='paw20.weapon' /> -->
-	<weapon key='stoner62.weapon' />     
+	<weapon key='mg42.weapon' /> 
+	<weapon key='m16a4_support.weapon' />
+	<weapon key='m60e4.weapon' />
+	<weapon key='ares_shrike.weapon' />
+	<weapon key='dp28.weapon' />
+	<weapon key='dp28_s.weapon' />
+	
+	<weapon key='kriss_vector.weapon' />
+	<weapon key='suomi.weapon' />
+	<!-- <weapon key='benelli_m4_supp.weapon' /> -->
+	
+	<weapon key='m202_flash.weapon' /> 
+
+	<!-- <weapon key='mgl_flasher.weapon' />
+	<weapon key='milkor_mgl.weapon' />
+	<weapon key='paw20.weapon' /> -->    
    
 
 	<carry_item key='vest1.carry_item' enabled="0" />			

@@ -74,7 +74,7 @@
   <weapon file="medikit.weapon" />
   <weapon file="tow.weapon" />
   <weapon file="vss_vintorez.weapon">
-    <commonness value="0.0002" in_stock="0" />
+    <commonness value="0.000001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.4" value="1" />
   </weapon>
@@ -428,13 +428,13 @@
   <weapon file="mortar_vulcan.weapon" />
 
   <weapon file="honey_badger.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.00003" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.6" value="1" />
   </weapon>
 
   <weapon file="m60e4.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.00004" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.6" value="1" />
   </weapon>
@@ -502,13 +502,13 @@
   </weapon>
 
   <weapon file="flamethrower.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0005" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.6" value="1" />
   </weapon>
 
   <weapon file="aa12_frag.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0002" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.3" value="1" />
   </weapon>
@@ -527,12 +527,12 @@
     <capacity source="rank" source_value="0.35" value="1" />
   </weapon>
   <weapon file="fal.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0002" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.55" value="1" />
   </weapon>
   <weapon file="fal_bayonet.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0002" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.55" value="1" />
   </weapon>
@@ -551,7 +551,7 @@
     <capacity source="rank" source_value="0.2" value="1" />
   </weapon>
   <weapon file="m16a4_support.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.00002" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.1" value="1" />
   </weapon>
@@ -568,12 +568,12 @@
    <weapon file="medikit_ai.weapon" />
    <weapon file="medikit_ai_2.weapon" />
    <weapon file="dragons_breath.weapon" >
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.4" value="1" />
    </weapon>
    <weapon file="enforcer.weapon" >
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.3" value="1" />
    </weapon>
@@ -606,7 +606,7 @@
 <!-- CB#4 -->
 
   <weapon file="tkb059.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.00001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.3" value="1" />
   </weapon>
@@ -621,12 +621,12 @@
     <capacity source="rank" source_value="0.2" value="1" />
   </weapon>
   <weapon file="g11.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000025" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.7" value="1" />
   </weapon>
   <weapon file="g11_alt.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000025" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.7" value="1" />
   </weapon>
@@ -666,7 +666,7 @@
   <weapon file="flamer_tank_mg.weapon" />
   <weapon file="flamer_tank_cannon.weapon" />
   <weapon file="suomi.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.00003" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.3" value="1" />
   </weapon>
@@ -683,7 +683,7 @@
     <capacity source="rank" source_value="0.3" value="1" />
   </weapon>
  	<weapon file="p416.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.00003" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.9" value="1" />
   </weapon>
@@ -751,7 +751,7 @@
     <capacity source="rank" source_value="0.3" value="1" />
   </weapon>
   <weapon file="ares_shrike_s.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0003" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
@@ -797,12 +797,12 @@
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
   <weapon file="g36_w_ag36.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
   <weapon file="g36_w_ag36_g.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
@@ -845,17 +845,17 @@
     <capacity source="rank" source_value="2.0" value="1" />
   </weapon>
   <weapon file="dp28.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000025" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
   <weapon file="dp28_s.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000025" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
   <weapon file="qbz95.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000025" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="1.0" value="1" />
   </weapon>
@@ -865,12 +865,12 @@
     <capacity source="rank" source_value="1.0" value="1" />
   </weapon>
   <weapon file="fd338.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.0002" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.9" value="1" />
   </weapon>
   <weapon file="fd338sd.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.9" value="1" />
   </weapon>

@@ -30,7 +30,7 @@
     <model filename="qbz95.xml" />
 
     <hud_icon filename="hud_qbz95.png" />
-    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+    <commonness value="0.000025" can_respawn_with="0" in_stock="0" />
     <inventory encumbrance="10.0" price="280" />
 
     <weak_hand_hold offset="0.0" />

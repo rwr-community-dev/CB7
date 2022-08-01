@@ -74,7 +74,7 @@
   <weapon file="medikit.weapon" />
   <weapon file="tow.weapon" />
   <weapon file="vss_vintorez.weapon">
-    <commonness value="0.0002" in_stock="0" />
+    <commonness value="0.000001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.4" value="1" />
   </weapon>
@@ -855,7 +855,7 @@
     <capacity source="rank" source_value="0.5" value="1" />
   </weapon>
   <weapon file="qbz95.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000025" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="1.0" value="1" />
   </weapon>
@@ -870,7 +870,7 @@
     <capacity source="rank" source_value="0.9" value="1" />
   </weapon>
   <weapon file="fd338sd.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000001" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.9" value="1" />
   </weapon>

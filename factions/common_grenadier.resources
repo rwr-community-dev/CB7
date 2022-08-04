@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+	<!-- always load common first; it's the one that clears the initial weapon resources -->
+
+	<!-- <weapon key='cover_resource.weapon' /> -->
+	<weapon key='mgl_flasher.weapon' />
+	<weapon key='milkor_mgl.weapon' />
+	<weapon key='paw20.weapon' />
+	<weapon key='xm25.weapon' />
+	
+	<weapon key='stoner_lmg_ai.weapon' />
+
+	<carry_item key='vest1.carry_item' enabled="0" />
+	<carry_item key='vest2.carry_item' enabled="0" />
+	<carry_item key='vest3.carry_item' enabled="0" />
+	<carry_item key='eodvest.carry_item' enabled="1" />
+	<carry_item key='eodvest_ai.carry_item' enabled="0" />
+
+  
+	<projectile key='hand_grenade.projectile' enabled="0" />
+	<projectile key='impact_grenade.projectile' enabled="0" />
+	<projectile key='stun_grenade.projectile' enabled="0" />    
+
+<!-- CB#6 -->
+	<carry_item key='dog.carry_item' enabled="0" />
+	<carry_item key='ugv.carry_item' enabled="0" />
+	<projectile key='selfstun.projectile' enabled="0" />      
+  
+</resources>

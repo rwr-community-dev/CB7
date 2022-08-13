@@ -17,15 +17,15 @@
   <weapon key='wrench.weapon' enabled="0" />
   <weapon key='wrench_small.weapon' enabled="1" />
   <weapon key='mp7.weapon' />
-  <weapon key='honey_badger.weapon' />
-  <weapon key='m60e4.weapon' />
+  <!-- <weapon key='honey_badger.weapon' />
+  <weapon key='m60e4.weapon' /> -->
   <weapon key='mk23.weapon' enabled="0" />
   <weapon key='smaw.weapon' enabled="0" />
-  <weapon key='ares_shrike.weapon' />
+  <!-- <weapon key='ares_shrike.weapon' /> -->
   <weapon key='tracer_dart.weapon' />
   <weapon key='taser.weapon' />
-  <weapon key='flamethrower.weapon' />
-  <weapon key='aa12_frag.weapon' />
+  <!-- <weapon key='flamethrower.weapon' />
+  <weapon key='aa12_frag.weapon' /> -->
   <!--  <weapon key='bandage.weapon' /> -->
   <projectile key='shuriken.projectile' enabled="0" />
   <projectile key='kunai.projectile' enabled="0" />
@@ -33,19 +33,19 @@
   <projectile key='acid_bomb.projectile' enabled="0" />
   <carry_item key='lottery.carry_item' enabled="0" />
   <weapon key="dartgun.weapon" />
-  <weapon key="fal_bayonet.weapon" />
+  <!-- <weapon key="fal_bayonet.weapon" /> -->
   <weapon key="golden_knife.weapon" />
-  <weapon key="javelin_ap.weapon" />
+  <!-- <weapon key="javelin_ap.weapon" /> -->
   <weapon key="l30p.weapon" />
-  <weapon key="m16a4_support.weapon" />
+  <!-- <weapon key="m16a4_support.weapon" /> -->
   <weapon key="tti.weapon" />
   <weapon key="chainsaw.weapon" />
   <!-- Since these are faction specific SMGs with commonness > 0, they shouldn't be included here
   <weapon key="ump40.weapon" />
   <weapon key="mx4_storm.weapon" />
   <weapon key="bizon.weapon" /> -->
-  <weapon key="dragons_breath.weapon" />
-  <weapon key="enforcer.weapon" />
+  <!-- <weapon key="dragons_breath.weapon" />
+  <weapon key="enforcer.weapon" /> -->
   <weapon key="gps_laptop.weapon" />
   <weapon key="hornet_resource.weapon" />
   <weapon key="repair_crane_resource.weapon" />
@@ -53,14 +53,14 @@
   <weapon key="vest_repair.weapon" />
   <weapon key='compound_bow.weapon' />
   <weapon key='blowgun.weapon' />
-  <weapon key='g11.weapon' />
+  <!-- <weapon key='g11.weapon' /> -->
   <weapon key='pf98.weapon' />
   <weapon key='gepard_m6_lynx.weapon' />
   <weapon key='portable_mortar.weapon' />
-  <weapon key='tkb059.weapon' />
+  <!-- <weapon key='tkb059.weapon' /> -->
   <weapon key='golden_ak47.weapon' />
   <weapon key='suomi.weapon' />
-  <weapon key='p416.weapon' />
+  <!-- <weapon key='p416.weapon' /> -->
   <weapon key='ninjato.weapon' />
   <weapon key='chicken_carrier.weapon' />
   <weapon key='squad_equipment_kit.weapon' />
@@ -302,14 +302,14 @@
   <weapon key="g3_3x.weapon" />
   <weapon key="g3_1x.weapon" />
   <weapon key="golden_dragunov_svd.weapon" />
-  <weapon key="dp28.weapon" />
+  <!-- <weapon key="dp28.weapon" />
   <weapon key="dp28_s.weapon" />
   <weapon key="m14k.weapon" />
   <weapon key="m14k_carry.weapon" />
-  <weapon key="qbz95.weapon" />
+  <weapon key="qbz95.weapon" /> -->
   <weapon key="qbz95_us.weapon" />
-  <weapon key="fd338.weapon" />
-  <weapon key="fd338sd.weapon" />
+  <!-- <weapon key="fd338.weapon" />
+  <weapon key="fd338sd.weapon" /> -->
   <weapon key="torch.weapon" />
   <weapon key="banner_rwr.weapon" />
   <weapon key="banner_aid.weapon" />

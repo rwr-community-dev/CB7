@@ -541,7 +541,7 @@
     <capacity source="rank" source_value="0.0" value="1" />
   </weapon>
   <weapon file="javelin_ap.weapon">
-    <commonness value="0.0" in_stock="0" />
+    <commonness value="0.000005" in_stock="0" />
     <capacity source="rank" source_value="0.0" value="0" />
     <capacity source="rank" source_value="0.8" value="1" />
   </weapon>

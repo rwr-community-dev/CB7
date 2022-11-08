@@ -33,6 +33,7 @@
 	<weapon key='ares_shrike.weapon' />
 	<weapon key='dp28.weapon' />
 	<weapon key='dp28_s.weapon' />
+	<weapon key='javelin_ap.weapon' />
 	
 	<weapon key='kriss_vector.weapon' />
 	<weapon key='suomi.weapon' />

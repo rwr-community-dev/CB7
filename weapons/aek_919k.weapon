@@ -42,7 +42,7 @@ slot="1"   />
     <model filename="aek_919k.xml" />
     <hud_icon filename="hud_aek_919k.png" />
     <inventory encumbrance="5.0" price="3.0" />
-    <commonness value="0.0" can_respawn_with="1" in_stock="1"/>
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1"/>
 
     <projectile file="bullet.projectile">
         <result class="hit" kill_probability="0.46" kill_decay_start_time="0.28" kill_decay_end_time="0.41" />

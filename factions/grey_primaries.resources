@@ -6,4 +6,7 @@
 
 	<weapon key='scorpion-evo.weapon' />
 	<weapon key='spas-12.weapon' />
+	
+	<weapon key='mx4_storm.weapon' />
+	<weapon key='famasg1.weapon' />
 </resources>

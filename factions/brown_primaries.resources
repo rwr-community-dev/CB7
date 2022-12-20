@@ -6,4 +6,7 @@
       
 	<weapon key='qcw-05.weapon' />
 	<weapon key='qbs-09.weapon' />
+	
+	<weapon key='bizon.weapon' />
+	<weapon key='sg552.weapon' />
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="lai-109_missile.weapon">
+    <tag name="mortar" />
+    <specification 
+  retrigger_time="0.6" 
+  accuracy_factor="1.0" 
+  spread_range="0.15"
+  sustained_fire_grow_step="0.27" 
+  sustained_fire_diminish_rate="0.16" 
+  sight_range_modifier="1.75"
+  ai_sight_range_modifier="1.03"
+  sight_height_offset="4.0"  
+  magazine_size="-1" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="0" 
+  suppressed="0" 
+  name="Lai's Industry Missile launcher" 
+  class="0" 
+  projectile_speed="80.0" 
+  slot="2"   
+  projectiles_per_shot="1"
+  barrel_offset_3d="0 0 0"  
+  cooldown_start="0.97"
+  cooldown_end="0.0"  />  
+  <hud_icon filename="hud_lai-109_turret.png" />
+  <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+
+    <!-- <ballistics curve_height="15.0" near_far_distance="1.0" speed_estimation_near="20.0" max_speed="100.0" randomness="0.0" /> -->
+    <ballistics curve_height="8.0" near_far_distance="0.0" speed_estimation_near="20.0" speed_estimation_far="40.0" max_speed="70.0" randomness="0.0" tweak_factor="1.15" />    
+    
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />
+    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
+    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.0" />	
+    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.5" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.0" />  <!-- important non combat player-only vehicles -->  
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="4" />     
+
+    <effect class="muzzle" ref="Smoke" />
+    <effect class="muzzle" ref="SmokeTop" />
+    <effect class="muzzle" ref="BiggerMuzzle" />
+    <effect class="muzzle" ref="CannonSmokeBig" /> 
+    <effect class="muzzle" ref="CannonSmokeBigSphere" />
+
+    <sound key="fire" fileref="lai-109_missile.wav" volume="0.3" pitch_variety="0" />
+    <model mesh_filename="" texture_filename="" />
+
+    <projectile file="lai-109_missile.projectile" />
+
+
+</weapon>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="rocket" slot="2" pulldown_in_air="13.0" key="apjavamine-528.projectile">
+    <tag name="rocket"/>
+    <result class="spawn" instance_class="projectile" instance_key="apmine-528.projectile" min_amount="1" max_amount="2" offset="0 0.0 0" position_spread="0 0" direction_spread="0.04 0" />
+    <trigger class="time" time_to_live="1.2"/>
+    <rotation class="motion" />
+    <model mesh_filename="javamine-528.mesh" texture_filename="javamine-528.png" />
+
+    <sound class="result" key="other" fileref="javamine-528.wav" />
+
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />
+    
+    <effect class="result" key="other" ref="SmokeBurst" post_processing="1" />
+    <effect class="result" key="other" ref="Shine" lighting="0" />
+    <effect class="result" key="other" ref="HitTankSparks" lighting="0" />     
+
+    <effect class="activated" ref="Propulsion" />
+
+</projectile>

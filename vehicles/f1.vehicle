@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="vehicle_base.vehicle" name="F1" key="f1.vehicle" respawn_time="180" map_view_atlas_index="-1" minimum_fill_requirement="1.0" reserves_spawn_point="1">
+	<tag name="metal_thin" />
+	<tag name="jeep" />
+
+	<tire_set offset="1 0.0 1.65" radius="0.4" />
+	<tire_set offset="1 0.0 -1.65" radius="0.4" />
+
+        <control max_speed="32.0" acceleration="12" max_reverse_speed="16.0" max_rotation="0.95" max_water_depth="0.9" steer_smoothening="0.7" gears="1" />
+
+	<physics max_health="2.4" mass="20.0" extent="2.27 0 5.8" offset="0 0.0 +0.0" top_offset="0 3 0" collision_model_pos="0 0.2 0.0" collision_model_extent="2.27 1.04 5.8" visual_offset="0 -0.2 0" gravity="-39" preserve_motion_on_impact_factor="1.0" friction_offset="0.1" drag_offset="-2" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" />  
+
+	<sky_diving chute_offset="0 1.48 -0.15" trigger_height="20.0" gravity="-10" mesh_filename="chute_medium.mesh" texture_filename="chute.png" />
+
+	<visual class="chassis" mesh_filename="lijia_f1_body.mesh" texture_filename="lijia_f1_body.png" />
+	<visual class="chassis" key="broken" mesh_filename="lijia_f1_body_destroyed.mesh" texture_filename="lijia_f1_body_destroyed.png" />
+ 	<visual class="front_tire" mesh_filename="lijia_f1_wheels.mesh" texture_filename="lijia_f1_wheels.png" />
+	<visual class="rear_tire" mesh_filename="lijia_f1_back_wheels.mesh" texture_filename="lijia_f1_wheels.png" />
+
+
+	<character_slot type="driver" position="0 -0.5 -0.31" rotation="0" exit_rotation="1.57" hiding="0" animation_id="36" marker_offset="0 0.35 0.2" />
+
+	<!-- sound handling -->
+        <rev_sound filename="f1_engine_rest.wav" low_pitch="0.4" high_pitch="3.0" low_rev="0" high_rev="0.7" volume="1.2" />
+        <rev_sound filename="f1_engine_rev1.wav" low_pitch="2.6" high_pitch="3.2" low_rev="0.4" high_rev="1.0" volume="1.0" />
+        <rev_sound filename="f1_engine_rev1.wav" low_pitch="2.5" high_pitch="3.5" low_rev="0.75" high_rev="1.0" volume="1.0" />
+
+	<sound key="squeal" filename="tire_squeal.wav" />
+	<sound key="ignition" filename="f1_engine_ignite.wav" />
+	<sound key="horn" filename="horn_jeep.wav" />   
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="hit" filename="car_hit3.wav" />
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
+	<sound key="cleanup" filename="vehicle_explosion_1.wav" />   
+
+	<effect event_key="slide" type="splat_map" surface_tag="road" size="1.0" atlas_index="5" layer="0" />
+	<effect event_key="slide_hard" type="splat_map" surface_tag="road" size="0.5" atlas_index="2" layer="0" />
+	<effect event_key="slide" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
+	<effect event_key="slide" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />	
+        <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.0 1.5 -2.2" />
+        <effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.0 1.5 -1.2" />  
+        <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" /> 
+        <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" />   
+
+	<event>
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0090" />
+	</event>
+  
+	<event>
+		<trigger class="spot" />
+		<result class="reward" rp="20.0" />
+	</event>
+
+	<event>
+		<trigger class="destroy" />
+		<result class="reward" rp="20.0" />
+	</event>
+  
+	<event>
+		<trigger class="destroy" />
+  	<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor1.visual_item" min_amount="1" max_amount="3" offset="0 2.5 0" position_spread="1.5 1.5" direction_spread="0.15 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />  	
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor2.visual_item" min_amount="0" max_amount="1" offset="0 2.5 0" position_spread="1.5 1.5" direction_spread="0.10 0.25" />
+	</event>
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor3.visual_item" min_amount="1" max_amount="2" offset="0 2.5 0" position_spread="1.5 1.5" direction_spread="0.12 0.20" />
+	</event>
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor4.visual_item" min_amount="1" max_amount="2" offset="0 2.5 0" position_spread="1.5 1.5" direction_spread="0.2 0.25" />
+	</event>    
+
+  <event>
+		<trigger class="cleanup" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_cleanup.visual_item" min_amount="20" max_amount="30" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.1" /> 
+  </event>    
+ 	<event>
+		<trigger class="cleanup" />
+    <result class="spawn" instance_class="projectile" instance_key="debri_stun" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0.0 0.0" direction_spread="0.0 0.0" />
+  </event>
+
+</vehicle>

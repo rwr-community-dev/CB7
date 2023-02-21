@@ -11,11 +11,20 @@
   <vehicle file="dogcrate_para.vehicle" />
   <!-- patriot -->
   <vehicle file="technical_spawn.vehicle" />
-  
+
   <!-- boombox -->
   <vehicle file="deployable_boombox_arcade.vehicle" />
   <vehicle file="deployable_boombox_base_arcade.vehicle" />
   <vehicle file="deployable_boombox_galactic.vehicle" />
   <vehicle file="deployable_boombox_base_galactic.vehicle" />
+
+  <vehicle file="f1.vehicle" />
+  <vehicle file="f1_spawn.vehicle" />
+  <vehicle file="lai-109.vehicle" />
+  <vehicle file="lai-109_spawn.vehicle" />
+  <vehicle file="lailv-002.vehicle" />
+  <vehicle file="lailv-002_spawn.vehicle" />
+  <vehicle file="mmls-528.vehicle" />
+  <vehicle file="mmls-528_spawn.vehicle" />
 
 </vehicles>

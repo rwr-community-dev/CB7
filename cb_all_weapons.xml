@@ -5,7 +5,7 @@
 
   <!-- add cb weapons below, not in ./weapons/all_weapons.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
-  
+
   <weapon file="gilboa_c.weapon" />
   <weapon file="shovel.weapon" />
   <weapon file="mgv176.weapon" />
@@ -26,7 +26,7 @@
   <weapon file="mpx.weapon" />
   <weapon file="mpx_hp.weapon" />
   <weapon file="cobra_adder.weapon" />
-  
+
   <weapon file="galil.weapon" />
   <weapon file="galil_fmj.weapon" />
   <weapon file="malyuk.weapon" />
@@ -39,8 +39,15 @@
   <weapon file="l119a2ret.weapon" />
   <weapon file="armsel.weapon" />
   <weapon file="armsel_slug.weapon" />
-  
+
   <!-- boombox -->
-  <weapon file="boombox_resource_arcade.weapon" /> 
+  <weapon file="boombox_resource_arcade.weapon" />
   <weapon file="boombox_resource_galactic.weapon" />
+
+  <weapon file="mmls-528_missile.weapon" />
+  <weapon file="mmls-528_missile1.weapon" />
+  <weapon file="mmls-528_missile2.weapon" />
+  <weapon file="mmls-528_missile3.weapon" />
+  <weapon file="lailv-002_hmg.weapon" />
+  <weapon file="lai-109_missile.weapon" />
 </weapons>

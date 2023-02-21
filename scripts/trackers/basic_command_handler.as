@@ -441,6 +441,22 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "clowncar.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "repair_tank")) {
             spawnInstanceNearPlayer(senderId, "zjx19_flare.projectile", "projectile", 0);
+        } else if(checkCommand(message, "lailv_flare")) {
+            spawnInstanceNearPlayer(senderId, "lailv-002_flare.projectile", "projectile");
+        } else if(checkCommand(message, "lai-109_flare")) {
+            spawnInstanceNearPlayer(senderId, "lai-109_flare.projectile", "projectile");
+        } else if(checkCommand(message, "f1_flare")) {
+            spawnInstanceNearPlayer(senderId, "f1_flare.projectile", "projectile");
+        } else if(checkCommand(message, "mmls-528_flare")) {
+            spawnInstanceNearPlayer(senderId, "mmls-528_flare.projectile", "projectile");
+        } else if(checkCommand(message, "lailv-002")) {
+            spawnInstanceNearPlayer(senderId, "lailv-002.vehicle", "vehicle", 0);
+        } else if(checkCommand(message, "f1")) {
+            spawnInstanceNearPlayer(senderId, "f1.vehicle", "vehicle", 0);
+        } else if(checkCommand(message, "mmls-528")) {
+            spawnInstanceNearPlayer(senderId, "mmls-528.vehicle", "vehicle", 0);
+        } else if(checkCommand(message, "lai-109")) {
+            spawnInstanceNearPlayer(senderId, "lai-109.vehicle", "vehicle", 0);
         } else  if(checkCommand(message, "mg42")) {
             spawnInstanceNearPlayer(senderId, "mg42.weapon", "weapon", 0);
         } else  if(checkCommand(message, "kill_rt")) {

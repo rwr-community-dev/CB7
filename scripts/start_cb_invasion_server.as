@@ -4,7 +4,7 @@
 
 #include "gamemode_invasion.as"
 // HACK: [CB7] include trackers here for late addition to a derived GameModeInvasion metagame
-#include "am_squad_equipment_kit.as"
+/* #include "am_squad_equipment_kit.as" */
 
 
 // --------------------------------------------
@@ -69,7 +69,7 @@ void main(dictionary@ inputData) {
     }
 
     // HACK: [CB7] late add CB7 trackers
-    metagame.addTracker(am_squad_equipment_kit(metagame));
+    /* metagame.addTracker(am_squad_equipment_kit(metagame)); */
 
     metagame.run();
     metagame.uninit();

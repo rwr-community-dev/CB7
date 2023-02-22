@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="burning_piece_f1_front.visual_item">
+
+    <model mesh_filename="f1_front_wing.mesh" />                  
+    
+    <effect ref="BurningPieces" />
+</visual_item>

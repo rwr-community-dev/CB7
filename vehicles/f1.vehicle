@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="F1" key="f1.vehicle" respawn_time="180" map_view_atlas_index="-1" minimum_fill_requirement="1.0" reserves_spawn_point="1">
+<vehicle file="vehicle_base.vehicle" name="F1" key="f1.vehicle" respawn_time="180" map_view_atlas_index="19" minimum_fill_requirement="1.0" reserves_spawn_point="1">
 	<tag name="metal_thin" />
-	<tag name="jeep" />
 
 	<tire_set offset="1 0.0 1.65" radius="0.4" />
 	<tire_set offset="1 0.0 -1.65" radius="0.4" />
 
         <control max_speed="32.0" acceleration="12" max_reverse_speed="16.0" max_rotation="0.95" max_water_depth="0.9" steer_smoothening="0.7" gears="1" />
 
-	<physics max_health="2.4" mass="20.0" extent="2.27 0 5.8" offset="0 0.0 +0.0" top_offset="0 3 0" collision_model_pos="0 0.2 0.0" collision_model_extent="2.27 1.04 5.8" visual_offset="0 -0.2 0" gravity="-39" preserve_motion_on_impact_factor="1.0" friction_offset="0.1" drag_offset="-2" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" />  
+	<physics max_health="2.4" mass="3.5" extent="2.1 0 3.4" offset="0 0.0 +0.0" top_offset="0 1.5 0" collision_model_pos="0 0.2 0.0" collision_model_extent="2.27 1.04 5.8" visual_offset="0 -0.2 0" gravity="-39" preserve_motion_on_impact_factor="1.0" friction_offset="0.1" drag_offset="-2" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" />  
 
 	<sky_diving chute_offset="0 1.48 -0.15" trigger_height="20.0" gravity="-10" mesh_filename="chute_medium.mesh" texture_filename="chute.png" />
 
@@ -18,7 +17,7 @@
 	<visual class="rear_tire" mesh_filename="lijia_f1_back_wheels.mesh" texture_filename="lijia_f1_wheels.png" />
 
 
-	<character_slot type="driver" position="0 -0.5 -0.31" rotation="0" exit_rotation="1.57" hiding="0" animation_id="36" marker_offset="0 0.35 0.2" />
+	<character_slot type="driver" position="0 -0.3 -0.31" rotation="0" exit_rotation="1.57" hiding="0" animation_key="driving f1" marker_offset="0 0.35 0.2" />
 
 	<!-- sound handling -->
         <rev_sound filename="f1_engine_rest.wav" low_pitch="0.4" high_pitch="3.0" low_rev="0" high_rev="0.7" volume="1.2" />

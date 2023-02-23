@@ -11,7 +11,7 @@
   suppressed="0" 
   name="MPX - Hollow Point" 
   class="0" 
-  projectile_speed="115.0" />
+  projectile_speed="105.0" />
 
 <next_in_chain key="mpx.weapon" share_ammo="0" />
 
@@ -37,7 +37,7 @@
     <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
 
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.70" kill_decay_start_time="0.28" kill_decay_end_time="0.36" />
+        <result class="hit" kill_probability="0.55" kill_probability_offset_on_successful_hit="1.60" kill_decay_start_time="0.28" kill_decay_end_time="0.36" />
     </projectile>
 
     <capacity value="0" source="rank" source_value="0.0" />

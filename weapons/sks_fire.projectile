@@ -6,7 +6,7 @@
 	<result
 	class="blast"
 	radius="1.2"
-	damage="0.15"
+	damage="0.1"
 	push="0"  
 	character_state="death"
 	/>

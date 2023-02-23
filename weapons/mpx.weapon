@@ -11,7 +11,7 @@
   suppressed="0" 
   name="MPX" 
   class="0" 
-  projectile_speed="115.0" />
+  projectile_speed="105.0" />
 
 <next_in_chain key="mpx_hp.weapon" share_ammo="0" />
 

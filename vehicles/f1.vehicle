@@ -11,10 +11,10 @@
 
 	<sky_diving chute_offset="0 1.48 -0.15" trigger_height="20.0" gravity="-10" mesh_filename="chute_medium.mesh" texture_filename="chute.png" />
 
-	<visual class="chassis" mesh_filename="lijia_f1_body.mesh" texture_filename="lijia_f1_body.png" />
-	<visual class="chassis" key="broken" mesh_filename="lijia_f1_body_destroyed.mesh" texture_filename="lijia_f1_body_destroyed.png" />
- 	<visual class="front_tire" mesh_filename="lijia_f1_wheels.mesh" texture_filename="lijia_f1_wheels.png" />
-	<visual class="rear_tire" mesh_filename="lijia_f1_back_wheels.mesh" texture_filename="lijia_f1_wheels.png" />
+	<visual class="chassis" mesh_filename="f1_body.mesh" texture_filename="f1.png" />
+	<visual class="chassis" key="broken" mesh_filename="f1_body_destroyed.mesh" texture_filename="f1_broken.png" />
+ 	<visual class="front_tire" mesh_filename="f1_wheels.mesh" texture_filename="f1_wheels.png" />
+	<visual class="rear_tire" mesh_filename="f1_back_wheels.mesh" texture_filename="f1_wheels.png" />
 
 
 	<character_slot type="driver" position="0 -0.3 -0.31" rotation="0" exit_rotation="1.57" hiding="0" animation_key="driving f1" marker_offset="0 0.35 0.2" />

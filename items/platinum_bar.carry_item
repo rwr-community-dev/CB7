@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<carry_item file="base_valuable.carry_item" name="platinum bar" key="platinum_bar.carry_item">
-    <hud_icon filename="hud_platinumbar.png" />
-    <inventory encumbrance="0.5" price="5000.0" />
-
-    <model mesh_filename="gold_bar.mesh" texture_filename="platinum_bar.png" />
-
-    <commonness value="0.0" in_stock="1" />
-</carry_item>

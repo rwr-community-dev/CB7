@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<weapon key='bizon.weapon' />
-	<weapon key='sg552.weapon' />
-	
-	<weapon key='rpg-7.weapon' />
-</resources>

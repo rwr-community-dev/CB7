@@ -1,53 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapons>
-  <weapon file="weapons/invasion_all_weapons.xml" />
-  <weapon file="weapons/invasion_experimental_weapons.xml" />
+	<weapon file="weapons/invasion_all_weapons.xml" />
+	<weapon file="weapons/invasion_experimental_weapons.xml" />
 
   <!-- add cb weapons below, not in ./weapons/all_weapons.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
 
-  <weapon file="gilboa_c.weapon" />
+<!-- primaries -->  
+
+	<weapon file="gilboa_dbr.weapon" />
+	<weapon file="mgv176.weapon" />
+	<weapon file="sks.weapon" />
+	<weapon file="sks_fire.weapon" />	
+	<weapon file="mpx.weapon" />
+	<weapon file="mpx_hp.weapon" />
+	<weapon file="rpc.weapon" />
+	<weapon file="an94.weapon" />
+	<weapon file="an94_burst.weapon" />	
+	
+<!--  	<weapon file="gilboa_c.weapon" />
+		<weapon file="glock18.weapon" />
+		<weapon file="glock18c.weapon" /> 
+		<weapon file="bf2011.weapon" /> 
+		<weapon file="malyuk.weapon" />
+		<weapon file="malyuk_supp.weapon" /> 
+		<weapon file="surefire_mgx.weapon" />
+		<weapon file="gp90.weapon" /> 
+		<weapon file="xm29_xm8.weapon" />
+		<weapon file="xm29_xm25.weapon" /> 
+		<weapon file="type88_2.weapon" />
+		<weapon file="type88_2_stock.weapon" /> 
+		<weapon file="mk14_ebr.weapon" />
+		<weapon file="mk14_ebr_supp.weapon" />
+		<weapon file="cobra_adder.weapon" />
+		<weapon file="galil.weapon" />
+		<weapon file="galil_fmj.weapon" />  
+		<weapon file="l119a2ext.weapon" />
+		<weapon file="l119a2ret.weapon" />
+		<weapon file="armsel.weapon" />
+		<weapon file="armsel_slug.weapon" /> -->
+		
+<!-- secondaries -->
+
   <weapon file="shovel.weapon" />
-  <weapon file="mgv176.weapon" />
-  <weapon file="glock18.weapon" />
-  <weapon file="glock18c.weapon" />
-  <weapon file="surefire_mgx.weapon" />
-  <weapon file="gp90.weapon" />
-  <weapon file="sks.weapon" />
-  <weapon file="sks_fire.weapon" />
-  <weapon file="bf2011.weapon" />
-  <weapon file="xm29_xm8.weapon" />
-  <weapon file="xm29_xm25.weapon" />
-  <weapon file="mk14_ebr.weapon" />
-  <weapon file="mk14_ebr_supp.weapon" />
-  <weapon file="gilboa_DBR.weapon" />
-  <weapon file="type88_2.weapon" />
-  <weapon file="type88_2_stock.weapon" />
-  <weapon file="mpx.weapon" />
-  <weapon file="mpx_hp.weapon" />
-  <weapon file="cobra_adder.weapon" />
 
-  <weapon file="galil.weapon" />
-  <weapon file="galil_fmj.weapon" />
-  <weapon file="malyuk.weapon" />
-  <weapon file="malyuk_supp.weapon" />
-  <weapon file="rpc.weapon" />
-  <weapon file="an94.weapon" />
-  <weapon file="an94_burst.weapon" />
-  <weapon file="stick_horse.weapon" />
-  <weapon file="l119a2ext.weapon" />
-  <weapon file="l119a2ret.weapon" />
-  <weapon file="armsel.weapon" />
-  <weapon file="armsel_slug.weapon" />
+<!-- 	<weapon file="stick_horse.weapon" /> 
+		<weapon file="boombox_resource_arcade.weapon" />
+		<weapon file="boombox_resource_galactic.weapon" /> -->
 
-  <!-- boombox -->
-  <weapon file="boombox_resource_arcade.weapon" />
-  <weapon file="boombox_resource_galactic.weapon" />
-
-  <weapon file="mmls-528_missile.weapon" />
-  <weapon file="mmls-528_missile1.weapon" />
-  <weapon file="mmls-528_missile2.weapon" />
-  <weapon file="mmls-528_missile3.weapon" />
-  <weapon file="lailv-002_hmg.weapon" />
-  <weapon file="lai-109_missile.weapon" />
+	<weapon file="mmls-528_missile.weapon" />
+	<weapon file="mmls-528_missile1.weapon" />
+	<weapon file="mmls-528_missile2.weapon" />
+	<weapon file="mmls-528_missile3.weapon" />
+	<weapon file="lailv-002_hmg.weapon" />
+	<weapon file="lai-109_missile.weapon" />
 </weapons>

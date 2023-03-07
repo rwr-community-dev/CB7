@@ -7,16 +7,8 @@
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
   <!-- shovel sandbags -->
   <vehicle file="sandbag_cover.vehicle" />
-  <vehicle file="clowncar.vehicle" />
   <vehicle file="dogcrate_para.vehicle" />
-  <!-- patriot -->
-  <vehicle file="technical_spawn.vehicle" />
 
-  <!-- boombox -->
-  <vehicle file="deployable_boombox_arcade.vehicle" />
-  <vehicle file="deployable_boombox_base_arcade.vehicle" />
-  <vehicle file="deployable_boombox_galactic.vehicle" />
-  <vehicle file="deployable_boombox_base_galactic.vehicle" />
 
   <vehicle file="f1.vehicle" />
   <vehicle file="f1_spawn.vehicle" />

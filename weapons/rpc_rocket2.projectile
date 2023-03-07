@@ -5,7 +5,7 @@
 <!--	<result class="hit" kill_probability="8.01" kill_decay_start_time="6.0" kill_decay_end_time="6.01" /> -->
     <trigger class="impact" />
     <rotation class="motion" />
-    <model mesh_filename="chainsaw.xml" />
+    <model mesh_filename="saw_disk.mesh" texture_filename="concrete.png" />
 
     <commonness value="0.0" />
 

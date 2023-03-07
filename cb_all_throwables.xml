@@ -8,7 +8,7 @@
   <!-- add cb throwables/projectiles below, not in ./weapons/all_throwables.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
   <projectile file="dogbone.projectile" />
-  <projectile file="technical_flare.projectile" />
+<!--  <projectile file="technical_flare.projectile" /> -->
 
   <projectile file="rpc_rocket2.projectile" />
   <projectile file="rpc_rocket2b.projectile" />

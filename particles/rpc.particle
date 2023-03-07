@@ -126,8 +126,8 @@ particle_system RpcSparks
 		velocity_max	30
 		time_to_live_min	0.2
 		time_to_live_max	0.4
-		duration_min	0.05
-		duration_max	0.05
+		duration_min	0.25
+		duration_max	0.25
 	}
 
 	affector ColourFader

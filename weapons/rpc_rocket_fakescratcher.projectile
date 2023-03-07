@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="Rocket Chainsaw" slot="1" pulldown_in_air="8" key="rpc_rocket_fakescratcher.projectile" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" >
+<projectile class="grenade" name="Saw disk" slot="1" pulldown_in_air="8" key="rpc_rocket_fakescratcher.projectile" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" >
     <tag name="rocket"/>
 <!-- this damage is only meaningful against vehicles because spawning by script is delayed -->
-    <result class="blast" radius="1" damage="1.00" push="0.5" decal="1" />
+    <result class="blast" radius="1" damage="1.01" push="0.5" decal="1" />
     <trigger class="time" time_to_live="0"/>
     <rotation class="motion" />
     <model />

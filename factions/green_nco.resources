@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<weapon key='ump40.weapon' />
-	<weapon key='l85a2.weapon' />
-
-	<weapon key='m72_law.weapon' />
-</resources>

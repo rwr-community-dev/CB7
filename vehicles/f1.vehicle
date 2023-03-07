@@ -21,11 +21,11 @@
 
 	<!-- sound handling -->
         <rev_sound filename="f1_engine_rest.wav" low_pitch="0.4" high_pitch="3.0" low_rev="0" high_rev="0.7" volume="1.2" />
-        <rev_sound filename="f1_engine_rev1.wav" low_pitch="2.6" high_pitch="3.2" low_rev="0.4" high_rev="1.0" volume="1.0" />
-        <rev_sound filename="f1_engine_rev1.wav" low_pitch="2.5" high_pitch="3.5" low_rev="0.75" high_rev="1.0" volume="1.0" />
+        <rev_sound filename="f1_engine_rev1.wav" low_pitch="2.6" high_pitch="3.2" low_rev="0.4" high_rev="1.0" volume="2.0" />
+        <rev_sound filename="f1_engine_rev1.wav" low_pitch="2.5" high_pitch="3.5" low_rev="0.75" high_rev="1.0" volume="2.0" />
 
 	<sound key="squeal" filename="tire_squeal.wav" />
-	<sound key="ignition" filename="f1_engine_ignite.wav" />
+	<sound key="ignition" filename="f1_engine_ignite.wav" volume="1.0" />
 	<sound key="horn" filename="horn_jeep.wav" />   
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />

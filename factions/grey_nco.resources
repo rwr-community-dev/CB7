@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<weapon key='mx4_storm.weapon' />
-	<weapon key='famasg1.weapon' />
-	
-	<weapon key="m2_carlgustav.weapon" />
-</resources>

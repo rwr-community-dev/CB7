@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="Rocket Chainsaw" slot="1" pulldown_in_air="8" key="rpc_rocket.projectile" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" >
+<projectile class="grenade" name="Saw disk" slot="1" pulldown_in_air="8" key="rpc_rocket.projectile" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" >
     <tag name="rocket"/>
     <result class="notify_script" key="rpc" />
     <trigger class="impact" />
     <rotation class="motion" />
-    <model mesh_filename="chainsaw.xml" />
+    <model mesh_filename="saw_disk.mesh" texture_filename="concrete.png" />
 
     <commonness value="0.0" />
 
 
-    <effect class="activated" ref="Propulsion" />
+ <!--   <effect class="activated" ref="Propulsion" /> -->
 
 
-    <sound class="result" key="other" fileref="chainsawhitwall.wav" volume="4.5" />
+    <sound class="result" key="other" fileref="chainsawhitwall.wav" volume="1.5" />
 
-    <effect class="result" key="terrain" ref="RpcDirtGeyser" use_surface_color="1"/>
+	<effect class="result" key="terrain" tag="road" ref="RpcSparks" use_surface_color="0"/>
+    <effect class="result" key="terrain" copy="other" />
+
     <effect class="result" key="vehicle" ref="RpcDirtGeyser" use_surface_color="1"/>
     <effect class="result" key="static_object" ref="RpcDirtGeyser" use_surface_color="1"/>
     <effect class="result" key="shield" ref="RpcDirtGeyser" use_surface_color="1"/>
     <effect class="result" key="other" ref="RpcDirtGeyser" use_surface_color="1"/>
 
     <effect class="result" key="terrain" ref="RpcDirtSplash" use_surface_color="1"/>
-    <effect class="result" key="vehicle" ref="RpcDirtSplash" use_surface_color="1"/>
-    <effect class="result" key="static_object" ref="RpcDirtSplash" use_surface_color="1"/>
-    <effect class="result" key="shield" ref="RpcDirtSplash" use_surface_color="1"/>
+    <effect class="result" key="vehicle" ref="RpcSparks" />
+    <effect class="result" key="static_object" ref="RpcSparks" />
+    <effect class="result" key="shield" ref="RpcSparks" />
     <effect class="result" key="other" ref="RpcDirtSplash" use_surface_color="1"/>
 
 <!-- lol this doesn't even work, i have to spawn a fake surface-scratching projectile -->

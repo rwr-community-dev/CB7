@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile 
 class="grenade" 
-name="528 Industry Anti-Personel Mine" 
+name="M528 AP" 
 key="apmine-528.projectile" 
 slot="2" 
 pulldown_in_air="10.0"

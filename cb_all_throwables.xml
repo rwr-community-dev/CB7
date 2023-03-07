@@ -13,4 +13,14 @@
   <projectile file="rpc_rocket2.projectile" />
   <projectile file="rpc_rocket2b.projectile" />
   <projectile file="rpc_rocket_fakescratcher.projectile" />
+  <projectile file="lai-109_flare.projectile" /> 
+  <projectile file="lailv-002_flare.projectile" /> 
+  <projectile file="mmls-528_flare.projectile" /> 
+  <projectile file="f1_flare.projectile" /> 
+
+  <projectile file="atmine-528.projectile" />
+  <projectile file="apmine-528.projectile" /> 
+  <projectile file="apjavamine-528.projectile" /> 
+  <projectile file="apjavamine-528-sub.projectile" />
+  <projectile file="lai-109_missile.projectile" /> 
 </projectiles>

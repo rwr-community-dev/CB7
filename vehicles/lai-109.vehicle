@@ -14,7 +14,7 @@
 	max_water_depth="1.6" 
 	steer_smoothening="0.7" />
 
-	<turret offset="0.01 2.44 -2.08 " weapon_key="lai-109_missile.weapon" weapon_offset="0 2 4" weapon_recoil="0.1" max_rotation_step="0.000015"  /> <!-- rotation="0" rotation_range="0.78" 45° -->
+	<turret offset="0.01 2.44 -2.08 " weapon_key="lai-109_missile.weapon" weapon_offset="0 2 3" weapon_recoil="0.1" max_rotation_step="0.000015"  /> <!-- rotation="0" rotation_range="0.78" 45° -->
 
 	<physics 
 	max_health="5" 
@@ -53,6 +53,7 @@
 	<sound key="slide" filename="slide_noise.wav" />
 	<sound key="squeal" filename="tire_squeal.wav" />
 	<sound key="ignition" filename="truck_ignition.wav" />
+	<sound key="horn" filename="horn_truck.wav" /> 
 	<sound key="turret_rotation" filename="turret_rotation1.wav" />
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />

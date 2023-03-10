@@ -8,8 +8,8 @@
 	<tire_set offset="1.28 0 -2.63" radius="0.65" />
 
 	<control 
-	max_speed="30.0" 
-	acceleration="8" 
+	max_speed="18.0" 
+	acceleration="5.5" 
 	max_reverse_speed="6.0" 
 	min_health_to_steer="0.36" 
 	max_rotation="0.6" 
@@ -31,6 +31,8 @@
 	visual_offset="0 -0.65 0" 
 	friction_offset="0.05" 
 	drag_offset="-0.05" />
+	
+	<spawn_point player_only="0" />
 
 	<sky_diving chute_offset="0 2.5 0" trigger_height="20.0" gravity="-10" mesh_filename="chute_large.mesh" texture_filename="chute.png" />
 
@@ -65,6 +67,7 @@
 	<sound key="slide" filename="slide_noise.wav" />
 	<sound key="squeal" filename="tire_squeal.wav" />
 	<sound key="ignition" filename="truck_ignition.wav" />
+	<sound key="horn" filename="horn_police.wav" />
 	<sound key="turret_rotation" filename="turret_rotation1.wav" />
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />

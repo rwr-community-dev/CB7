@@ -10,7 +10,7 @@
     can_shoot_standing="0" 
     can_shoot_crouching="0" 
     suppressed="0" 
-    name="Mine-528 Mine Missile" 
+    name="M528 AT" 
     class="0" 
     projectile_speed="10.0" 
     slot="2" 
@@ -22,7 +22,7 @@
     cooldown_end="0"  />
     
     <model mesh_filename="mmls-528_at_turret.mesh" texture_filename="mmls-528_at_turret.png" />
-    <hud_icon filename="hud_atmine-528.png" />
+    <hud_icon filename="hud_at_mine.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="0" />
 
     <ballistics curve_height="4" near_far_distance="0" speed_estimation_near="30.0" speed_estimation_far="120.0" max_speed="15.0" tweak_factor="1.8" randomness="0.0" />

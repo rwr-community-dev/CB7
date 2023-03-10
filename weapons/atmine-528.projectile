@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile 
 class="grenade" 
-name="528 Industry Anti-Tank Mine" 
+name="M528 AT" 
 key="mine-528.projectile" 
 slot="0" 
 on_ground_up="0 1 0" 
@@ -27,7 +27,7 @@ time_to_live="90">
 
     <animation key="throw" animation_key="at mine deploy" />
 
-    <model mesh_filename="atmine-528.mesh" texture_filename="atmine-528.png" />
+    <model mesh_filename="at_mine.mesh" texture_filename="at_mine.png" />
     <hud_icon filename="hud_at_mine.png" />
 
 <!--    <throwable curve_height="0.0" near_far_distance="0.0" speed_estimation_near="2.0" speed_estimation_far="2.0" max_speed="2.0" randomness="0.01" /> -->

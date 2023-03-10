@@ -43,7 +43,9 @@
     <effect class="muzzle" ref="SmokeTop" />
     <effect class="muzzle" ref="BiggerMuzzle" />
     <effect class="muzzle" ref="CannonSmokeBig" /> 
+<!--	<effect class="muzzle" ref="CannonSmokeBigReverse" /> -->
     <effect class="muzzle" ref="CannonSmokeBigSphere" />
+<!--    <effect class="muzzle" ref="CannonSmokeBigSphereReverse" />	-->
 
     <sound key="fire" fileref="lai-109_missile.wav" volume="0.3" pitch_variety="0" />
     <model mesh_filename="" texture_filename="" />

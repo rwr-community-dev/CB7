@@ -10,7 +10,7 @@
 	<tire_set offset="1.99 0.0 -1.8" radius="0.44" />
 
 	<control 
-	max_speed="13.0" 
+	max_speed="11.5" 
 	acceleration="15.0" 
 	max_reverse_speed="10.0" 
 	min_health_to_steer="0.42" 

@@ -21,7 +21,7 @@
     cooldown_end="0" />
 
     <model mesh_filename="" />
-    <hud_icon filename="lailv-002_turret_hud.png" />
+    <hud_icon filename="hud_apc.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="0" />
     <projectile file="apc_hmg_1.projectile" />
     

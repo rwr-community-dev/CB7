@@ -1,4 +1,5 @@
-<vehicle file="vehicle_base.vehicle" name="LAILV-002" key="lailv-002.vehicle" respawn_time="80" time_to_live_unsteerable="75" map_view_atlas_index="41" minimum_fill_requirement="0.25" existence="one_per_faction" reserves_spawn_point="1">
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="vehicle_base.vehicle" name="LAILV-002" key="lailv-002.vehicle" respawn_time="80" time_to_live_unsteerable="75" map_view_atlas_index="49" minimum_fill_requirement="0.25" existence="one_per_faction" reserves_spawn_point="1">
 	<tag name="metal_heavy" />
 	<tag name="flamer_tank" />
 	<tag name="light_combat" />

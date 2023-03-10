@@ -1,4 +1,5 @@
-<vehicle file="vehicle_base.vehicle" name="LAI-109" key="lai-109.vehicle" respawn_time="120" time_to_live_unsteerable="115" map_view_atlas_index="46" minimum_fill_requirement="0.5">
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="vehicle_base.vehicle" name="LAI-109" key="lai-109.vehicle" respawn_time="120" time_to_live_unsteerable="115" map_view_atlas_index="48" minimum_fill_requirement="0.5">
 <tag name="metal_thin" />
 	<tire_set offset="1.4 0 2.6" radius="0.7" />
 	<tire_set offset="1.4 0 -1.5" radius="0.7" />

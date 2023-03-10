@@ -22,7 +22,7 @@
   barrel_offset_3d="0 0 0"  
   cooldown_start="0.97"
   cooldown_end="0.0"  />  
-  <hud_icon filename="hud_lai-109_turret.png" />
+  <hud_icon filename="hud_patrol_ship_mortar.png" />
   <commonness value="0.0" can_respawn_with="0" in_stock="0" />
 
     <!-- <ballistics curve_height="15.0" near_far_distance="1.0" speed_estimation_near="20.0" max_speed="100.0" randomness="0.0" /> -->

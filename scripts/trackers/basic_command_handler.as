@@ -163,7 +163,9 @@ class BasicCommandHandler : Tracker {
         } else  if(checkCommand(message, "god")) {
             // .. god vest!
             spawnInstanceNearPlayer(senderId, "god_vest.carry_item", "carry_item");
-        } else if (checkCommand(message, "create_vehicle")) {
+        } else  if(checkCommand(message, "banana")) {
+			spawnInstanceNearPlayer(senderId, "costume_banana.carry_item", "carry_item");
+		} else if (checkCommand(message, "create_vehicle")) {
             spawnInstanceNearPlayer(senderId, "special_cargo_vehicle1.vehicle", "vehicle");
         } else if (checkCommand(message, "jeep")) {
             spawnInstanceNearPlayer(senderId, "jeep.vehicle", "vehicle");

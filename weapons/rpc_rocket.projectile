@@ -8,29 +8,34 @@
 
     <commonness value="0.0" />
 
+    <sound class="result" key="other" fileref="chainsawhitwall.wav" volume="1.0" />
 
- <!--   <effect class="activated" ref="Propulsion" /> -->
 
+	<sound class="result" key="terrain" tag="dirt" fileref="rpc_shot.wav" volume="1.0" />
+    <sound class="result" key="vehicle" fileref="chainsawhit1.wav" volume="1.0" />
+    <sound class="result" key="static_object" fileref="chainsawhit2.wav" volume="1.0" />
+    <sound class="result" key="shield" fileref="chainsawhit2.wav" volume="1.0" />
+	<sound class="result" key="character" fileref="rpc_ripandtear.wav" pitch_variety="0.3" volume="3.0" />
 
-    <sound class="result" key="other" fileref="chainsawhitwall.wav" volume="1.5" />
-
-	<effect class="result" key="terrain" tag="road" ref="RpcSparks" use_surface_color="0"/>
-    <effect class="result" key="terrain" copy="other" />
-
-    <effect class="result" key="vehicle" ref="RpcDirtGeyser" use_surface_color="1"/>
+    <effect class="result" key="terrain" ref="RpcDirtGeyser" use_surface_color="1"/>
     <effect class="result" key="static_object" ref="RpcDirtGeyser" use_surface_color="1"/>
     <effect class="result" key="shield" ref="RpcDirtGeyser" use_surface_color="1"/>
-    <effect class="result" key="other" ref="RpcDirtGeyser" use_surface_color="1"/>
 
-    <effect class="result" key="terrain" ref="RpcDirtSplash" use_surface_color="1"/>
-    <effect class="result" key="vehicle" ref="RpcSparks" />
-    <effect class="result" key="static_object" ref="RpcSparks" />
-    <effect class="result" key="shield" ref="RpcSparks" />
-    <effect class="result" key="other" ref="RpcDirtSplash" use_surface_color="1"/>
+	<effect class="result" key="other" ref="RpcDirtGeyser" use_surface_color="1"/>
+    <effect class="result" key="other" ref="RpcSmokeBurst" />
+    <effect class="result" key="other" ref="RpcSparks" lighting="0" />
+    <effect class="result" key="other" ref="RpcBurstShineFast" lighting="0" />
 
-<!-- lol this doesn't even work, i have to spawn a fake surface-scratching projectile -->
-    <effect class="result" type="splat_map" surface_tag="" size="1.5" atlas_index="0" layer="1" />
-    <effect class="result" type="splat_map" surface_tag="" size="2.25" atlas_index="4" layer="0" />
-    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="2" additive="0" />
+    <effect class="result" key="vehicle" ref="RpcSmokeBurst" />
+	<effect class="result" key="vehicle" ref="RpcSparks" />
+	<effect class="result" key="vehicle" ref="RpcBurstShineFast" />
+    <effect class="result" key="shield" copy="other" />
+    <effect class="result" key="static_object" copy="other" />
+<!--    <effect class="result" key="terrain" copy="other" /> -->
+
+    <effect class="result" key="character" ref="RpcSmokeBurst" />
+    <effect class="result" key="character" ref="BloodSplat3" />
+    <effect class="result" key="character" ref="BloodSplat2" />
+<!--    <effect class="result" key="character" ref="BloodExplosion" /> -->
 
 </projectile>

@@ -2,7 +2,7 @@
 <weapon file="base_primary_rare.weapon" key="rpc.weapon">
     <tag name="bazooka" />
     <specification 
-        retrigger_time="0.5" 
+        retrigger_time="-1" 
         accuracy_factor="1.0" 
         sustained_fire_grow_step="0" 
         sustained_fire_diminish_rate="1" 
@@ -13,7 +13,7 @@
         name="RPC" 
         class="4" 
         projectile_speed="35.0" 
-        slot="0" 
+        slot="1" 
         burst_shots="1" 
         projectiles_per_shot="1"
 	/>
@@ -26,10 +26,10 @@
     <animation key="hold" ref="39" />
     <animation key="hold_on_wall" ref="39" />
 
-    <sound key="fire" fileref="rpc_launch.wav" volume="0.6"/>
-    <sound key="magazine_out" fileref="rpc_rev.wav" volume="0.5" />
+    <sound key="fire" fileref="rpc_shot.wav" volume="0.3"/>
+    <sound key="magazine_out" fileref="sniper_clip_out.wav" volume="1.0" />
     <sound key="magazine_in" fileref="pf98_cycle_in.wav" volume="0.2"/>
-<!--    <sound key="cycle" fileref="rpc_rev2.wav" volume="2.0"/>    -->   
+    <sound key="cycle" fileref="sniper_cycle.wav" volume="1.0"/>      
 
     <sound class="impact" fileref="rifle_drop.wav" />
 

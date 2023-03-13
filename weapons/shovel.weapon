@@ -13,10 +13,15 @@
     consume="0" 
     sight_range_modifier="1" 
     slot="1"
-    deployment="1"
+    deployment="1" 
+	deploy_fail_cancel="1" 
+	deploy_check_range_start_time="0.8"
 	stab_enabled="1"	
 	projectiles_per_shot="1" />
-	<addon_model filename="backpack_sandbag.xml" />
+<!--	<addon_model filename="backpack_sandbag.xml" /> -->
+	
+	<deploy_allow_surface_tag name="dirt" />
+	<deploy_allow_surface_tag name="snow" />	
 
     <animation state_key="recoil" 		animation_key="recoil, digging" />	
     <animation state_key="hold" 		animation_key="still, heavy weapon" />
@@ -28,11 +33,14 @@
     <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
     <animation state_key="crouch_moving" 	animation_key="crouching forwards, large wrench" />
 	
-    <sound key="effect" fileref="dig.wav" pitch_variety="0.05" volume="0.8" /> 
+
     <animation state_key="stabbing"	animation_key="melee, saber whip" />
     <animation state_key="stabbing"	animation_key="melee, saber stab" />
     <animation state_key="stabbing"	animation_key="melee, saber slash" />
-	
+
+    <sound class="impact" fileref="shield_drop.wav" />    
+    <sound class="operation" key="dry_fire" fileref="shovel_denied.wav" pitch_variety="0.03" /> 	
+
     <sound key="effect" fileref="dig.wav" pitch_variety="0.05" volume="0.8" /> 
     <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="1.0" />  
     <sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.0" />
@@ -40,13 +48,13 @@
     <model mesh_filename="shovel.xml" />
 
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.1" />
 
     <hud_icon filename="hud_shovel.png" />
     <commonness value="0.0" can_respawn_with="0" in_stock="1"/>
     <inventory encumbrance="5.0" price="0.0" />
 
-    <modifier class="speed" value="-0.2" />
+    <modifier class="speed" value="-0.12" />
 
 </weapon>
 

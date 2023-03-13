@@ -27,7 +27,7 @@ last_burst_retrigger_time="0.15"
 
     <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
 
-    <sound key="fire" fileref="gilboa_c_shot.wav" pitch_variety="0.05" volume="0.65" />
+    <sound key="fire" fileref="gilboa_dbr_shot.wav" pitch_variety="0.05" volume="0.65" />
     <sound key="magazine_out" fileref="rifle_clip_out.wav" />
     <sound key="magazine_in" fileref="rifle_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />

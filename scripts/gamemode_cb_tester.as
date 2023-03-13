@@ -92,7 +92,7 @@ class GameModeCBTester : Metagame {
 			command.setStringAttribute("class", "faction");
 			command.setIntAttribute("faction_id", 0);
 			command.setStringAttribute("soldier_group_name", "dog");
-			command.setFloatAttribute("spawn_score", 0.5f);
+			command.setFloatAttribute("spawn_score", 0.0f);
 			getComms().send(command);
         }
 

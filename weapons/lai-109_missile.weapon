@@ -48,6 +48,7 @@
 <!--    <effect class="muzzle" ref="CannonSmokeBigSphereReverse" />	-->
 
     <sound key="fire" fileref="lai-109_missile.wav" volume="0.3" pitch_variety="0" />
+	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
     <model mesh_filename="" texture_filename="" />
 
     <projectile file="lai-109_missile.projectile" />

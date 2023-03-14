@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon key="mmls-528_missile3.weapon">
     <specification retrigger_time="0.5" 
-    accuracy_factor="0.7" 
+    accuracy_factor="1" 
     sustained_fire_grow_step="1.2" 
-    sustained_fire_diminish_rate="0.269" 
+    sustained_fire_diminish_rate="0.15" 
     sight_range_modifier="1.65"
     ai_sight_range_modifier="0.8" 
     magazine_size="-1" 

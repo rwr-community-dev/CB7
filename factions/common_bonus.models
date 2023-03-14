@@ -2,6 +2,7 @@
 <models>
 
 	<!-- Musketeer -->
+	
 	<model filename="soldier_musketeer.xml">
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="musket.weapon"/>
@@ -39,6 +40,7 @@
 
 
 	<!-- Red Samurai -->
+	
 	<model filename="soldier_samurai_red.xml">
 		<requirement class="carry_item" slot="1" key="eodvest.carry_item"/>
 		<requirement class="rank" range="0 10000" />
@@ -101,6 +103,7 @@
 	</model>
 
 	<!-- Black Samurai -->
+	
 	<model filename="soldier_samurai.xml">
 		<requirement class="rank" range="0 10000" />
 		<requirement class="weapon" slot="0" key="ninjato.weapon"/>

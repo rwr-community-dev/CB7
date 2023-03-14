@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="rotten banana" key="rotten_banana.carry_item">
+    <hud_icon filename="hud_rotten_banana.png" />
+    <inventory encumbrance="0.5" buy_price="1.0" sell_price="-1" />
+
+    <model mesh_filename="banana.mesh" texture_filename="rotten_banana.png" />
+
+    <commonness value="2.0" in_stock="1" />
+</carry_item>

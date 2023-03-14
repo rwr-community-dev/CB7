@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="bullet" name="Dragon fire" slot="1" pulldown_in_air="8.0" time_to_live="0.5" key="sks_fire.projectile">
-	<tag name="flamethrower_flame"/>
+<projectile class="bullet" name="SKS fire" slot="1" pulldown_in_air="8.0" time_to_live="0.5" key="sks_fire.projectile">
+<!--	<tag name="flamethrower_flame"/> -->
 	
 	<trigger class="impact" />
 	<result
 	class="blast"
-	radius="1.2"
+	radius="1.7"
 	damage="0.1"
 	push="0"  
 	character_state="death"

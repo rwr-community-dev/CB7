@@ -42,9 +42,9 @@
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
 
 	<turret offset="0.43 2.8 2.2" weapon_key="mmls-528_missile.weapon" weapon_offset="0 0 0" weapon_recoil="0.07" max_rotation_step="0.0002" rotation="0" rotation_range="0.3" physics_recoil="0.01"/>
-        <turret offset="0.623 2.6 -1.6" weapon_key="mmls-528_missile1.weapon" weapon_offset="0 0 0" weapon_recoil="0.05" max_rotation_step="0.0002" rotation="3.14" rotation_range="0.3" physics_recoil="0.03"/>
-        <turret offset="-0.07 2.6 -1.6" weapon_key="mmls-528_missile2.weapon" weapon_offset="0 0 0" weapon_recoil="0.05" max_rotation_step="0.0002" rotation="3.14" rotation_range="0.3" physics_recoil="0.03"/>
-        <turret offset="-0.765 2.6 -1.6" weapon_key="mmls-528_missile3.weapon" weapon_offset="0 0 0" weapon_recoil="0.05" max_rotation_step="0.0002" rotation="3.14" rotation_range="0.3" physics_recoil="0.03"/>
+        <turret offset="0.623 2.6 -1.6" weapon_key="mmls-528_missile1.weapon" weapon_offset="0 0 0" weapon_recoil="0.05" max_rotation_step="0.0002" rotation="3.14" rotation_range="0.45" physics_recoil="0.03"/>
+        <turret offset="-0.07 2.6 -1.6" weapon_key="mmls-528_missile2.weapon" weapon_offset="0 0 0" weapon_recoil="0.05" max_rotation_step="0.0002" rotation="3.14" rotation_range="0.45" physics_recoil="0.03"/>
+        <turret offset="-0.765 2.6 -1.6" weapon_key="mmls-528_missile3.weapon" weapon_offset="0 0 0" weapon_recoil="0.05" max_rotation_step="0.0002" rotation="3.14" rotation_range="0.45" physics_recoil="0.03"/>
 
 	<visual class="chassis" mesh_filename="mmls-528_body.mesh" texture_filename="mmls-528_body.png" />
 	<visual class="chassis" key="broken" mesh_filename="mmls-528_broken.mesh" texture_filename="mmls-528_broken.png" />

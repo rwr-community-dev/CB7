@@ -7,8 +7,8 @@
 
 	<physics max_health="0.9" mass="70.0" extent="0.2 0.0 0.2" offset="0 0.0 0" top_offset="0 0.5 0" collision_model_pos="0 0.2 0" collision_model_extent="0.6 0.2 0.6" visual_offset="0 0.0 0" collision_response_factor="0.2" blast_push_threshold="1.0" vehicle_collision_damage_factor="1000.0" /> 
 
-	<visual class="chassis" mesh_filename="flare_stick.mesh" texture_filename="flare_stick_grey.png" />
-<!--	<visual class="chassis" key="broken" mesh_filename="flare_stick.mesh" texture_filename="flare_stick_grey.png" />  -->
+	<visual class="chassis" mesh_filename="flare_stick_2.mesh" texture_filename="flare_stick_lailv-002.png" />
+<!--	<visual class="chassis" key="broken" mesh_filename="flare_stick_2.mesh" texture_filename="flare_stick_lailv-002.png" />  -->
 
 
 	<!-- sound handling -->
@@ -18,8 +18,8 @@
 
 
 	<effect event_key="idle_chassis" ref="FlareSparkle" post_processing="0" offset="0 0.1 0.3"/>
-	<effect event_key="idle_chassis" ref="FlareSmokeGrey" post_processing="0" offset="0 0.4 0.3"/>
-	<effect event_key="idle_chassis" ref="FlareFlashGrey" post_processing="0" offset="0 0.1 0.3"/> 
+	<effect event_key="idle_chassis" ref="FlareSmokeMagenta" post_processing="0" offset="0 0.4 0.3"/>
+	<effect event_key="idle_chassis" ref="FlareFlashMagenta" post_processing="0" offset="0 0.1 0.3"/> 
 
 	<effect event_key="destroy" key="other"  />
 

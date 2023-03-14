@@ -20,8 +20,8 @@
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
-    <animation state_key="reload" animation_key="reloading, stoner_lmg" />
-<!--	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	 -->
+    <animation state_key="reload" animation_key="reloading, pan mag" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, pan mag, prone" />	 
 	
     <sound key="fire" fileref="mgv176_shot.wav" pitch_variety="0.05" volume="0.5" />
     <sound key="magazine_out" fileref="rifle_clip_out.wav" />
